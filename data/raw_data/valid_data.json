@@ -1,0 +1,5297 @@
+[
+    {
+        "code": "cal -h",
+        "text": "print current month calendar without highlight of a current date",
+        "id": 1
+    },
+    {
+        "code": "find Path -type f -print0 | xargs -0 -i -I {} cat {} {} | grep Regex",
+        "text": "search for _REGEX in all file under _FILE directori ensur white space safeti in filenam",
+        "id": 2
+    },
+    {
+        "code": "input_prog 2>&1 | tee /dev/tty | my_editor",
+        "text": "write output of _REGEX to standard output and error on consol and as input to command _REGEX",
+        "id": 3
+    },
+    {
+        "code": "grep -v Regex File | cut -d Regex -f Number | nl -w Quantity -s Regex",
+        "text": "delet line _NUMBER in number file _REGEX and number",
+        "id": 4
+    },
+    {
+        "code": "find Path ! -perm -Permission",
+        "text": "find file and directori that not write permiss for group or other",
+        "id": 5
+    },
+    {
+        "code": "diff <( echo Regex ) <( echo Regex )",
+        "text": "compar text _REGEX and _REGEX line by line",
+        "id": 6
+    },
+    {
+        "code": "tree -d -L Number -i --noreport",
+        "text": "print directori in current directori as a list with no report inform",
+        "id": 7
+    },
+    {
+        "code": "find Path -name Regex -type d",
+        "text": "find all directori name _REGEX in entir file system",
+        "id": 8
+    },
+    {
+        "code": "find Path -exec echo Regex {} \\;",
+        "text": "find all file in directori tree _REGEX",
+        "id": 9
+    },
+    {
+        "code": "head --lines -Quantity File",
+        "text": "remov last n line from _FILE",
+        "id": 10
+    },
+    {
+        "code": "find Path -name Regex -size Size -delete",
+        "text": "find file in current directori tree whose name begin with _REGEX and whose size is _NUMBER and remov them",
+        "id": 11
+    },
+    {
+        "code": "echo $( ls $( pwd ) )",
+        "text": "list directori content of current work directori",
+        "id": 12
+    },
+    {
+        "code": "ls -d File",
+        "text": "list all subdirectori in current directori with a trail slash",
+        "id": 13
+    },
+    {
+        "code": "find Path -perm Permission",
+        "text": "find all _NUMBER permiss file and directori under current directori tree",
+        "id": 14
+    },
+    {
+        "code": "octave -q --eval printf (\"%f\\n\", [0:0.1:pi/2])|nl|tee x.txt",
+        "text": "calcul valu of interv from _NUMBER to _FILE with a step of _NUMBER add a line number and write output to standard output and _FILE",
+        "id": 15
+    },
+    {
+        "code": "find Path -name Regex -print0 | xargs -0 -n Quantity -I {} gzip -d {}",
+        "text": "find and uncompress all file in current directori tree end in _FILE",
+        "id": 16
+    },
+    {
+        "code": "find Path -exec grep -q Regex {} \\; -print",
+        "text": "search for word _REGEX in all file in current folder",
+        "id": 17
+    },
+    {
+        "code": "echo Regex | xargs -I {} gzip -9 {}",
+        "text": "compress all file with _FILE extens under current directori",
+        "id": 18
+    },
+    {
+        "code": "chown Regex File",
+        "text": "chang owner of _REGEX to _REGEX",
+        "id": 19
+    },
+    {
+        "code": "find Path -type f -print0 | xargs -0 -I {} sed -i Program File {}",
+        "text": "find all regular file in current folder and replac a word in all these file",
+        "id": 20
+    },
+    {
+        "code": "sort File -o File",
+        "text": "sort line of file _FILE and chang it in-plac",
+        "id": 21
+    },
+    {
+        "code": "find . -maxdepth 1 -type d -print0 | xargs -0 -I {} sh -c echo -e $(find {} | wc -l) {} | sort -n",
+        "text": "print list of top-level subfold in a current folder sort by number of contain file",
+        "id": 22
+    },
+    {
+        "code": "find Path -iname Regex -exec bash -c rm -r -f {} \\;",
+        "text": "find ani file or directori call _FILE under current directori and run a recurs delet command on each one",
+        "id": 23
+    },
+    {
+        "code": "find Path -type f -print | xargs -I {} grep -i -l Regex {}",
+        "text": "list file in _FILE directori tree contain text _FILE",
+        "id": 24
+    },
+    {
+        "code": "find . -xdev -print0 | cpio -oa0V | gzip > path_to_save.cpio.gz",
+        "text": "find all file and directori under current directori without cross over to other partit and archiv them into _FILE",
+        "id": 25
+    },
+    {
+        "code": "du -h -s -x File | sort -r -h | head - Quantity",
+        "text": "find _NUMBER largest file in current directori and it subdirectori",
+        "id": 26
+    },
+    {
+        "code": "find Path -name Regex",
+        "text": "display all _FILE script in folder _FILE",
+        "id": 27
+    },
+    {
+        "code": "rsync -a -v -z -r -u --delete-excluded File File",
+        "text": "archiv _DIRECTORY on host _REGEX to local directori _DIRECTORY and skip file that are newer in destin delet ani file in destin not in sourc and compress data dure transmiss",
+        "id": 28
+    },
+    {
+        "code": "find Path -type f -mmin -Quantity",
+        "text": "find all regular file in and below home directori that been modifi in _TIMESPAN",
+        "id": 29
+    },
+    {
+        "code": "awk {gsub(/^[ \\t]+|[ \\t]+$/,\"\"); print;} in.txt | hexdump -C | less",
+        "text": "remov lead and trail space from line in file _FILE interact page through a hexdump of result",
+        "id": 30
+    },
+    {
+        "code": "history | awk Program",
+        "text": "print histori with first field remov",
+        "id": 31
+    },
+    {
+        "code": "awk Program Program",
+        "text": "display inputfil all on one line",
+        "id": 32
+    },
+    {
+        "code": "find Path -type d | sed -r Program",
+        "text": "display all directori in current folder and creat a skeleton of make directori command with all these folder",
+        "id": 33
+    },
+    {
+        "code": "find Path -type l -lname Regex",
+        "text": "find find symlink point to _FILE in entir file system",
+        "id": 34
+    },
+    {
+        "code": "find Path -type d -exec chmod Permission {} \\;",
+        "text": "chang everi directori under _DIRECTORY to permiss _NUMBER",
+        "id": 35
+    },
+    {
+        "code": "sort -n File",
+        "text": "numer sort each line in file _REGEX and print result to consol",
+        "id": 36
+    },
+    {
+        "code": "find Path -type f -atime +Timespan -exec rm {} \\;",
+        "text": "delet all file that not been access in _TIMESPAN",
+        "id": 37
+    },
+    {
+        "code": "mount Regex Regex Directory",
+        "text": "mount partit with label _REGEX on _FILE",
+        "id": 38
+    },
+    {
+        "code": "find Path -name Regex -exec grep -i Regex {} \\; -print",
+        "text": "find pattern text ignor letter case in all _FILE file print match string and name of file with that string",
+        "id": 39
+    },
+    {
+        "code": "comm -2 -3 <( sort File ) <( sort File )",
+        "text": "print line in sort content of _REGEX that are not in sort content of _REGEX",
+        "id": 40
+    },
+    {
+        "code": "find Path -type f -exec chmod Permission {} +",
+        "text": "chang file permiss on all regular file within a directori",
+        "id": 41
+    },
+    {
+        "code": "find Path -type f ! -name Regex -exec ln -s File Regex \\;",
+        "text": "creat symbol link in current directori for all file exclud _REGEX locat under _FILE directori tree",
+        "id": 42
+    },
+    {
+        "code": "find . -name *\\?* > output.txt",
+        "text": "find file with a question mark in name and save output as a file",
+        "id": 43
+    },
+    {
+        "code": "find Path -group Regex",
+        "text": "print all file on system own by group _REGEX",
+        "id": 44
+    },
+    {
+        "code": "echo hey hey, we're the monkees | tee >(gzip --stdout > my_log.gz)",
+        "text": "write _REGEX to standard output and as input to _FILE",
+        "id": 45
+    },
+    {
+        "code": "find Path -exec grep -l Regex {} \\;",
+        "text": "search file from current directori tree for _REGEX",
+        "id": 46
+    },
+    {
+        "code": "find Path -type d -exec chmod Permission {} +",
+        "text": "find all directori under htdoc directori and set permiss to _NUMBER",
+        "id": 47
+    },
+    {
+        "code": "find . -name *.py -type f > output.txt",
+        "text": "save list of all _FILE file under and below current directori to _FILE",
+        "id": 48
+    },
+    {
+        "code": "rsync -a -z File File",
+        "text": "archiv preserv permiss and ownership file in _DIRECTORY on host _FILE to local _DIRECTORY",
+        "id": 49
+    },
+    {
+        "code": "mkdir Directory",
+        "text": "make directori _FILE",
+        "id": 50
+    },
+    {
+        "code": "find Path -maxdepth Quantity -name Regex",
+        "text": "find passwd file under root and _NUMBER level down",
+        "id": 51
+    },
+    {
+        "code": "ssh -q Regex command",
+        "text": "login to _REGEX and creat file _REGEX if it not exist",
+        "id": 52
+    },
+    {
+        "code": "rm File File",
+        "text": "recurs remov all file like _REGEX and _FILE from _DIRECTORY folder",
+        "id": 53
+    },
+    {
+        "code": "tar -t -f File | cut -d Regex -f Number | uniq",
+        "text": "set variabl _REGEX to list of top-level directori and file contain in tar archiv specifi by variabl file",
+        "id": 54
+    },
+    {
+        "code": "find Path -name Regex",
+        "text": "search everywher for hidden file _FILE",
+        "id": 55
+    },
+    {
+        "code": "find Path -name Regex -prune",
+        "text": "find all file and directori name _REGEX without descend into directori with same name under current directori tree",
+        "id": 56
+    },
+    {
+        "code": "find Path -type f -name Regex -exec sed -i Program {} +",
+        "text": "replac word foo to bar in current folder in all regular file contain word _REGEX in name",
+        "id": 57
+    },
+    {
+        "code": "find / -size 0 -ok rm { } ;",
+        "text": "delet all empti file in file system after user confirm",
+        "id": 58
+    },
+    {
+        "code": "find Path -type d -name Regex | sort | tail -n +Quantity | xargs -I {} echo Regex {}",
+        "text": "find all _REGEX directori under _DIRECTORY and print all but first _NUMBER append with string _REGEX",
+        "id": 59
+    },
+    {
+        "code": "find Path -type f -name Regex -exec mv {} File \\;",
+        "text": "find all file in current folder with name _REGEX and move them to folder _REGEX",
+        "id": 60
+    },
+    {
+        "code": "echo $( sleep Timespan )",
+        "text": "wait _TIMESPAN and print _REGEX",
+        "id": 61
+    },
+    {
+        "code": "grep Regex File | cut -d Regex -f Number | tr Regex Regex",
+        "text": "search _REGEX in _FILE take _REGEX colon separ field replac comma with newlin and save result to variabl _REGEX",
+        "id": 62
+    },
+    {
+        "code": "find Path -newermt Regex",
+        "text": "find file modifi at least _TIMESPAN in futur",
+        "id": 63
+    },
+    {
+        "code": "find Path -type f -iregex Regex -mtime +Timespan -exec rm {} \\;",
+        "text": "delet all file under _FILE directori tree with _FILE or _FILE extens that were modifi more that _TIMESPAN ago",
+        "id": 64
+    },
+    {
+        "code": "find Path -type d -exec mkdir Directory \\;",
+        "text": "copi directori hierarchi from _REGEX to _REGEX",
+        "id": 65
+    },
+    {
+        "code": "find Path -user Regex -exec chown -h Regex {} \\;",
+        "text": "chang user ownership to _REGEX for file with _PERMISSION",
+        "id": 66
+    },
+    {
+        "code": "rsync --recursive File File",
+        "text": "recurs copi _REGEX to _FILE",
+        "id": 67
+    },
+    {
+        "code": "pstree -ap `pidof cron`",
+        "text": "print process tree of a cron process with command argument and process id number",
+        "id": 68
+    },
+    {
+        "code": "mktemp -p Directory",
+        "text": "creat temporari file in a current folder and save path to it in _REGEX variabl",
+        "id": 69
+    },
+    {
+        "code": "cd $( find Path -name Regex -printf '%h\\n' )",
+        "text": "search for _FILE under current directori and go to directori contain it",
+        "id": 70
+    },
+    {
+        "code": "find Path -name Regex | grep Regex | xargs -i -I {} cp -p {} File {}",
+        "text": "copi all file under current folder like _FILE with _REGEX in path to root of current folder preserv mode ownership and timestamp attribut",
+        "id": 71
+    },
+    {
+        "code": "find Path -type f -exec sed -i Program {} \\;",
+        "text": "replac _REGEX with _REGEX in all file under current directori",
+        "id": 72
+    },
+    {
+        "code": "find Path | awk -F Regex Program",
+        "text": "find all file and directori under current directori and print onli _REGEX field from output delimit by _DIRECTORY",
+        "id": 73
+    },
+    {
+        "code": "find Path ! -name Regex -delete",
+        "text": "delet all file in _FILE folder except _FILE",
+        "id": 74
+    },
+    {
+        "code": "which Regex",
+        "text": "print full path of command _FILE",
+        "id": 75
+    },
+    {
+        "code": "find Path -name Regex -exec grep -I -w Regex {} + | grep -E -v Regex",
+        "text": "search current directori for file whose name start with _REGEX ignor svn git and _FILE file",
+        "id": 76
+    },
+    {
+        "code": "find /usr -type f | samefile -g 10000 >usr.dups",
+        "text": "find all ident file in _FILE directori tree that are bigger than _SIZE and write result to _FILE",
+        "id": 77
+    },
+    {
+        "code": "find . -name my.txt 2>/dev/null",
+        "text": "find all instanc of a file in current folder and discard error",
+        "id": 78
+    },
+    {
+        "code": "find Path -iname Regex -exec echo Regex {} \\;",
+        "text": "find all _FILE file and directori under current directori and print _REGEX for each of them where _REGEX is expand to file or directori path",
+        "id": 79
+    },
+    {
+        "code": "find Path -type f",
+        "text": "find all file under _REGEX",
+        "id": 80
+    },
+    {
+        "code": "find Path -name Regex -printf \"%p:%T@\\n\" | sort -t Regex -k Number",
+        "text": "list all file with name _REGEX and modif time under current directori sort by oldest modifi to newest modifi",
+        "id": 81
+    },
+    {
+        "code": "ssh -o UserKnownHostsFile=/dev/null Regex",
+        "text": "connect to host _REGEX as user _REGEX by forc host key confirm",
+        "id": 82
+    },
+    {
+        "code": "find /path/to/dir1 -printf %U %G %m %p\\n > /tmp/dir1.txt",
+        "text": "print _PERMISSION of owner _PERMISSION of group permiss bit and path into _FILE for all file and directori under _FILE",
+        "id": 83
+    },
+    {
+        "code": "./aaa.sh |& tee -a log",
+        "text": "write standard output and error to consol and append to file _FILE",
+        "id": 84
+    },
+    {
+        "code": "find Path -type d -printf \"%T@\\n\" | cut -f Number -d Regex | sort -n -r",
+        "text": "find all directori under _REGEX take first field as delimit _REGEX from timestamp and revers sort them numer",
+        "id": 85
+    },
+    {
+        "code": "echo -e Regex | xargs -I {} touch {}",
+        "text": "creat an empti file with a carriag return charact in it name",
+        "id": 86
+    },
+    {
+        "code": "find Path -iname Regex",
+        "text": "display all file in folder _DIRECTORY which start with word _REGEX",
+        "id": 87
+    },
+    {
+        "code": "grep -v Regex File | nl -n ln",
+        "text": "remov line match _REGEX from _FILE and add left-justifi line number",
+        "id": 88
+    },
+    {
+        "code": "find . -name * -type f -exec dos2unix {} ;",
+        "text": "convert all regular file in current folder from dos to unix format",
+        "id": 89
+    },
+    {
+        "code": "find Path -name Regex",
+        "text": "search current directori recurs for _FILE file whose name begin with _REGEX",
+        "id": 90
+    },
+    {
+        "code": "shopt -s globstar nullglob",
+        "text": "set shell option _REGEX and _REGEX",
+        "id": 91
+    },
+    {
+        "code": "find Path -type type_descriptor",
+        "text": "find file by type",
+        "id": 92
+    },
+    {
+        "code": "tmux show-environment -t sessname | grep RBENV",
+        "text": "check if _REGEX variabl is defin in tmux session _REGEX environ",
+        "id": 93
+    },
+    {
+        "code": "find Path -type f -exec chmod Permission {} \\;",
+        "text": "set permiss of all file under _FILE to _NUMBER",
+        "id": 94
+    },
+    {
+        "code": "find Path -cmin -Quantity | less -R",
+        "text": "find all file modifi less than _TIMESPAN ago and page interact through output",
+        "id": 95
+    },
+    {
+        "code": "find Path -name Regex -prune -or -name Regex -prune -or -name Regex -prune -or -print0 | xargs -0 -I {} grep -I -R Regex {}",
+        "text": "search for _REGEX in all _FILE file under current directori without descend into _FILE and _FILE directori",
+        "id": 96
+    },
+    {
+        "code": "read -p $( echo -e Regex ) Regex",
+        "text": "read a line from standard input into variabl _REGEX with escap prompt _REGEX",
+        "id": 97
+    },
+    {
+        "code": "grep -r Regex File",
+        "text": "find match text in defin path recurs but not follow symlink",
+        "id": 98
+    },
+    {
+        "code": "find Path Path -name Regex -type f -ls",
+        "text": "find file in _NUMBER differ directori have _REGEX string and list them",
+        "id": 99
+    },
+    {
+        "code": "chown Regex File",
+        "text": "chang owner and group of _REGEX to _REGEX",
+        "id": 100
+    },
+    {
+        "code": "find Path -type f -size +Size -exec ls -l -h {} \\; | awk Program",
+        "text": "list file greater than _SIZE under _FILE and print time and size on stdout",
+        "id": 101
+    },
+    {
+        "code": "cat File | xargs -i -I {} dig -x {} Regex {}",
+        "text": "send revers request to get domain name for each address in _REGEX list",
+        "id": 102
+    },
+    {
+        "code": "find Path -name Regex -type f -printf '\"%p\"\\n' | xargs -I {} rm -f {}",
+        "text": "remov all _FILE file in current directori tree",
+        "id": 103
+    },
+    {
+        "code": "... | column -s$\\t -t",
+        "text": "format output of _FILE as a tab separ tabl",
+        "id": 104
+    },
+    {
+        "code": "find Path -path Regex -prune -or -name Regex -print -exec grep -H -n Regex {} \\;",
+        "text": "find all _REGEX file in _REGEX path exclud _FILE and search for regex expand by _REGEX in those file",
+        "id": 105
+    },
+    {
+        "code": "cat File | ",
+        "text": "pipe content of _FILE file to input of command _REGEX",
+        "id": 106
+    },
+    {
+        "code": "find Path ! -type d -printf \"%T@ %p\\n\" | sort -n | head -n Quantity",
+        "text": "find oldest normal file in current directori and display with it timestamp",
+        "id": 107
+    },
+    {
+        "code": "find Path -type d -name Regex -prune -or -name Regex",
+        "text": "exclud directori from find command",
+        "id": 108
+    },
+    {
+        "code": "find Path -perm Permission",
+        "text": "find file in current directori tree whose permiss are _NUMBER",
+        "id": 109
+    },
+    {
+        "code": "read -p Regex Regex",
+        "text": "read a line from standard input into variabl _REGEX with prompt _FILE",
+        "id": 110
+    },
+    {
+        "code": "find Path -type f -name Regex",
+        "text": "find all perl file in current folder",
+        "id": 111
+    },
+    {
+        "code": "od -t uI -N File File | awk Program",
+        "text": "save a random _SIZE unsign integ from _FILE to variabl _REGEX",
+        "id": 112
+    },
+    {
+        "code": "find Path -type d",
+        "text": "display all directori in folder symfoni",
+        "id": 113
+    },
+    {
+        "code": "find Path -name Regex",
+        "text": "search for all file in current directori recurs whose name begin with _REGEX",
+        "id": 114
+    },
+    {
+        "code": "find Path -maxdepth Quantity -type f | md5sum",
+        "text": "calcul _REGEX sum of list of file in current directori",
+        "id": 115
+    },
+    {
+        "code": "find Path -type f -iname Regex -delete",
+        "text": "find all _FILE file start from current directori and delet them",
+        "id": 116
+    },
+    {
+        "code": "readlink -f File",
+        "text": "convert relat path _FILE into absolut path with resolv symbol link",
+        "id": 117
+    },
+    {
+        "code": "echo Regex | cut -d Regex -f Number",
+        "text": "print first field from semicolon-sepr line _REGEX",
+        "id": 118
+    },
+    {
+        "code": "find Path -name Regex -exec grep Regex {} \\;",
+        "text": "search for _REGEX in all file with _FILE extens under _FILE directori",
+        "id": 119
+    },
+    {
+        "code": "find Path -type f -print0 | xargs -0 -I {} grep -H Regex {}",
+        "text": "search file from current directori tree for text _REGEX",
+        "id": 120
+    },
+    {
+        "code": "who File Regex | awk Program",
+        "text": "print ip address of ssh session",
+        "id": 121
+    },
+    {
+        "code": "for i in `find . -exec echo {} ;`; do cmd1 $i; cmd2 $i; done",
+        "text": "run _REGEX and _REGEX on each file or directori under current directori with file or directori path as a posit argument to those command",
+        "id": 122
+    },
+    {
+        "code": "find Path -type f -perm Permission -print",
+        "text": "search for all regular file in folder _FILE which permiss _NUMBER",
+        "id": 123
+    },
+    {
+        "code": "find Path -maxdepth Quantity -type f -name Regex -exec mv {} File \\; -or -name Regex -exec mv {} File \\;",
+        "text": "find all regular file in current folder which end with _REGEX or which begin and end with _REGEX and and move them to temp folder",
+        "id": 124
+    },
+    {
+        "code": "find Path -exec grep Regex {} \\;",
+        "text": "search file from current directori tree for _REGEX",
+        "id": 125
+    },
+    {
+        "code": "rsync -a -H -v -z File File",
+        "text": "archiv _DIRECTORY to _FILE preserv hard link and compress data dure transmiss",
+        "id": 126
+    },
+    {
+        "code": "find Path -size +Size -print",
+        "text": "find all file in current folder which are bigger than _SIZE",
+        "id": 127
+    },
+    {
+        "code": "find . -type d -print0 | tar cf directory-structure.tar --null --files-from - --no-recursion",
+        "text": "archiv directori structur under current directori into _FILE",
+        "id": 128
+    },
+    {
+        "code": "ls -t -p | grep -v Regex | tail -n +Quantity | xargs -I {} rm -- {}",
+        "text": "remov all file but _REGEX newest one from current folder",
+        "id": 129
+    },
+    {
+        "code": "find Path -type d",
+        "text": "find all directori under and below _REGEX",
+        "id": 130
+    },
+    {
+        "code": "find Path -perm Permission",
+        "text": "search for file which are writabl by somebodi",
+        "id": 131
+    },
+    {
+        "code": "find Path -type f -name Regex -exec chmod Permission {} \\;",
+        "text": "chang permiss to _NUMBER recurs for _FILE file",
+        "id": 132
+    },
+    {
+        "code": "find . -type f -exec bash -c for f do d=${f%/*} b=${f##*/} nb=${b//[^A-Za-z0-9._-]/_}; [[ $b = \"$nb\" ]] || echo mv \"$f\" \"$d/$nb\"; done _ {} +",
+        "text": "renam file from current directori tree to ascii standard",
+        "id": 133
+    },
+    {
+        "code": "find Path -name Regex -exec grep Regex {} + | wc -l",
+        "text": "find all file name _REGEX",
+        "id": 134
+    },
+    {
+        "code": "yes 0 | script -c ispell text.txt /dev/null",
+        "text": "automat spell check file _FILE use _REGEX command",
+        "id": 135
+    },
+    {
+        "code": "find Path -name Regex",
+        "text": "find all _REGEX file and directori under _FILE directori",
+        "id": 136
+    },
+    {
+        "code": "[[ $(find . -maxdepth 1 -cmin +60 -name file) =  ]] && echo old",
+        "text": "check if file name _REGEX in _NUMBER level down current directori whose status were chang more than _TIMESPAN ago were not found and print old if that 's true",
+        "id": 137
+    },
+    {
+        "code": "find Path -name Regex | awk Program",
+        "text": "find all _FILE file in current folder and move them to anoth directori",
+        "id": 138
+    },
+    {
+        "code": "find Path -type f ! -name Regex -exec gzip {} \\;",
+        "text": "find all file exclud _FILE file in current directori tree and compress them with gzip",
+        "id": 139
+    },
+    {
+        "code": "find Path -name Regex | grep -n Regex",
+        "text": "search for _REGEX in all _REGEX file under current directori and show match line with line number",
+        "id": 140
+    },
+    {
+        "code": "su - jenkins -s /bin/bash",
+        "text": "run a shell as user jenkin",
+        "id": 141
+    },
+    {
+        "code": "find Path Path",
+        "text": "find all file in current folder which are readabl",
+        "id": 142
+    },
+    {
+        "code": "find Path | xargs -I {} grep Regex -l -s {}",
+        "text": "search file from current directori tree for _REGEX",
+        "id": 143
+    },
+    {
+        "code": "watch echo -e Regex",
+        "text": "execut _REGEX everi _TIMESPAN",
+        "id": 144
+    },
+    {
+        "code": "y=$(bash -c read -n 1 c; echo \\$c)",
+        "text": "read a singl charact from standard input and save to variabl _REGEX",
+        "id": 145
+    },
+    {
+        "code": "mount | grep $( readlink -f File )",
+        "text": "check if a drive with uuid _REGEX is mount",
+        "id": 146
+    },
+    {
+        "code": "find Path -newer File",
+        "text": "find all file in current directori which been modifi after a file",
+        "id": 147
+    },
+    {
+        "code": "find Path -type f -daystart -mtime -Timespan",
+        "text": "find all file that been modifi in _TIMESPAN",
+        "id": 148
+    },
+    {
+        "code": "mkdir -p Directory",
+        "text": "creat intermedi directori _REGEX and _REGEX as requir and creat _REGEX",
+        "id": 149
+    },
+    {
+        "code": "cat filename | python -cfrom fileinput import input; print sum(map(int, input()))",
+        "text": "mathemat sum all line in _REGEX",
+        "id": 150
+    },
+    {
+        "code": "find Path -type d -name Regex -exec touch File \\;",
+        "text": "creat an empti file in each directori name _REGEX under current directori",
+        "id": 151
+    },
+    {
+        "code": "find Path -daystart -mtime -Timespan",
+        "text": "find all file that been modifi exact _TIMESPAN ago",
+        "id": 152
+    },
+    {
+        "code": "find Path -name Regex | xargs -I {} grep -n Regex {}",
+        "text": "search for _REGEX in all file with _FILE extens under current directori tree and show match line with line number and filenam",
+        "id": 153
+    },
+    {
+        "code": "find Path \\( -perm Permission -or -perm Permission \\) -print | diff File File",
+        "text": "search for all file in entir file system which either _PERMISSION or _PERMISSION enabl and find of diff of these file with file _FILE",
+        "id": 154
+    },
+    {
+        "code": "ping Regex | awk Program",
+        "text": "print a time stamp for each success ping to _REGEX",
+        "id": 155
+    },
+    {
+        "code": "find Path -not -name Regex -print0 | xargs -0 -I {} chown Regex {}",
+        "text": "chang owner of all file in directori tree _REGEX exclud file _REGEX to _REGEX",
+        "id": 156
+    },
+    {
+        "code": "find Path -name Regex",
+        "text": "print a list of all _FILE file from current directori tree",
+        "id": 157
+    },
+    {
+        "code": "find Path -type f -size +Size -exec ls -l -h {} \\; | awk Program",
+        "text": "find file on system that are bigger than _SIZE",
+        "id": 158
+    },
+    {
+        "code": "find Path -path Regex -prune -or -type f",
+        "text": "print list of file in current directori tree skip git file",
+        "id": 159
+    },
+    {
+        "code": "find Path -type f ! -newer File ! -samefile Regex -exec rm {} +",
+        "text": "find all regular file under _REGEX directori tree which been modifi befor file _REGEX exclud file _REGEX and delet them",
+        "id": 160
+    },
+    {
+        "code": "tmux -2 new-session -s name another_script.sh $1",
+        "text": "start tmux session _REGEX forc tmux to assum termin support _NUMBER colour and execut defin script within",
+        "id": 161
+    },
+    {
+        "code": "find Path -name Regex -mtime +Timespan -print0 | xargs -0 -I {} rm {}",
+        "text": "delet all _FILE file under current directori that are older than _TIMESPAN",
+        "id": 162
+    },
+    {
+        "code": "dirname $( readlink -f File )",
+        "text": "put absolut directori path to current script to _REGEX variabl",
+        "id": 163
+    },
+    {
+        "code": "find Path -mtime -Timespan -print",
+        "text": "find all file in file system which been modifi in _TIMESPAN",
+        "id": 164
+    },
+    {
+        "code": "find Path -type f \\( -name Regex -or -name Regex \\)",
+        "text": "find all shell script or perl file in current directori",
+        "id": 165
+    },
+    {
+        "code": "wc File",
+        "text": "print newlin word and byte count for each _FILE in a current folder",
+        "id": 166
+    },
+    {
+        "code": "rmdir Directory Directory",
+        "text": "remov empti folder _REGEX and _REGEX",
+        "id": 167
+    },
+    {
+        "code": "echo -e $( ) | grep -v $( date +%Y-%m-%d ) | tail - Quantity",
+        "text": "filter out current date in current time zone from _REGEX and _REGEX represent of current date and show last one",
+        "id": 168
+    },
+    {
+        "code": "sed Program File | join -a Quantity -e Regex -j Regex -o 1.1,2.2 File File",
+        "text": "for each line in _FILE output line ad _REGEX if same line appear in _FILE and _REGEX otherwis line in _FILE be in same order as appear in _FILE",
+        "id": 169
+    },
+    {
+        "code": "cd $( which Regex | xargs -I {} dirname {} )",
+        "text": "chang directori to directori contain execut file of command _REGEX",
+        "id": 170
+    },
+    {
+        "code": "tail -n +Quantity File",
+        "text": "print _FILE start at line _NUMBER",
+        "id": 171
+    },
+    {
+        "code": "w | sort",
+        "text": "print _FILE in user in sort order",
+        "id": 172
+    },
+    {
+        "code": "mount -o remount,rw -t yaffs2 Regex Regex",
+        "text": "remount _FILE on _FILE with read and write permiss",
+        "id": 173
+    },
+    {
+        "code": "mkdir -p -v Directory",
+        "text": "make directori to _FILE as need and print a messag for each creat directori",
+        "id": 174
+    },
+    {
+        "code": "ssh -q $HOST [[ -f $FILE_PATH ]] && echo File exists || echo File does not exist;",
+        "text": "check if _REGEX exist on _REGEX",
+        "id": 175
+    },
+    {
+        "code": "find Path -name Regex -exec grep -i Regex {} \\;",
+        "text": "search _FILE file from _DIRECTORY directori tree for todo line",
+        "id": 176
+    },
+    {
+        "code": "chmod +Permission File",
+        "text": "add execut permiss to all file end in _FILE",
+        "id": 177
+    },
+    {
+        "code": "od -A n -t d -N File File",
+        "text": "print _SIZE from _FILE as a sign decim valu and no address radix",
+        "id": 178
+    },
+    {
+        "code": "info -O Regex",
+        "text": "open gawk info manual and goe to command-lin option node",
+        "id": 179
+    },
+    {
+        "code": "tail -n $( grep -n Regex File | head -n Quantity | cut -d Regex -f Number ) File",
+        "text": "print line contain termin and everyth after in _REGEX",
+        "id": 180
+    },
+    {
+        "code": "git diff --name-only | xargs dirname | uniq",
+        "text": "get list of folder contain file with chang",
+        "id": 181
+    },
+    {
+        "code": "find Path -name Regex | xargs -I {} rm {}",
+        "text": "remov all _FILE file from _FILE directori tree",
+        "id": 182
+    },
+    {
+        "code": "find . -depth -name *.zip -exec /usr/bin/unzip -n {} ; -delete",
+        "text": "find all _FILE file in current directori tree and unzip them delet archiv on success",
+        "id": 183
+    },
+    {
+        "code": "find . -type f -exec perl -wnl -e /\\s1$/ and print {} +",
+        "text": "search for regex _REGEX in all file under current directori",
+        "id": 184
+    },
+    {
+        "code": "find Path -name Regex -delete",
+        "text": "delet all text file start with name _REGEX in file system",
+        "id": 185
+    },
+    {
+        "code": "mkdir $( seq -f \"$HOME/Labs/lab4a/folder%03g\" Number )",
+        "text": "make _NUMBER directori name _FILE follow by a _NUMBER width _NUMBER pad number from _NUMBER to _NUMBER",
+        "id": 186
+    },
+    {
+        "code": "find . -name *.JPG -exec convert {} -resize 50% {} ;",
+        "text": "find all _FILE file in current folder and resiz them to _REGEX of origin size",
+        "id": 187
+    },
+    {
+        "code": "sort -n -k Number",
+        "text": "numer sort standard input by second word of each line",
+        "id": 188
+    },
+    {
+        "code": "od -a File",
+        "text": "display a name charact dump of _FILE",
+        "id": 189
+    },
+    {
+        "code": "find Path -type d -exec chmod Permission {} \\;",
+        "text": "find all directori under current directori and set read-write-execut permiss for owner read-execut permiss for group and other for those directori",
+        "id": 190
+    },
+    {
+        "code": "ls -1 | wc -l",
+        "text": "count all top-level file in a current folder",
+        "id": 191
+    },
+    {
+        "code": "find Path -maxdepth Quantity -not -samefile Regex",
+        "text": "find all file under current directori that are not same file as _FILE",
+        "id": 192
+    },
+    {
+        "code": "find Path -name Regex -ls",
+        "text": "list all _FILE file in current directori tree",
+        "id": 193
+    },
+    {
+        "code": "find / -maxdepth 1 -xdev -type f -exec grep -Zli stringtofind {} + | parallel -0 sed '/./d' {}",
+        "text": "delet all content form file that contain case insensit regex _REGEX in maximum _NUMBER level down _DIRECTORY directori exclud other partit",
+        "id": 194
+    },
+    {
+        "code": "alias pwd=echo -n $(/bin/pwd) | pbcopy",
+        "text": "set alia _REGEX for command _REGEX",
+        "id": 195
+    },
+    {
+        "code": "cp $( ls | grep -v Regex ) File",
+        "text": "copi all file in current directori except those contain _REGEX to _FILE",
+        "id": 196
+    },
+    {
+        "code": "find xargstest/ -name file?? | xargs myscript.sh",
+        "text": "process all file match pattern _REGEX",
+        "id": 197
+    },
+    {
+        "code": "find Path -regex Regex",
+        "text": "find all _FILE file in current folder use regular express",
+        "id": 198
+    },
+    {
+        "code": "find -name Regex Path {} Path Path",
+        "text": "creat backup of all text file present in current folder",
+        "id": 199
+    },
+    {
+        "code": "find Path -type d -exec chmod Permission {} \\;",
+        "text": "chang permiss to _NUMBER for all directori in _FILE directori tree",
+        "id": 200
+    },
+    {
+        "code": "find Path -type f -size +Size -print0 | xargs -0 -I {} rm {}",
+        "text": "locat larg file in _DIRECTORY for _REGEX",
+        "id": 201
+    },
+    {
+        "code": "find Path -type f -name Regex | cut -c Number | nl",
+        "text": "remov first _NUMBER charact of each _FILE filenam in _FILE directori tree and number output",
+        "id": 202
+    },
+    {
+        "code": "yes | rm -i File",
+        "text": "remov all file and directori in current directori by answer with _REGEX to all prompt",
+        "id": 203
+    },
+    {
+        "code": "find . -name *.doc | while read i; do antiword -i 1 ${i} >${i/doc/txt} && rm ${i}; done",
+        "text": "convert _FILE file in current directori tree to _FILE format and remov origin file",
+        "id": 204
+    },
+    {
+        "code": "rsync -r -t -u -v File File",
+        "text": "synchron _FILE with file in _DIRECTORY if file are newer",
+        "id": 205
+    },
+    {
+        "code": "find Path -type f -exec basename {} \\;",
+        "text": "find all file in _FILE and print onli filenam",
+        "id": 206
+    },
+    {
+        "code": "find Path -type d -name Regex",
+        "text": "find all directori under current directori whose name are _NUMBER charact long",
+        "id": 207
+    },
+    {
+        "code": "find Path -type f -mtime +Timespan -mtime -Timespan -exec rm {} \\;",
+        "text": "find all file that were modifi between _NUMBER to _TIMESPAN ago in home directori and delet",
+        "id": 208
+    },
+    {
+        "code": "find Path -ctime Timespan -type f",
+        "text": "find all file that been chang exact _TIMESPAN ago",
+        "id": 209
+    },
+    {
+        "code": "find Path -mtime +Timespan -print",
+        "text": "find all file and directori under _FILE directori tree that not been modifi in _TIMESPAN",
+        "id": 210
+    },
+    {
+        "code": "hostname -I | awk Program",
+        "text": "print ip address of host name",
+        "id": 211
+    },
+    {
+        "code": "tmux",
+        "text": "open new tmux session",
+        "id": 212
+    },
+    {
+        "code": "find Path -nouser | xargs -0 -I {} rm {}",
+        "text": "delet all file not own by valid user",
+        "id": 213
+    },
+    {
+        "code": "find Path -name Regex",
+        "text": "find all _FILE file and directori under current directori",
+        "id": 214
+    },
+    {
+        "code": "groups Regex | grep -q Regex",
+        "text": "return _NUMBER if user _REGEX belong to group _REGEX",
+        "id": 215
+    },
+    {
+        "code": "uname -v | grep -o Regex",
+        "text": "retriev onli build number of current kernel ie _REGEX",
+        "id": 216
+    },
+    {
+        "code": "find Path -type f -exec ln -s {} \\;",
+        "text": "creat symlink to all _FILE file with same name in current directori",
+        "id": 217
+    },
+    {
+        "code": "cat File | rev | cut -d Regex -f Number | rev",
+        "text": "get second-to-last comma-separ field of each line in _FILE",
+        "id": 218
+    },
+    {
+        "code": "n_jobs=`expr $(jobs | wc -l)`",
+        "text": "print number of job",
+        "id": 219
+    },
+    {
+        "code": "rsync -a -v File File",
+        "text": "archiv directori specifi by variabl _REGEX to current directori",
+        "id": 220
+    },
+    {
+        "code": "ls -l -R File | tee -a File",
+        "text": "print long recurs list of all content of a root folder append output to _FILE",
+        "id": 221
+    },
+    {
+        "code": "find Path -type f -maxdepth Quantity | more",
+        "text": "list all entri name contain direct by directori _REGEX in current directori paus for user input at each page",
+        "id": 222
+    },
+    {
+        "code": "cat File | tr -c -d Regex | head -c Quantity",
+        "text": "print first _NUMBER hexadecim charact from _FILE",
+        "id": 223
+    },
+    {
+        "code": "diff -u Quantity File File",
+        "text": "compar _REGEX and _FILE line by line output _NUMBER line of unifi context and print _FILE function chang is in",
+        "id": 224
+    },
+    {
+        "code": "df -h File",
+        "text": "print file system disk space usag in human readabl format of root filesystem",
+        "id": 225
+    },
+    {
+        "code": "chown -R Regex File File",
+        "text": "recurs chang owner and group of _FILE and _NUMBER to _REGEX",
+        "id": 226
+    },
+    {
+        "code": "find Path -type f -name Regex -print0 | xargs -0 -I {} sed -i -e Program {}",
+        "text": "replac occurr of _REGEX with _REGEX onc per each line of _FILE file from current directori tree",
+        "id": 227
+    },
+    {
+        "code": "ps x -o %p %r %y %x %c ",
+        "text": "show all process that a tti in format _REGEX",
+        "id": 228
+    },
+    {
+        "code": "sudo yum clean all",
+        "text": "remov all cach yum data from a system",
+        "id": 229
+    },
+    {
+        "code": "find Path -name Regex | grep -v Regex | grep -v Regex | grep -v Regex",
+        "text": "list all javascript file which whole name not contain excludeddir or _REGEX or _REGEX",
+        "id": 230
+    },
+    {
+        "code": "echo Regex | tr Regex Regex | tail -n Quantity",
+        "text": "print last space separ word from _REGEX",
+        "id": 231
+    },
+    {
+        "code": "objdump -x `which tail`",
+        "text": "display all avail header inform for execut file of command _REGEX",
+        "id": 232
+    },
+    {
+        "code": "find Path \\( ! -name Regex -and ! -name Regex \\) | xargs -I {} cp -p {} File",
+        "text": "find file not match pattern _REGEX and _REGEX in name under _REGEX and copi them to _REGEX",
+        "id": 233
+    },
+    {
+        "code": "find Path -type f -mmin -Quantity -print0 | xargs -r -0 -I {} ls -l {}",
+        "text": "list all regular file from current directori tree that were modifi less than _TIMESPAN ago",
+        "id": 234
+    },
+    {
+        "code": "find Path -name Regex -printf \"%p\\0\" -printf \"newdir/%P\\0\" | xargs -0 -L Quantity -I {} cp -n {}",
+        "text": "copi all file name _FILE in directori _REGEX to directori _REGEX",
+        "id": 235
+    },
+    {
+        "code": "find Path -user Regex",
+        "text": "find all file and directori under current directori tree that belong to user _REGEX",
+        "id": 236
+    },
+    {
+        "code": "find Path -exec echo {} +",
+        "text": "find all file and directori under current directori and print path",
+        "id": 237
+    },
+    {
+        "code": "find Path -type f -perm -Permission",
+        "text": "find file with _NUMBER permiss in entir file system",
+        "id": 238
+    },
+    {
+        "code": "tar -I File -c -f File File",
+        "text": "creat an archiv use _REGEX as a compress program",
+        "id": 239
+    },
+    {
+        "code": " | md5",
+        "text": "find _REGEX of _NUMBER",
+        "id": 240
+    },
+    {
+        "code": "find Path -size -Size",
+        "text": "find all file in current folder which are less than _SIZE",
+        "id": 241
+    },
+    {
+        "code": "basename Regex Regex",
+        "text": "remov contain directori and suffix _FILE from specifi path output result",
+        "id": 242
+    },
+    {
+        "code": "rsync --exclude Regex --exclude Regex File File",
+        "text": "error need to add _REGEX or _REGEX for recurs copi",
+        "id": 243
+    },
+    {
+        "code": "mv $( ls ) File",
+        "text": "move all file and directori in current directori to _FILE",
+        "id": 244
+    },
+    {
+        "code": "find Path -type f | sort | tee File",
+        "text": "find all file under _FILE and redirect sort list to myfil",
+        "id": 245
+    },
+    {
+        "code": "alias rmc=find . -iname core -exec rm {} \\;",
+        "text": "assign alia rec to a find command that delet all core dump file in current directori and below",
+        "id": 246
+    },
+    {
+        "code": "find Path -name Regex",
+        "text": "search _FILE directori tree for _FILE file",
+        "id": 247
+    },
+    {
+        "code": "grep -r -n -w Regex",
+        "text": "recurs find _REGEX in file from current folder and print match string with number onli if match whole word",
+        "id": 248
+    },
+    {
+        "code": "find Path -iname Regex",
+        "text": "display all text file in home folder",
+        "id": 249
+    },
+    {
+        "code": "find . -name build.xml -exec ant -f {} clean-all ;",
+        "text": "find _FILE file in current folder and run ant clean-al",
+        "id": 250
+    },
+    {
+        "code": "find . -iname *.jpg -print0 | xargs -I{} -0 -r convert -resize 300x300 {} $outdir/{}",
+        "text": "resiz all _FILE imag in current folder to size _REGEX",
+        "id": 251
+    },
+    {
+        "code": "find Path -name Regex -type f | wc -l",
+        "text": "find all _FILE file in current folder and display count",
+        "id": 252
+    },
+    {
+        "code": "find Path -type f -name Regex -exec rm {} File \\;",
+        "text": "recurs remov all file with name like _FILE in _FILE folder",
+        "id": 253
+    },
+    {
+        "code": "find Path -type f -size +Size",
+        "text": "find regular file larger than _SIZE in current directori tree",
+        "id": 254
+    },
+    {
+        "code": "echo $( seq Number Number )",
+        "text": "print space separ list of number from _REGEX to _REGEX",
+        "id": 255
+    },
+    {
+        "code": "watch -n Quantity cat File",
+        "text": "execut _FILE everi _TIMESPAN",
+        "id": 256
+    },
+    {
+        "code": "find . -type f -mtime +7 | tee compressedP.list | parallel compress",
+        "text": "compress in parallel regular file in current directori tree that were last modifi more than _TIMESPAN ago",
+        "id": 257
+    },
+    {
+        "code": "find Path -type d -name Regex -exec rsync -a -v -R {} File \\; -exec rm -r -f File \\;",
+        "text": "search all of _FILE for ani directori name _REGEX for each directori found copi it to _FILE preserv full path and attribut remov it",
+        "id": 258
+    },
+    {
+        "code": "find Path -mindepth Quantity -iname Regex",
+        "text": "find all file and directori with case insensit name pattern _REGEX that are locat in minimum _NUMBER level down current directori",
+        "id": 259
+    },
+    {
+        "code": "find Path -print0 | xargs -0 -I {} mv -t Directory {}",
+        "text": "move all file and directori under current directori to destdir",
+        "id": 260
+    },
+    {
+        "code": "cat $(find /usr/share/doc/ -name *.txt) | zegrep -ic \\<exception\\>",
+        "text": "count number of match for regex _REGEX in all _FILE file under _DIRECTORY directori",
+        "id": 261
+    },
+    {
+        "code": "echo Regex | readlink File",
+        "text": "write _REGEX to real path of current command 's standard output",
+        "id": 262
+    },
+    {
+        "code": "curl Regex Regex | tr -d Regex",
+        "text": "get directori list of url _REGEX and save them to variabl _REGEX by delet _REGEX charact",
+        "id": 263
+    },
+    {
+        "code": "find Path -name Regex -print",
+        "text": "find all _FILE file in file system",
+        "id": 264
+    },
+    {
+        "code": "cat File | grep Regex | cut -f Number -d Regex",
+        "text": "find all string match pattern _REGEX in _REGEX file and print rest of string after _REGEX",
+        "id": 265
+    },
+    {
+        "code": "ping Regex -I Regex -c Quantity -w Timespan",
+        "text": "send at most _NUMBER ping request to _FILE with a timeout of _TIMESPAN on interfac _REGEX",
+        "id": 266
+    },
+    {
+        "code": "find Path -type f -exec chmod Permission {} \\;",
+        "text": "find all file under _REGEX directori and set read-writ permiss for owner and group and no permiss for other for those file",
+        "id": 267
+    },
+    {
+        "code": "find Path -type f -iname Regex -printf \"%h\\n\" | sort -u",
+        "text": "list uniqu parent directori of all _FILE file found under _FILE",
+        "id": 268
+    },
+    {
+        "code": "find . -type d ! -perm -g+r,u+r,o+r -prune -o -print > files_and_folders",
+        "text": "display all directori in current folder exclud those which not read permiss to all user and save output to a file",
+        "id": 269
+    },
+    {
+        "code": "find Path -name Regex",
+        "text": "search for file _REGEX in home folder",
+        "id": 270
+    },
+    {
+        "code": "find Path -print0 | xargs -0 -I {} ls {}",
+        "text": "list all file and directori resid in current directori and below",
+        "id": 271
+    },
+    {
+        "code": "find Path -perm Permission | head",
+        "text": "find all execut file under current directori and show a few line of output from begin",
+        "id": 272
+    },
+    {
+        "code": "find Path -type f -name Regex",
+        "text": "find all hidden file under _FILE",
+        "id": 273
+    },
+    {
+        "code": "paste File | sed -e Program | column -t -s Regex",
+        "text": "merg line from file _REGEX _REGEX _REGEX _REGEX _REGEX replac _REGEX with _REGEX and format _REGEX delimit result as a tabl",
+        "id": 274
+    },
+    {
+        "code": "ln -s $( readlink -e File ) Regex",
+        "text": "creat a symbol link name _FILE to exist full and real path of _REGEX",
+        "id": 275
+    },
+    {
+        "code": "echo Regex | xargs -I {} dirname {}",
+        "text": "print path to folder that contain file _FILE",
+        "id": 276
+    },
+    {
+        "code": "find Path -type f -print0 | xargs -0 -I {} grep Regex {}",
+        "text": "search file under and below _FILE for _REGEX",
+        "id": 277
+    },
+    {
+        "code": "find Path -path Regex -or -path Regex | cpio -p -a -d -l -u -v Regex",
+        "text": "creat hard link of all file and directori match _FILE or _FILE in _REGEX preserv directori hierarchi",
+        "id": 278
+    },
+    {
+        "code": "find Path -name Regex -print | xargs -I {} grep Regex {}",
+        "text": "search for _REGEX in all file match name pattern _REGEX under current directori tree",
+        "id": 279
+    },
+    {
+        "code": "find Path -maxdepth Quantity -type f -exec md5sum {} \\; | sed Program",
+        "text": "calcul _REGEX sum of all file in current directori and format output by remov parenthesi",
+        "id": 280
+    },
+    {
+        "code": "$( md5sum File | awk Program )",
+        "text": "save _REGEX sum hash of _REGEX to variabl _REGEX",
+        "id": 281
+    },
+    {
+        "code": "find Path -name Regex -print0 | xargs -0 -I {} wc -l {} | grep -v Regex | awk Program",
+        "text": "print total number of line of all _FILE file in a current folder and subfold",
+        "id": 282
+    },
+    {
+        "code": "find Path -iname Regex -print0 | xargs -0 -I {} rm -r {}",
+        "text": "delet all file and directori name _REGEX under _DIRECTORY directori tree as super user",
+        "id": 283
+    },
+    {
+        "code": "basename $( pwd )",
+        "text": "print base name of current work directori",
+        "id": 284
+    },
+    {
+        "code": "mkdir -p Directory",
+        "text": "make directori to _DIRECTORY as need",
+        "id": 285
+    },
+    {
+        "code": "find Path -name Regex -print0 | xargs -0 -I {} rm -r -f {}",
+        "text": "remov recurs all file and folder name _FILE",
+        "id": 286
+    },
+    {
+        "code": "find . -type f -mtime -1 -print|xargs pr -n |lp",
+        "text": "provid a list of all file edit _DATETIME to pr and pipe pr 's output to printer",
+        "id": 287
+    },
+    {
+        "code": "find Path -regextype posix-extended -type d -regex Regex",
+        "text": "find all directori under current directori whose path are _NUMBER charact long",
+        "id": 288
+    },
+    {
+        "code": "find Path -name Regex",
+        "text": "find all _FILE file and directori under current directori",
+        "id": 289
+    },
+    {
+        "code": "rename Regex Regex",
+        "text": "renam all _FILE file to _FILE",
+        "id": 290
+    },
+    {
+        "code": "find Path -iname Regex | xargs -I {} sed -i Program {}",
+        "text": "replac all occurr of foo with bar in all _FILE file under _REGEX directori",
+        "id": 291
+    },
+    {
+        "code": "find Path -type f -exec grep -H Regex {} \\;",
+        "text": "search regular file of current directori tree for string _REGEX",
+        "id": 292
+    },
+    {
+        "code": "find Path -name Regex ! -wholename Regex -exec grep Regex {} \\; -print",
+        "text": "find all text file in current folder exclud those that are present n folder _FILE and search for a pattern",
+        "id": 293
+    },
+    {
+        "code": "$( hostname )",
+        "text": "set shell prompt to _REGEX",
+        "id": 294
+    },
+    {
+        "code": "find . -name *.NEF -exec basename {} .NEF ; | xargs> -i sh -c dcraw -w -c $0.NEF | convert - -resize 25% $0.jpg",
+        "text": "find _FILE file under current directori and take onli filenam without extens and run other command on file name",
+        "id": 295
+    },
+    {
+        "code": "ls -t -p | grep -v Regex | tail -n +Quantity | xargs -d Regex -I {} rm -- {}",
+        "text": "remov all file from current folder but _NUMBER newest one filter out directori from initi search",
+        "id": 296
+    },
+    {
+        "code": "export PS1=\\[\\033]0;\\u $(host $(hostname))\\007\\]\\u@\\h:\\w\\$ ",
+        "text": "set prompt to _REGEX",
+        "id": 297
+    },
+    {
+        "code": "find Path -name Regex",
+        "text": "find all file and directori on system whose name is _REGEX",
+        "id": 298
+    },
+    {
+        "code": "tar -c -z -f File -X File File",
+        "text": "creat an archiv exclud file match pattern list in _FILE",
+        "id": 299
+    },
+    {
+        "code": "find Path -type f -exec sed -i Program File File {} \\;",
+        "text": "search word needl and substitut it with replac in all _FILE file of current folder",
+        "id": 300
+    },
+    {
+        "code": "find Path -name Regex",
+        "text": "find all file in folder _FILE which begin with _REGEX",
+        "id": 301
+    },
+    {
+        "code": "find Path -type f -ls",
+        "text": "find and list all regular file",
+        "id": 302
+    },
+    {
+        "code": "hostname | sed Program",
+        "text": "remov a lead _REGEX from system host name and save result to variabl _REGEX",
+        "id": 303
+    },
+    {
+        "code": "kill `pidof firefox`",
+        "text": "send sigterm signal to all _REGEX process request them to termin",
+        "id": 304
+    },
+    {
+        "code": "find Path -type f -print0 | xargs -0 -n Quantity -I {} echo Regex {} | sh File",
+        "text": "remov regular file in current directori tree",
+        "id": 305
+    },
+    {
+        "code": "find . -name my.txt 2> find_error.txt",
+        "text": "find all instanc of a file in current folder and save error to a file",
+        "id": 306
+    },
+    {
+        "code": "echo Regex | cut -d Regex -f Number",
+        "text": "extract host name part from url",
+        "id": 307
+    },
+    {
+        "code": "find Path -name Regex -mmin -Quantity",
+        "text": "find all file and directori start with _REGEX and end with _FILE in name and been modifi in _TIMESPAN",
+        "id": 308
+    },
+    {
+        "code": "echo Regex | rev | cut -d Regex -f -Number | rev",
+        "text": "keep onli last _NUMBER hyphen-separ section of _REGEX",
+        "id": 309
+    },
+    {
+        "code": "cat File | tail -n +Quantity | split --lines Quantity",
+        "text": "split content of all _FILE exclud first _NUMBER line into file of at most _NUMBER line each",
+        "id": 310
+    },
+    {
+        "code": "ssh-keygen -f File -N Regex",
+        "text": "creat a ssh key with no passphras and store it in _REGEX",
+        "id": 311
+    },
+    {
+        "code": "find Path -name Regex -type f -print",
+        "text": "find file _REGEX on system",
+        "id": 312
+    },
+    {
+        "code": "ln -s File Regex",
+        "text": "creat a symbol link name _REGEX to _FILE",
+        "id": 313
+    },
+    {
+        "code": "find Path \\( -name Regex -or -name Regex \\) -print",
+        "text": "display all header file and _FILE file in current folder",
+        "id": 314
+    },
+    {
+        "code": "cat File | md5sum",
+        "text": "calcul _REGEX sum of all _FILE file in current directori",
+        "id": 315
+    },
+    {
+        "code": "find Path -name Regex -exec cat {} \\;",
+        "text": "concaten file contain _REGEX in name",
+        "id": 316
+    },
+    {
+        "code": "echo password | su user1 -c command",
+        "text": "run command _REGEX as user _REGEX with password _REGEX",
+        "id": 317
+    },
+    {
+        "code": "find . -name *.fq -exec cat {} ; | fastqc /dev/stdin",
+        "text": "run _REGEX on all fastqc file in current directori tree",
+        "id": 318
+    },
+    {
+        "code": "find Path -type f -perm Permission",
+        "text": "find all read onli file in _FILE directori",
+        "id": 319
+    },
+    {
+        "code": "fold -w Quantity File | sort | uniq -c | sort -n -r",
+        "text": "display a sort count of all charact in _REGEX",
+        "id": 320
+    },
+    {
+        "code": "sort temp.txt > temp.txt.sort && mv temp.txt.sort temp.txt",
+        "text": "sort string in a file _FILE",
+        "id": 321
+    },
+    {
+        "code": "ifconfig Regex | awk Program",
+        "text": "get ip address of _REGEX select network interfac",
+        "id": 322
+    },
+    {
+        "code": "IFS= read -d $\\0 -r file",
+        "text": "unset if and read standard input into variabl _REGEX until a null charact is found without allow backslash to escap charact",
+        "id": 323
+    },
+    {
+        "code": "env | awk -F Regex Program | grep Regex",
+        "text": "list all variabl with name contain x",
+        "id": 324
+    },
+    {
+        "code": "history | sed Program",
+        "text": "replac space after line number in output of histori with _FILE",
+        "id": 325
+    },
+    {
+        "code": "comm -1 -2 <( cut -d Regex -f Number File | uniq ) <( cut -d Regex -f Number File | uniq )",
+        "text": "write common third space separ field in _FILE and _FILE to _FILE",
+        "id": 326
+    },
+    {
+        "code": "cd `script`",
+        "text": "run _REGEX output name of a directori go into that directori",
+        "id": 327
+    },
+    {
+        "code": "md5sum File | sort | uniq -d -w Quantity",
+        "text": "list _FILE file that same content",
+        "id": 328
+    },
+    {
+        "code": "find Path Path -f -amin +Quantity",
+        "text": "search current directori recurs for regular file last access more than _TIMESPAN ago",
+        "id": 329
+    },
+    {
+        "code": "find Path -name Regex -type f -print0 | sort -z -u | xargs -0 -I {} cp -t Directory {}",
+        "text": "find all _FILE file in current directori and copi them to directori _FILE",
+        "id": 330
+    },
+    {
+        "code": "[[ ! -z `find YOUR_DIR/ -name something` ]] && echo found || echo not found",
+        "text": "test if file name _REGEX were found in _REGEX",
+        "id": 331
+    },
+    {
+        "code": "comm -3 <( sort File ) <( sort File ) | sed Program",
+        "text": "print uniqu line in _REGEX and _REGEX when compar to each other and remov ani tab",
+        "id": 332
+    },
+    {
+        "code": "find Path -type f -print0",
+        "text": "search directori tree _FILE for regular file use _NUMBER delimit for output",
+        "id": 333
+    },
+    {
+        "code": "find Path Path -size +Size -mtime Timespan -ls",
+        "text": "list file larger than _SIZE under _FILE _FILE that haven 't chang in _TIMESPAN",
+        "id": 334
+    },
+    {
+        "code": "set -H",
+        "text": "enabl histori expans in a script",
+        "id": 335
+    },
+    {
+        "code": "find Path -size Size",
+        "text": "list file in current directori and below that are exact _SIZE in size",
+        "id": 336
+    },
+    {
+        "code": "find Path \\( -name Regex ! -path Regex \\) -exec grep -I -w Regex {} +",
+        "text": "search current directori for file whose name start with _REGEX ignor svn file",
+        "id": 337
+    },
+    {
+        "code": "find Path -type f -name Regex -exec sed Program {} \\;",
+        "text": "find all regular file under _REGEX directori tree with name pattern provid by first posit paramet and show onli _REGEX _REGEX line from each of those file",
+        "id": 338
+    },
+    {
+        "code": "find Path -name Regex | xargs -I {} grep -E Regex {}",
+        "text": "find all _FILE _FILE file in current directori tree and search them for string _REGEX",
+        "id": 339
+    },
+    {
+        "code": "od -v -t x1 File",
+        "text": "read hexadecim byte from devic _FILE",
+        "id": 340
+    },
+    {
+        "code": "find / -name *.jpg 2>/dev/null",
+        "text": "find all _FILE file on system",
+        "id": 341
+    },
+    {
+        "code": "find Path -type f -not -name Regex -mtime Timespan -exec gzip {} \\;",
+        "text": "compress all file in _REGEX directori tree that were last modifi _TIMESPAN ago and not alreadi been compress with gzip",
+        "id": 342
+    },
+    {
+        "code": "yes Regex | rm -r File",
+        "text": "recurs remov all _FILE file and answer _REGEX to ani prompt",
+        "id": 343
+    },
+    {
+        "code": "find Path Path -type f -mtime +Timespan -exec compress {} \\;",
+        "text": "find more than _TIMESPAN old file in _NUMBER directori and compress them",
+        "id": 344
+    },
+    {
+        "code": "cal | awk -v Program Program",
+        "text": "print week day of a _TIMESPAN in a current month",
+        "id": 345
+    },
+    {
+        "code": "find Path -exec grep Regex {} \\; -print",
+        "text": "search file _FILE for line contain _REGEX",
+        "id": 346
+    },
+    {
+        "code": "finger | cut -d Regex -f Number | sort -u",
+        "text": "print sort uniqu column of usernam of user who are current _FILE in",
+        "id": 347
+    },
+    {
+        "code": "find Path -name Regex -mtime Timespan",
+        "text": "find all file and directori under _DIRECTORY directori tree whose name end with _REGEX and were modifi exact _TIMESPAN ago",
+        "id": 348
+    },
+    {
+        "code": "top -c -p $(pgrep -d, -f string_to_match_in_cmd_line)",
+        "text": "monitor onli process whose command contain _REGEX",
+        "id": 349
+    },
+    {
+        "code": "cat $( find Path -name Regex -print )",
+        "text": "find all _FILE file under current directori and print content",
+        "id": 350
+    },
+    {
+        "code": "whoami hostname -f",
+        "text": "save a nginx link to _FILE with current user and system fqdn host name in variabl _REGEX",
+        "id": 351
+    },
+    {
+        "code": "shopt -s direxpand",
+        "text": "enabl shell option _REGEX",
+        "id": 352
+    },
+    {
+        "code": "find Path -type f -name Regex | awk -F Regex Program | sort -u",
+        "text": "print a sort list of extens of regular file from current directori tree",
+        "id": 353
+    },
+    {
+        "code": "find Path Path -name Regex -print0 | xargs -0",
+        "text": "find all _FILE file and directori under asia and emea directori",
+        "id": 354
+    },
+    {
+        "code": "find Path -type f -exec chmod Permission {} \\;",
+        "text": "find all file under foldernam directori and set permiss to _NUMBER",
+        "id": 355
+    },
+    {
+        "code": "split -b Size -d -a Quantity File Regex",
+        "text": "split _REGEX into file of at most _NUMBER mib each with a numer suffix of length _NUMBER and prefix _FILE",
+        "id": 356
+    },
+    {
+        "code": "find temp/images/* -maxdepth 2 -iname *.jpg -print0 | xargs -0 mogrify -resize 100x100> -quality 80 -compress JPEG -monitor -strip",
+        "text": "find all _FILE file under maximum _NUMBER level down _FILE path and run _REGEX with file path as argument",
+        "id": 357
+    },
+    {
+        "code": "find . -type d -exec bash -c mv \"$1\" \"${1//foo/Bar}\" -- {} ;",
+        "text": "move all directori under current directori to new path obtain by replac all occurr of _REGEX with _REGEX in path",
+        "id": 358
+    },
+    {
+        "code": "find Path -name Regex | rev | cut -d Regex -f Number | rev",
+        "text": "find all file with name end with _FILE and display onli filenam without full path",
+        "id": 359
+    },
+    {
+        "code": "find Path -inum Quantity -exec rm {} \\;",
+        "text": "delet all file and directori with node number _REGEX under current directori tree",
+        "id": 360
+    },
+    {
+        "code": "find Path -daystart -mtime +Timespan -mtime -Timespan Path -printf \"%M %n %u %g %10s %TY-%Tm-%Td %Ta %TH:%TM:%TS %h/%f\\n\" | awk Program",
+        "text": "find all file and folder that were creat in _NUMBER on friday of everi month",
+        "id": 361
+    },
+    {
+        "code": "find Path -newerct Regex -print",
+        "text": "find file creat in _TIMESPAN work on mac _FILE x",
+        "id": 362
+    },
+    {
+        "code": "find Path -type l -name Regex -exec ls -l {} \\;",
+        "text": "get a detail list of all symbol link in _FILE start with _REGEX",
+        "id": 363
+    },
+    {
+        "code": "find Path -type f -wholename Regex | sed Program | sh",
+        "text": "find regular file under current directori whose name end in _FILE and renam each file to same name without _FILE at end",
+        "id": 364
+    },
+    {
+        "code": "echo Regex | cut -d Regex --complement -f Number",
+        "text": "print file name without last _NUMBER extens assum file name doesn 't contain ani other dot",
+        "id": 365
+    },
+    {
+        "code": "find Path -type f \\( -iname Regex -or -iname Regex -or -iname Regex -or -iname Regex \\) -exec echo {} \\;",
+        "text": "show all _FILE _FILE _FILE _FILE file in folder _FILE",
+        "id": 366
+    },
+    {
+        "code": "read -p Regex Regex",
+        "text": "read a line from standard input with prompt _REGEX and save respons in variabl _REGEX",
+        "id": 367
+    },
+    {
+        "code": "rsync -v -a -u -t File File File",
+        "text": "archiv all file begin with _FILE or _FILE in current directori to user 's home directori on host _REGEX preserv timestamp and skip file that are newer on _REGEX",
+        "id": 368
+    },
+    {
+        "code": "find Path -inum Quantity -exec rm {} \\;",
+        "text": "remov file with inod number _NUMBER",
+        "id": 369
+    },
+    {
+        "code": "find Path -type f -exec ls -s {} \\; | sort -n | head - Quantity",
+        "text": "sort base on size and display top _NUMBER small regular file in current folder",
+        "id": 370
+    },
+    {
+        "code": "find Path -type f -name Regex",
+        "text": "find regular file under and below _FILE that match pattern _FILE",
+        "id": 371
+    },
+    {
+        "code": "find Path -name Regex -prune -or -exec mv {} $( echo {} | tr Regex Regex ) \\; -print",
+        "text": "renam all file and directori under current directori tree by convert name to small letter without descend into _FILE directori",
+        "id": 372
+    },
+    {
+        "code": "rsync File File",
+        "text": "copi _FILE to _DIRECTORY and creat directori _DIRECTORY if _DIRECTORY exist",
+        "id": 373
+    },
+    {
+        "code": "find Path -name Regex -exec mv -t Directory {} +",
+        "text": "find all _FILE file under _FILE and move them to _FILE",
+        "id": 374
+    },
+    {
+        "code": "find Path Path -f -atime Timespan",
+        "text": "search current directori recurs for regular file last access _TIMESPAN ago",
+        "id": 375
+    },
+    {
+        "code": "ls -1 | perl -pe s/\\n$/some_delimiter/",
+        "text": "list all file in a current folder separ name with _REGEX",
+        "id": 376
+    },
+    {
+        "code": "screen -S SessionName -X at .# stuff date ",
+        "text": "send content to screen session window with a certain titl",
+        "id": 377
+    },
+    {
+        "code": "find /home/www/ -type f | xargs perl -pi -e s/subdomainA\\.example\\.com/subdomainB.example.com/g",
+        "text": "find all regular file under _FILE and replac everi occurr of _FILE with _FILE in those file",
+        "id": 378
+    },
+    {
+        "code": "sed Program",
+        "text": "convert all charact in standard input to lower case",
+        "id": 379
+    },
+    {
+        "code": "mount -o rw,remount Regex Regex",
+        "text": "remount _FILE on _FILE as read and write",
+        "id": 380
+    },
+    {
+        "code": "mkdir Directory",
+        "text": "creat directori _FILE in user 's home directori",
+        "id": 381
+    },
+    {
+        "code": "find | wc -l",
+        "text": "find all file in current directori tree and count them",
+        "id": 382
+    },
+    {
+        "code": "find Path -maxdepth Quantity -type f Path",
+        "text": "find writabl regular file in current directori",
+        "id": 383
+    },
+    {
+        "code": "touch $( date --date Regex ) File",
+        "text": "set timestamp of b to timestamp in stat format specifi by variabl _REGEX",
+        "id": 384
+    },
+    {
+        "code": "find Path -type f -iname Regex -print0 | xargs -0 -I {} grep Regex {}",
+        "text": "find string with text _REGEX in ani case file like _FILE recurs in a current folder",
+        "id": 385
+    },
+    {
+        "code": "find Path -name Regex -exec rm -i {} \\;",
+        "text": "remov all _REGEX file under current directori with confirm prompt",
+        "id": 386
+    },
+    {
+        "code": "find Path -maxdepth Quantity -type f -empty -delete",
+        "text": "find all empti file in current directori and delet them",
+        "id": 387
+    },
+    {
+        "code": "find Path Path Path -type f -name Regex -exec grep -i -l Regex {} \\;",
+        "text": "search for _REGEX in all _FILE file under _REGEX _REGEX and _REGEX directori tree and print onli name of match file",
+        "id": 388
+    },
+    {
+        "code": "find Path -name Regex -exec echo {} \\;",
+        "text": "list all _FILE file and directori under current directori",
+        "id": 389
+    },
+    {
+        "code": "find Path -mindepth Quantity -maxdepth Quantity",
+        "text": "find all file and directori in _NUMBER level down current directori",
+        "id": 390
+    },
+    {
+        "code": "find Path Path Path -print | tee File",
+        "text": "creat a backup of all file in current folder to floppi and save file list in file _FILE",
+        "id": 391
+    },
+    {
+        "code": "find Path -mtime -Timespan -name Regex",
+        "text": "find all _FILE file which are modifi in _TIMESPAN",
+        "id": 392
+    },
+    {
+        "code": "find Path -regextype posix-extended -regex Regex -fprint File",
+        "text": "find all file and directori under _REGEX directori tree match posix extend regular express _REGEX and save output in file _REGEX",
+        "id": 393
+    },
+    {
+        "code": "paste <( cal DateTime DateTime ) <( cal DateTime DateTime ) <( cal DateTime DateTime )",
+        "text": "print calendar for februari _DATETIME and _DATETIME of year _NUMBER side-by-sid",
+        "id": 394
+    },
+    {
+        "code": "alias -g X=| cut -d' ' -f2",
+        "text": "set alia _REGEX for command _REGEX",
+        "id": 395
+    },
+    {
+        "code": "echo -ne some random\\nbytes | xxd -plain | tr -d \\n | sed s/\\(..\\)/%\\1/g",
+        "text": "convert _REGEX to _REGEX separ hexadecim byte valu",
+        "id": 396
+    },
+    {
+        "code": "history | grep Regex -A Quantity -B Quantity",
+        "text": "search for _REGEX in output of _REGEX and print _NUMBER line that preced and follow",
+        "id": 397
+    },
+    {
+        "code": "ssh user@target cd /some/directory; nohup myprogram > foo.out 2> foo.err < /dev/null",
+        "text": "execut _FILE in background on target machin _REGEX and write standard output and standard error to _FILE and _FILE",
+        "id": 398
+    },
+    {
+        "code": "find /home/mine -iname *.png -exec sh -c cp $0 /home/mine/pngcoppies/copy/$0 {} ;",
+        "text": "search for all _FILE file in a folder and copi them to anoth folder",
+        "id": 399
+    },
+    {
+        "code": "yes",
+        "text": "output string _REGEX continu until kill",
+        "id": 400
+    },
+    {
+        "code": "echo Regex | tr Regex Regex",
+        "text": "replac all space with comma in _REGEX append with _REGEX and save result string to variabl _REGEX",
+        "id": 401
+    },
+    {
+        "code": "ls -F -l -t -r File",
+        "text": "print long list of directori _REGEX sort from oldest to newest with append indic",
+        "id": 402
+    },
+    {
+        "code": "sort --unique File | split --numeric-suffixes --lines Quantity --suffix-length Quantity --verbose",
+        "text": "split sort and uniqu line in file _FILE into file with at most _NUMBER line each with numer suffix of length _NUMBER",
+        "id": 403
+    },
+    {
+        "code": "find Path \\( -name Regex -or -name Regex \\) -print0 | xargs -0 -I {} grep -H -i -n Regex {}",
+        "text": "find string _REGEX case insensit in all _FILE and _FILE file under current directori tree and display match line along with file name and line number",
+        "id": 404
+    },
+    {
+        "code": "awk -F Regex Program Program | column -t -s Regex",
+        "text": "print first line and line with _REGEX as third _REGEX separ field in _REGEX and format result as a _REGEX delimit tabl",
+        "id": 405
+    },
+    {
+        "code": "find Path -maxdepth Quantity -name Regex -or -name Regex",
+        "text": "display all file with name _REGEX and _REGEX in current folder and not search in sub directori",
+        "id": 406
+    },
+    {
+        "code": "chown Regex File",
+        "text": "chang owner of _DIRECTORY to _REGEX",
+        "id": 407
+    },
+    {
+        "code": "watch -n Quantity date",
+        "text": "execut _REGEX everi second",
+        "id": 408
+    },
+    {
+        "code": "split -a Quantity File",
+        "text": "split _REGEX into file with at most _NUMBER line each and use a prefix length of _NUMBER",
+        "id": 409
+    },
+    {
+        "code": "find -L Path -name Regex -exec rm {} +",
+        "text": "find all file whose name end with _REGEX in _FILE directori tree follow symlink and delet them",
+        "id": 410
+    },
+    {
+        "code": "diff -b -u Quantity File File",
+        "text": "print a minim set of differ between file in directori _REGEX and _REGEX treat absent file as empti ignor differ in whitespac treat all file as text and print _NUMBER line of unifi context",
+        "id": 411
+    },
+    {
+        "code": "find Path -size +Size -exec ls -l -h {} \\;",
+        "text": "display a long list of file and directori with human readabl size under _FILE directori tree which are bigger than _SIZE",
+        "id": 412
+    },
+    {
+        "code": "comm -1 -2 <( sort File ) <( sort File ) | wc -l",
+        "text": "count number of equal line in _FILE and _FILE",
+        "id": 413
+    },
+    {
+        "code": "find Path -name Regex",
+        "text": "find all _FILE file and directori under current directori",
+        "id": 414
+    },
+    {
+        "code": "su user1 -c ssh user1@192.168.1.2 \"awk '\\\\$5==1{print \\\\$3}' filename.log\" | uniq -c",
+        "text": "run command ssh _FILE _REGEX _REGEX _FILE as _REGEX and unifi result",
+        "id": 415
+    },
+    {
+        "code": "find Path -not \\( -path Regex -prune \\) -not \\( -path Regex -prune \\) -type f",
+        "text": "list all regular file which path is not _REGEX or _REGEX",
+        "id": 416
+    },
+    {
+        "code": "tmux show-environment | grep RBENV",
+        "text": "check if rbenv is defin in current tmux session environ",
+        "id": 417
+    },
+    {
+        "code": "echo -n $( hostname )",
+        "text": "print host name without a newlin",
+        "id": 418
+    },
+    {
+        "code": "comm -1 -2 <( comm -1 -2 <( comm -1 -2 <( sort File ) <( sort File ) ) <( sort File ) ) <( sort File )",
+        "text": "print common line of file _REGEX _REGEX _REGEX and _REGEX",
+        "id": 419
+    },
+    {
+        "code": "kill -9 $(pgrep amarok)",
+        "text": "termin amarok immedi",
+        "id": 420
+    },
+    {
+        "code": "find Path -type f -name Regex -exec md5sum {} +",
+        "text": "calcul _REGEX sum of everi _FILE file in directori tree _FILE",
+        "id": 421
+    },
+    {
+        "code": "find Path -type d -exec mkdir -p Directory \\; -or -type f -exec touch File \\;",
+        "text": "copi an entir file structur creat empti file in copi instead of copi actual file",
+        "id": 422
+    },
+    {
+        "code": "find Path -perm Permission",
+        "text": "find all _PERMISSION file",
+        "id": 423
+    },
+    {
+        "code": "find Path -name Regex -fprint File",
+        "text": "send output from find find command to a file",
+        "id": 424
+    },
+    {
+        "code": "find Path -type d",
+        "text": "find all directori under _REGEX directori",
+        "id": 425
+    },
+    {
+        "code": "exec 1 2>&1 | tee ${LOG_FILE}",
+        "text": "execut _NUMBER and write standard output and error to standard output and file _REGEX",
+        "id": 426
+    },
+    {
+        "code": "chown -R Regex File",
+        "text": "recurs chang owner to _REGEX and group to _REGEX of _REGEX",
+        "id": 427
+    },
+    {
+        "code": "du -s --block-size Size File",
+        "text": "find a size of onli target directori in mb format",
+        "id": 428
+    },
+    {
+        "code": "find Path -path Regex",
+        "text": "display all file in current folder which in sub directori tree of folder which begin with word _REGEX follow by a digit",
+        "id": 429
+    },
+    {
+        "code": "find Path -type f -print0 | xargs -0 -I {} file {}",
+        "text": "find all file under current directori and show file inform",
+        "id": 430
+    },
+    {
+        "code": "ping -c Quantity -b Regex | grep Regex | awk Program | sort | uniq",
+        "text": "send _NUMBER ping to broadcast address _FILE and print uniqu ip who respond",
+        "id": 431
+    },
+    {
+        "code": "ps -a -u Regex | grep Regex | awk Program | xargs -I {} pstree {}",
+        "text": "print a process tree for each process of user _REGEX",
+        "id": 432
+    },
+    {
+        "code": "ping -q -c Quantity Regex | tail -n Quantity | cut -f Number -d Regex",
+        "text": "print averag round trip time of _NUMBER ping to _FILE",
+        "id": 433
+    },
+    {
+        "code": "find Path -name Regex | xargs -I {} rm -r -f {}",
+        "text": "delet all _FILE file and directori under current directori",
+        "id": 434
+    },
+    {
+        "code": "find Path -depth -type f -printf \"%d\\t%p\\n\"",
+        "text": "find depth of all file in current folder and display depth and file name",
+        "id": 435
+    },
+    {
+        "code": "find Path -newer File",
+        "text": "find all file and directori that are newer than _FILE by modif time",
+        "id": 436
+    },
+    {
+        "code": "find Path -mindepth Quantity -delete",
+        "text": "delet all file under and below current directori",
+        "id": 437
+    },
+    {
+        "code": "cd `/path/to/my/script`",
+        "text": "run _FILE output name of a directori go into that directori",
+        "id": 438
+    },
+    {
+        "code": "find Path -size +Size -print0 | xargs -0 -I {} mv {} File",
+        "text": "find all file in current directori tree whose size is greater than _SIZE and move them to _REGEX folder",
+        "id": 439
+    },
+    {
+        "code": "echo `date +%s`/86400 | bc",
+        "text": "print day sinc epoch",
+        "id": 440
+    },
+    {
+        "code": "tac File | sed Program | tac",
+        "text": "print all line from last occurr of regex _REGEX to end of file _REGEX",
+        "id": 441
+    },
+    {
+        "code": "screen -ls",
+        "text": "list all screen session",
+        "id": 442
+    },
+    {
+        "code": "find Path -name Regex | xargs -I {} grep -P Regex {}",
+        "text": "search for perl regex _REGEX in _FILE file under current directori tree",
+        "id": 443
+    },
+    {
+        "code": "find Path -user Regex -type d -perm Permission -print",
+        "text": "find directori own by user news with permiss _NUMBER",
+        "id": 444
+    },
+    {
+        "code": "echo -e Regex | od -a",
+        "text": "display name charact in _REGEX",
+        "id": 445
+    },
+    {
+        "code": "find Path -name Regex -print | xargs -n Quantity -I {} grep Regex {}",
+        "text": "find _REGEX file and grep for string _REGEX in those file",
+        "id": 446
+    },
+    {
+        "code": "echo -n Regex | od -A n -t x1",
+        "text": "print each charact in _REGEX as a hexadecim valu",
+        "id": 447
+    },
+    {
+        "code": "find Path -name Regex",
+        "text": "find all _FILE file and directori under current directori",
+        "id": 448
+    },
+    {
+        "code": "find Path -mmin -Quantity -mmin +Quantity -type d",
+        "text": "find all directori in _FILE directori tree that were last modifi more than _TIMESPAN ago but less than _TIMESPAN ago",
+        "id": 449
+    },
+    {
+        "code": "find src/js -type f -name *.js > list.txt",
+        "text": "find all _FILE script file in a folder and save list to a file",
+        "id": 450
+    },
+    {
+        "code": "find Path -maxdepth Quantity",
+        "text": "search current directori up to depth level _NUMBER for file and directori",
+        "id": 451
+    },
+    {
+        "code": "find . ! -name . -prune -exec sh -c shift $1; mv \"$@\" targetdirectory/ 2 1 {} +",
+        "text": "move all file from current directori to _REGEX",
+        "id": 452
+    },
+    {
+        "code": "set | grep -E Regex | sed -r -e Program",
+        "text": "list all defin bash function",
+        "id": 453
+    },
+    {
+        "code": "find Path -type f -name Regex ! -path Regex ! -path Regex",
+        "text": "display all file have word _REGEX in name in current folder exclud those from path _DIRECTORY and _FILE",
+        "id": 454
+    },
+    {
+        "code": "find Path -atime +Timespan -print",
+        "text": "search in current directori downward all file which not been access sinc _TIMESPAN",
+        "id": 455
+    },
+    {
+        "code": "yes Regex",
+        "text": "infinit print _REGEX to screen",
+        "id": 456
+    },
+    {
+        "code": "rename Regex Regex",
+        "text": "renam all file in current directori with name start with _REGEX so start with _REGEX instead",
+        "id": 457
+    },
+    {
+        "code": "for f in fgh*; do mv $f $(echo $f | sed s/^fgh/jkl/g); done",
+        "text": "renam all file in current directori start with _REGEX to start with _REGEX",
+        "id": 458
+    },
+    {
+        "code": "find Path -name Regex Path Path -mtime -Timespan -print0 | xargs -0 -I {} tar -r -v -f File {}",
+        "text": "append all _FILE file modifi within _TIMESPAN to tar archiv _FILE",
+        "id": 459
+    },
+    {
+        "code": "ssh-copy-id myname@somehost",
+        "text": "copi default ssh public key to _REGEX as user _REGEX",
+        "id": 460
+    },
+    {
+        "code": "grep -i -n -r Regex File",
+        "text": "recurs find all file with ani case text _REGEX in a current folder and preced found string with it number in file",
+        "id": 461
+    },
+    {
+        "code": "find Path -name Regex",
+        "text": "search for file _REGEX in entir file system",
+        "id": 462
+    },
+    {
+        "code": "set -o errexit",
+        "text": "exit shell immedi if an error is encount",
+        "id": 463
+    },
+    {
+        "code": "find Path -type f -exec grep -H Regex {} \\;",
+        "text": "recurs find all file and print all string with _REGEX from that file preced match string with filenam",
+        "id": 464
+    },
+    {
+        "code": "md5 File File",
+        "text": "onli get _REGEX of a file",
+        "id": 465
+    },
+    {
+        "code": "tar -czf backup.tar.gz --exclude-tag-all=exclude.tag /path/to/backup",
+        "text": "creat a compress archiv exclud directori contain _FILE",
+        "id": 466
+    },
+    {
+        "code": "find Path -name Regex -size +Size",
+        "text": "find all file and directori with _FILE extens under _FILE directori tree that are greater than _SIZE in size",
+        "id": 467
+    },
+    {
+        "code": "ifconfig Regex | grep Regex | cut -d Regex -f Number | cut -d Regex -f Number",
+        "text": "show mac address of network interfac _REGEX",
+        "id": 468
+    },
+    {
+        "code": "find Path -type f -name Regex -exec rm -f {} \\;",
+        "text": "forc delet all regular file with name _FILE",
+        "id": 469
+    },
+    {
+        "code": "find Path",
+        "text": "find all file and directori under current directori",
+        "id": 470
+    },
+    {
+        "code": "find Path -iregex Regex",
+        "text": "find all file and directori under current directori that match case insensit regex _FILE",
+        "id": 471
+    },
+    {
+        "code": "split -l Quantity File",
+        "text": "split _FILE into file with at most _NUMBER line each",
+        "id": 472
+    },
+    {
+        "code": "find Path -atime +Timespan",
+        "text": "search current directori tree for file last access more than _TIMESPAN ago",
+        "id": 473
+    },
+    {
+        "code": "find Path -name Regex | xargs -I {} mv {} File",
+        "text": "find all text file in current folder and move all these to anoth folder append _FILE at end of these file",
+        "id": 474
+    },
+    {
+        "code": "find Path -print | xargs -I {} chown Regex {}",
+        "text": "chang owner and group of all file in folder _FILE",
+        "id": 475
+    },
+    {
+        "code": "read -r -p Regex Regex",
+        "text": "read a line from standard input into variabl _REGEX without backslash escap use prompt about to delete all items from history that match _REGEX",
+        "id": 476
+    },
+    {
+        "code": "touch -m --date Regex File",
+        "text": "set modif timestamp of file _REGEX to specifi _FILE",
+        "id": 477
+    },
+    {
+        "code": "find Path | grep Regex | grep Regex",
+        "text": "search for _FILE in all file under current directori that match _REGEX in name",
+        "id": 478
+    },
+    {
+        "code": "ln -f -s File Regex",
+        "text": "forc creat a symbol link name _REGEX with target _FILE",
+        "id": 479
+    },
+    {
+        "code": "find Path -type f -name Regex -print",
+        "text": "find all text file in current folder",
+        "id": 480
+    },
+    {
+        "code": "sort File | uniq -c",
+        "text": "print a count of duplic line in _REGEX",
+        "id": 481
+    },
+    {
+        "code": "readlink -f File",
+        "text": "save absolut path of _REGEX whose parent exist to variabl _REGEX",
+        "id": 482
+    },
+    {
+        "code": "find Path -type f -name Regex -exec sed -i Program {} \\;",
+        "text": "replac all occurr of _REGEX with _REGEX in all regular file with _FILE extens under _FILE directori tree and modifi them in-plac",
+        "id": 483
+    },
+    {
+        "code": "dig Regex | grep -e Regex | tr -s Regex Regex | cut -d Regex -f Number",
+        "text": "fetch _FILE domain ip address from dig dns lookup",
+        "id": 484
+    },
+    {
+        "code": "find Path -type f -exec chmod Permission {} +",
+        "text": "set _NUMBER permiss to all regular file under _FILE",
+        "id": 485
+    },
+    {
+        "code": "read -n Quantity -p Regex Regex",
+        "text": "read a singl charact from standard input with prompt _REGEX and save respons to variabl _REGEX",
+        "id": 486
+    },
+    {
+        "code": "command | less",
+        "text": "page interact through output of run _REGEX arrow key move view around _REGEX and _REGEX key go to _FILE of output _DIRECTORY key initi a search q key quit etc",
+        "id": 487
+    },
+    {
+        "code": "find Path -type f -mtime Timespan",
+        "text": "find all regular file that were modifi _REGEX day ago under current directori tree",
+        "id": 488
+    },
+    {
+        "code": "find Path -name Regex",
+        "text": "locat all _FILE file in current directori tree",
+        "id": 489
+    },
+    {
+        "code": "find Path Path -name Regex -type f",
+        "text": "look for file _REGEX under _FILE and _FILE",
+        "id": 490
+    },
+    {
+        "code": "find Path -type f -name Regex -exec tar -u -v -f File {} \\;",
+        "text": "creat a gzip archiv file of all _FILE file under _REGEX",
+        "id": 491
+    },
+    {
+        "code": "find Path -type f -name Regex -delete -printf \"%h\\0\" | xargs -0 -I {} rmdir {}",
+        "text": "recurs remov all file like _FILE in current folder and remov folder with such file if becom empti",
+        "id": 492
+    },
+    {
+        "code": "ls -l -R File | grep -v Regex | awk Program",
+        "text": "save byte size of all content of _REGEX folder in _REGEX variabl",
+        "id": 493
+    },
+    {
+        "code": "find Path -group Regex -type f",
+        "text": "find all regular file in current folder which belong to group _REGEX",
+        "id": 494
+    },
+    {
+        "code": "find Path \\( -size +Size -fprintf File '%-10s %p\\n' \\)",
+        "text": "find all file and directori greater than _SIZE and print list along with size in _FILE file",
+        "id": 495
+    },
+    {
+        "code": "source <( grep -v Regex File )",
+        "text": "interpret _FILE in current shell ignor line that contain _REGEX",
+        "id": 496
+    },
+    {
+        "code": "find Path \\( -name Regex -or -name Regex -or -name Regex \\) -exec rm {} \\;",
+        "text": "clean directori and subdirectori of temporari file generat dure normal use",
+        "id": 497
+    },
+    {
+        "code": "find Path -type f -name Regex -exec md5sum {} + | awk Program | sort | md5sum",
+        "text": "calcul _REGEX sum of sort list of _REGEX sum of all _FILE file under _DIRECTORY",
+        "id": 498
+    },
+    {
+        "code": "true | echo Regex",
+        "text": "execut _REGEX in a subshel that is open by command _REGEX",
+        "id": 499
+    },
+    {
+        "code": "cat File | sed Program",
+        "text": "remov _REGEX from content of _FILE and save output to variabl _REGEX",
+        "id": 500
+    },
+    {
+        "code": "find Path \\( -perm -Permission -fprintf File '%#m %u %p\\n' \\) -and \\( -size +Size -fprintf File '%-10s %p\\n' \\)",
+        "text": "find all file in file system which set _PERMISSION enabl and save them to _FILE and those which size greater than _SIZE save them to _FILE",
+        "id": 501
+    },
+    {
+        "code": "ssh -t me@machine ./executeMyScript && bash -i",
+        "text": "ssh into _REGEX run _FILE and spawn a bash shell",
+        "id": 502
+    },
+    {
+        "code": "read -n Quantity Regex",
+        "text": "read one charact from standard input into variabl _FILE",
+        "id": 503
+    },
+    {
+        "code": "find -x Path -inum Quantity",
+        "text": "find file and directori with inod number _NUMBER under _FILE directori tree without travers other _FILE",
+        "id": 504
+    },
+    {
+        "code": "read -p Regex",
+        "text": "read a line from standard input into variabl _REGEX with prompt _REGEX",
+        "id": 505
+    },
+    {
+        "code": "find Path -iname Regex -print0 | xargs -0 -I {} rm {}",
+        "text": "delet all _FILE file under _FILE",
+        "id": 506
+    },
+    {
+        "code": "find /full/path/to/dir -name *.txt -print0 | xargs -0 >/tmp/logfile",
+        "text": "find all _FILE file in current directori tree and save path name to _FILE",
+        "id": 507
+    },
+    {
+        "code": "find Path",
+        "text": "find all file and directori in all path expand by glob pattern _REGEX",
+        "id": 508
+    },
+    {
+        "code": "find . -name *.txt | xargs python -c import sys; print sys.argv[1:]",
+        "text": "find all _FILE file and directori under current directori and execut python code _FILE with file path as argument",
+        "id": 509
+    },
+    {
+        "code": "find Path -type f -iname Regex",
+        "text": "find file _FILE in folder _DIRECTORY",
+        "id": 510
+    },
+    {
+        "code": "find ./subdirectory -type f 2>>error.log",
+        "text": "display all regular file in a folder and save error to a _FILE file",
+        "id": 511
+    },
+    {
+        "code": "cp -n -r File File",
+        "text": "copi _REGEX recurs to _REGEX but without overwrit exist file",
+        "id": 512
+    },
+    {
+        "code": "echo $( date )",
+        "text": "save current date to _REGEX variabl",
+        "id": 513
+    },
+    {
+        "code": "find Path -type d -iregex Regex",
+        "text": "find all directori under current directori tree that match case insensit regex _FILE in path",
+        "id": 514
+    },
+    {
+        "code": "find Path -size +Size -size -Size",
+        "text": "find all file in current folder which are bigger than _SIZE and less than _SIZE",
+        "id": 515
+    },
+    {
+        "code": "find Path -inum Quantity -exec mv {} File \\;",
+        "text": "find all file and directori with inod number _NUMBER and move them to _REGEX",
+        "id": 516
+    },
+    {
+        "code": "find . -type d -print0 | tar cf dirstructure.tar --null --files-from - --no-recursion",
+        "text": "archiv directori structur under current directori into _FILE",
+        "id": 517
+    },
+    {
+        "code": "find Path -type d -printf '%T+ %p\\n' | sort | head - Quantity",
+        "text": "find directori with least modif time under current directori",
+        "id": 518
+    },
+    {
+        "code": "find Path -iname Regex",
+        "text": "search for file name _FILE in a case-insensit manner",
+        "id": 519
+    },
+    {
+        "code": "find Path -name Regex -exec ln -s {} Regex \\;",
+        "text": "creat a symbol link in directori _FILE for each file and directori under current directori start with _REGEX",
+        "id": 520
+    },
+    {
+        "code": "find Path",
+        "text": "find all file and directori in path expand by glob pattern _FILE",
+        "id": 521
+    },
+    {
+        "code": "find Path -type d -exec chmod Permission {} \\; -or -type f -exec chmod Permission {} \\;",
+        "text": "find all file and directori under _FILE and set directori permiss to _NUMBER and file permiss to _NUMBER",
+        "id": 522
+    },
+    {
+        "code": "join -o 1.1,1.2,1.3,2.1,2.2,2.3 -j Regex <( sort -k Number File ) <( sort -k Number File )",
+        "text": "merg colon-separ inform from _REGEX and _REGEX where second field of both file match sort result base on field for each line output first _NUMBER field of first file follow by first _NUMBER field of second file",
+        "id": 523
+    },
+    {
+        "code": "find Path -group Regex -print",
+        "text": "display all file in file system which belong to group lighttpd",
+        "id": 524
+    },
+    {
+        "code": "find Path -type f -exec basename {} \\; | xargs -I {} rm {}",
+        "text": "remov file in current directori accord to filenam found in _DIRECTORY",
+        "id": 525
+    },
+    {
+        "code": "find Path -perm Permission -print",
+        "text": "check if myfil _NUMBER permiss",
+        "id": 526
+    },
+    {
+        "code": "find Path -name Regex -size +Size -print",
+        "text": "find all _FILE file in _FILE bigger than _SIZE",
+        "id": 527
+    },
+    {
+        "code": "find Path -name Regex -execdir pwd \\;",
+        "text": "search for a shell script in current folder and display current folder path but search from sub directori",
+        "id": 528
+    },
+    {
+        "code": "find Path -type f -regex Regex",
+        "text": "search current directori tree for all imag file",
+        "id": 529
+    },
+    {
+        "code": "find Path -maxdepth Quantity -type f -exec md5sum {} \\; | awk Program",
+        "text": "calcul _REGEX sum of all file in current directori with filenam print first",
+        "id": 530
+    },
+    {
+        "code": "find Path -name Regex -print0 | xargs -0 -I {} rm {}",
+        "text": "remov all _FILE file from _FILE directori tree",
+        "id": 531
+    },
+    {
+        "code": "find /path -type f -name *.ext -exec my_cool_script {} ;",
+        "text": "find all _FILE regular file under _FILE and execut _REGEX for each of them with file path as argument",
+        "id": 532
+    },
+    {
+        "code": "find Path -name Regex -print -xdev",
+        "text": "find file and directori name _FILE in root filesystem partit",
+        "id": 533
+    },
+    {
+        "code": "chgrp -R Regex File",
+        "text": "recurs chang group ownership of everyth within a current directori to _REGEX",
+        "id": 534
+    },
+    {
+        "code": "find Path -maxdepth Quantity -name Regex -exec rm {} \\;",
+        "text": "non-recurs find all _FILE file in a current folder and remov them",
+        "id": 535
+    },
+    {
+        "code": "find Path -type f -name Regex | xargs -n Quantity -I {} dirname {} | xargs -n Quantity -I {} cp -f File {}",
+        "text": "find everi folder with file _FILE within and copi file _FILE to everi one of them",
+        "id": 536
+    },
+    {
+        "code": "find Path -size +Size",
+        "text": "find all file in current directori of size greater than _SIZE",
+        "id": 537
+    },
+    {
+        "code": "rename -n Regex Regex",
+        "text": "perform a dri run replac _REGEX with _REGEX in all file name in current directori",
+        "id": 538
+    },
+    {
+        "code": "column File",
+        "text": "treat each line of _FILE as a valu to be put in one cell of tabl that _REGEX output",
+        "id": 539
+    },
+    {
+        "code": "awk Program Program | column -t",
+        "text": "format each line as _NUMBER column base on extran column",
+        "id": 540
+    },
+    {
+        "code": "find Path -iname Regex -exec grep Regex {} \\; -print | sed -r Program",
+        "text": "search for _REGEX in all _REGEX file under current directori and run sed script _DIRECTORY on output",
+        "id": 541
+    },
+    {
+        "code": "find . -name *.zip -exec sh -c unzip -d `dirname {}` {} ;",
+        "text": "find all _FILE file under current directori and unzip them in same directori as file",
+        "id": 542
+    },
+    {
+        "code": "find Path -user Regex -name Regex",
+        "text": "find all _FILE file own by user vivek",
+        "id": 543
+    },
+    {
+        "code": "find Path -type f -ls | sort -n -r -k Number | head - Quantity",
+        "text": "list largest file in long list format of all file under current directori",
+        "id": 544
+    },
+    {
+        "code": "find Path -mount -depth -print | cpio -p -d -m Regex",
+        "text": "copi a whole directori tree skip file resid on other file system to _REGEX",
+        "id": 545
+    },
+    {
+        "code": "find Path -type f -iname Regex",
+        "text": "search system for regular file whose name are _REGEX ignor case",
+        "id": 546
+    },
+    {
+        "code": "mount -t cifs Regex Regex -o username=Username,password=password",
+        "text": "mount remot _REGEX filesystem _DIRECTORY on _FILE with usernam _REGEX and password _REGEX",
+        "id": 547
+    },
+    {
+        "code": "source <( grep Regex File | sed Program )",
+        "text": "grab _REGEX pair from a window style _FILE file into current shell",
+        "id": 548
+    },
+    {
+        "code": "find Path -name Regex",
+        "text": "find _FILE file in current directori recurs",
+        "id": 549
+    },
+    {
+        "code": "find Path -not \\( -path Regex -prune \\) -name Regex",
+        "text": "exclud directori from find command",
+        "id": 550
+    },
+    {
+        "code": "find Path -name Regex -print0 | xargs -0 -I {} gunzip {}",
+        "text": "find all _FILE file in current directori and decompress them use gunzip",
+        "id": 551
+    },
+    {
+        "code": "find Path -name Regex -or -name Regex",
+        "text": "display file in current folder end with _FILE or _FILE",
+        "id": 552
+    },
+    {
+        "code": "find Path -type f \\( ! -iname Regex \\) -mtime +Timespan -exec ls {} \\;",
+        "text": "display list of all file in current directori which been access in _TIMESPAN exclud hidden file",
+        "id": 553
+    },
+    {
+        "code": "find ./ -name *.txt | perl -p -e s/^(.*\\/(.*)\\.txt)$/mv $1 .\\/foo\\/$2.bar.txt/ | bash",
+        "text": "find all text file in current folder and chang extens of these file and move them to anoth folder",
+        "id": 554
+    },
+    {
+        "code": "rsync -a -f Program -f Program -f Program File File",
+        "text": "archiv all file in _REGEX to _REGEX specifi to includ file _FILE and _FILE",
+        "id": 555
+    },
+    {
+        "code": "find Path -name Regex",
+        "text": "find all file in current directori tree whose name begin with _REGEX",
+        "id": 556
+    },
+    {
+        "code": "false | true",
+        "text": "save exit status of pipe command in a system variabl _REGEX",
+        "id": 557
+    },
+    {
+        "code": "find Path -name Regex -exec echo Regex {} \\;",
+        "text": "print command that execut _REGEX on all _FILE file from current directori tree",
+        "id": 558
+    },
+    {
+        "code": "echo Regex | tee File",
+        "text": "write _REGEX to standard output and to file _FILE",
+        "id": 559
+    },
+    {
+        "code": "chown ${JBOSS_USER}: $(dirname $JBOSS_PIDFILE) || true",
+        "text": "chang owner of directori name of _REGEX to _REGEX and alway return success",
+        "id": 560
+    },
+    {
+        "code": "find dir -type f -exec md5sum {} + > dir.md5",
+        "text": "find all file under dir and calcul _REGEX and save output to _FILE",
+        "id": 561
+    },
+    {
+        "code": "find Path ! -name Regex -prune",
+        "text": "print list of file and directori of current directori",
+        "id": 562
+    },
+    {
+        "code": "find Path -name Regex -exec echo {} \\;",
+        "text": "list all _FILE file and directori under _FILE directori",
+        "id": 563
+    },
+    {
+        "code": "find Path -type f -wholename Regex -exec grep -H Regex {} \\;",
+        "text": "identifi cms _FILE accross all phpbb instal",
+        "id": 564
+    },
+    {
+        "code": "find . -mtime -1 | xargs tar --no-recursion -czf myfile.tgz",
+        "text": "get all file in a current directori modifi in _TIMESPAN",
+        "id": 565
+    },
+    {
+        "code": "find . -maxdepth 1 -type d > dirs_to_remove",
+        "text": "save list of all subdirectori of current directori as _REGEX",
+        "id": 566
+    },
+    {
+        "code": "mkdir Directory",
+        "text": "make directori _REGEX",
+        "id": 567
+    },
+    {
+        "code": "find Path -type f",
+        "text": "display all regular file in a directori",
+        "id": 568
+    },
+    {
+        "code": "uniq -c | sort -n | tail -n Quantity",
+        "text": "print line with most consecut repeat prefix with it count from standard input",
+        "id": 569
+    },
+    {
+        "code": "find Path -cmin -Quantity",
+        "text": "find recurs all file chang within _TIMESPAN start from directori b",
+        "id": 570
+    },
+    {
+        "code": "find . -name *.txt | python hello.py",
+        "text": "find all _FILE file and directori under current directori and execut python script _FILE for each of them with file path as an argument to script",
+        "id": 571
+    },
+    {
+        "code": "rsync -urv --progress dir_a dir_b && rsync -urv --progress dir_b dir_a",
+        "text": "synchron _REGEX and _REGEX to contain latest file in both directori",
+        "id": 572
+    },
+    {
+        "code": "find Path -type f -print0 | xargs -0 -I {} grep -c Regex {} | grep -v Regex",
+        "text": "hunt down file with at least one banana",
+        "id": 573
+    },
+    {
+        "code": "find Path -name Regex | grep -v Regex",
+        "text": "search entir file hierarchi for file end with _REGEX and print all match except for those with _FILE in pathnam",
+        "id": 574
+    },
+    {
+        "code": "find Path -size +Size -and -size -Size",
+        "text": "search for file whose size is between _SIZE and _SIZE",
+        "id": 575
+    },
+    {
+        "code": "find . -name openssl 2>/dev/null",
+        "text": "find all instanc of a specif file in current directori and discard all error",
+        "id": 576
+    },
+    {
+        "code": "curl Regex Regex Regex",
+        "text": "download content from _FILE and output to _FILE",
+        "id": 577
+    },
+    {
+        "code": "echo Regex | ssh Regex",
+        "text": "run command _REGEX on server _FILE",
+        "id": 578
+    },
+    {
+        "code": "md5=($(md5sum file))",
+        "text": "save filenam and hash of _REGEX sum of _REGEX to bash array _REGEX",
+        "id": 579
+    },
+    {
+        "code": "find /path/to/dir -type f -exec printf %.sX {} + | wc -c",
+        "text": "find number of regular file under and below directori _FILE",
+        "id": 580
+    },
+    {
+        "code": "wc -l $( find Path -type f -name Regex )",
+        "text": "count total number of line in all _REGEX file in current directori",
+        "id": 581
+    },
+    {
+        "code": "column -t File | uniq -w Quantity -c",
+        "text": "display content of _REGEX format into a tabl remov duplic line where first _NUMBER charact are duplic and display number of occurr at begin of each line",
+        "id": 582
+    },
+    {
+        "code": "find Path -path Regex",
+        "text": "find all file in current directori tree whose path name match pattern _FILE",
+        "id": 583
+    },
+    {
+        "code": "find Path -daystart -maxdepth Quantity -mmin +Quantity -type f -name Regex Path Path -f {} Path",
+        "text": "delet all regular file with _FILE extens that were modifi in more than _TIMESPAN ago in maximum _NUMBER level down directori _FILE",
+        "id": 584
+    },
+    {
+        "code": "find Path -type d -iname Regex",
+        "text": "find all directori in current directori tree with _REGEX in name",
+        "id": 585
+    },
+    {
+        "code": "find Path -depth -type d -empty -exec rmdir {} \\;",
+        "text": "recurs remov all empti folder under current folder",
+        "id": 586
+    },
+    {
+        "code": "( awk NR % 2 input; awk NR % 2 == 0 input ) | paste - - - | column -s    -t",
+        "text": "format _REGEX as altern row in a tabl",
+        "id": 587
+    },
+    {
+        "code": "find Path -name Regex",
+        "text": "find all _FILE under _FILE directori tree that contain word _REGEX in name",
+        "id": 588
+    },
+    {
+        "code": "find Path -perm Permission -exec ls -l {} \\;",
+        "text": "list file in current directori tree which permiss rwx for user and rw for group and other",
+        "id": 589
+    },
+    {
+        "code": "sleep `10`",
+        "text": "sleep for _TIMESPAN",
+        "id": 590
+    },
+    {
+        "code": "find Path -type f -maxdepth Quantity -exec sed -i Program {} \\;",
+        "text": "replac all match with regex expand by _REGEX with text expand by _REGEX in all regular file under current directori not go into subdirectori and modifi file in-plac",
+        "id": 591
+    },
+    {
+        "code": "cat File",
+        "text": "print content of _FILE",
+        "id": 592
+    },
+    {
+        "code": "echo Regex | od -A n -v -t x1 | tr -d Regex",
+        "text": "convert _REGEX to a string of hexadecim byte",
+        "id": 593
+    },
+    {
+        "code": "cat File | wc -l",
+        "text": "count number of line in all _FILE file",
+        "id": 594
+    },
+    {
+        "code": "find Path -perm -Permission -type f -exec ls -l {} \\;",
+        "text": "find all regular file with group read permiss set in home directori and below and output detail inform about each file",
+        "id": 595
+    },
+    {
+        "code": "find Path -type f | xargs -I {} chmod -v Permission {}",
+        "text": "chang permiss to _NUMBER for all file in current directori tree",
+        "id": 596
+    },
+    {
+        "code": "if find `echo $some_dir` -maxdepth 0 -empty | read v; then echo Empty dir; else Dir is NOT empty fi",
+        "text": "print _REGEX if _REGEX is empti otherwis print _REGEX",
+        "id": 597
+    },
+    {
+        "code": "date -d Regex '+%Y-%m-%d'",
+        "text": "print year-month-d format for given time",
+        "id": 598
+    },
+    {
+        "code": "find Path -type f -exec chgrp Regex {} \\;",
+        "text": "chang group of all regular file in current directori",
+        "id": 599
+    },
+    {
+        "code": "which Regex",
+        "text": "print full path of command _FILE",
+        "id": 600
+    },
+    {
+        "code": "find */201111/*20111130* -name *.jpg -print0 | sort -t _ -nk2 | xargs -0 cat | ffmpeg -f image2pipe -framerate 30 -vcodec mjpeg -i - -vcodec libx264 -profile:v baseline -level 3.0 -movflags +faststart -crf 19 -pix_fmt yuv420p -r 30 output.mp4",
+        "text": "find all _FILE imag in folder which are in path _DIRECTORY and sort them accord to name and convert them into video _FILE",
+        "id": 601
+    },
+    {
+        "code": "yes | head -n Quantity | awk Program",
+        "text": "print a singl line of number from _NUMBER to _NUMBER",
+        "id": 602
+    },
+    {
+        "code": "find Path -mtime -Timespan -user Regex -exec ln -s {} Regex \\;",
+        "text": "creat symbol link in directori _FILE to all file locat in directori _REGEX and that been modifi earlier _TIMESPAN and own by user _REGEX",
+        "id": 603
+    },
+    {
+        "code": "find Path -name Regex -type d -exec mv {} File \\; -exec mkdir Directory \\; -exec sh -c mv File File \\;",
+        "text": "move each of _REGEX directori in current directori to anoth directori whose name is constitut by append _FILE to each directori name and creat a directori name messag in directori move all _FILE file into directori",
+        "id": 604
+    },
+    {
+        "code": "tac File | sed Program | tac",
+        "text": "replac last occurr of _REGEX with _FILE",
+        "id": 605
+    },
+    {
+        "code": "sudo setfacl -R -m u:www-data:rwx -m u:`whoami`:rwx app/cache app/logs",
+        "text": "recurs set file access control list of _FILE and _FILE to rwx for current user and for user _REGEX",
+        "id": 606
+    },
+    {
+        "code": "basename -- Regex",
+        "text": "from a script output name of script without contain directori from a shell output name of shell",
+        "id": 607
+    },
+    {
+        "code": "find Path -type f -print | xargs -I {} grep -l -i Regex {}",
+        "text": "list all regular file resid in current directori tree and contain string _FILE",
+        "id": 608
+    },
+    {
+        "code": "top -l 1 -s 0 -stats mem -pid PID",
+        "text": "get virtual privat memori use of process",
+        "id": 609
+    },
+    {
+        "code": "find Path -type f \\( -ctime Timespan -or -atime Timespan -or -mtime Timespan \\) -printf \"./%P\\n\"",
+        "text": "list file under _REGEX which were modifi access or whose status were chang _REGEX ago replac _REGEX path string to _DIRECTORY",
+        "id": 610
+    },
+    {
+        "code": "find Path -exec file {} \\;",
+        "text": "recurs search for everyth under current directori display human-read file type descript for each entri",
+        "id": 611
+    },
+    {
+        "code": "find Path -newermt Regex",
+        "text": "find all file in folder _FILE which been modifi after a specif date",
+        "id": 612
+    },
+    {
+        "code": "mv File File",
+        "text": "move all hidden file in _DIRECTORY to _DIRECTORY",
+        "id": 613
+    },
+    {
+        "code": "find Path -name Regex | grep -v Regex | grep -v Regex",
+        "text": "find all file and directori with _FILE extens under current directori tree and show list by exclud path that contain _REGEX and _REGEX",
+        "id": 614
+    },
+    {
+        "code": "rsync -avz -e ssh -p $portNumber user@remote.host:/path/to/copy /local/path",
+        "text": "archiv _FILE on host _REGEX as user _REGEX to _FILE via ssh on port _REGEX",
+        "id": 615
+    },
+    {
+        "code": "find Path -name Regex -prune -or \\( ! -name Regex -print0 \\)",
+        "text": "find all file and directori ignor _REGEX file and directori without descend into _FILE directori with null charact as delimit",
+        "id": 616
+    },
+    {
+        "code": "ls File | tee File File",
+        "text": "display list of file end with _FILE in current folder to termin twice and output it to text file _FILE",
+        "id": 617
+    },
+    {
+        "code": "od -t x1 -A n File | head",
+        "text": "display first _NUMBER line of byte hex dump with no file offset data for _FILE",
+        "id": 618
+    },
+    {
+        "code": "rename Regex Regex",
+        "text": "add _REGEX to begin of name of _FILE renam it to _FILE",
+        "id": 619
+    },
+    {
+        "code": "find Path -name Regex -print0 -type f | xargs -0 -I {} grep Regex {}",
+        "text": "find _FILE file with text _REGEX",
+        "id": 620
+    },
+    {
+        "code": "read -a Regex",
+        "text": "read a line from standard input and save each word in bash array variabl _REGEX",
+        "id": 621
+    },
+    {
+        "code": "find Path -print",
+        "text": "display all file in home folder",
+        "id": 622
+    },
+    {
+        "code": "find Path -name Regex",
+        "text": "search for all text file in folder _FILE",
+        "id": 623
+    },
+    {
+        "code": "find Path -type f -mtime +Timespan -print0 | xargs -0 -I {} rm {}",
+        "text": "find all file under current directori that were modifi more than _TIMESPAN ago and delet them",
+        "id": 624
+    },
+    {
+        "code": "find Path -type f -atime -Timespan",
+        "text": "display all file in current folder for file which been access in _TIMESPAN",
+        "id": 625
+    },
+    {
+        "code": "find Path -name Regex -exec ls {} +",
+        "text": "list all _FILE file in home directori tree in a fast way",
+        "id": 626
+    },
+    {
+        "code": "seq Number | awk Program",
+        "text": "print number from _NUMBER to _NUMBER with _NUMBER valu per line",
+        "id": 627
+    },
+    {
+        "code": "tac File | sed -n -e Program | tac File",
+        "text": "extract text between _REGEX and _REGEX if and onli if _REGEX is follow by _REGEX",
+        "id": 628
+    },
+    {
+        "code": "find Path -type f -group Regex",
+        "text": "find all regular file in entir filesystem that belong to group _REGEX",
+        "id": 629
+    },
+    {
+        "code": "find Path -mtime +Timespan",
+        "text": "find all file that been modifi _DATETIME",
+        "id": 630
+    },
+    {
+        "code": "find Path -type f",
+        "text": "find all file under current directori",
+        "id": 631
+    },
+    {
+        "code": "find . -type d -depth 1 -print0 | xargs -0 sh -c for dir; do pushd \"$dir\" && latexmk -c && popd; done fnord",
+        "text": "find all directori under current directori and run a command chang into everi _FILE",
+        "id": 632
+    },
+    {
+        "code": "chown $(stat -c%u:%g $srcdir) $dstdir",
+        "text": "clone permiss of _REGEX to _REGEX",
+        "id": 633
+    },
+    {
+        "code": "mktemp -u -p Regex",
+        "text": "generat default-format file name of temporari file in a _FILE folder and save path to it in a variabl _REGEX",
+        "id": 634
+    },
+    {
+        "code": "find Path -type l",
+        "text": "list symbol link under directori _REGEX",
+        "id": 635
+    },
+    {
+        "code": "ld --verbose | grep SEARCH_DIR | tr -s  ; \\012",
+        "text": "print linker search path use ld format on new line",
+        "id": 636
+    },
+    {
+        "code": "sed -n Program",
+        "text": "cut all remot path from http url receiv from standard input keep onli protocol identifi and host name of form _FILE",
+        "id": 637
+    },
+    {
+        "code": "find Path -name Regex -exec grep -H -i -n Regex {} + | basename $( cut -d Regex -f Number )",
+        "text": "find _FILE file in current directori tree that contain _REGEX and print name",
+        "id": 638
+    },
+    {
+        "code": "find Path -type f | grep -i Regex",
+        "text": "find all file under _FILE match case insensit regex _REGEX in path",
+        "id": 639
+    },
+    {
+        "code": "brew --prefix",
+        "text": "display homebrew 's instal path",
+        "id": 640
+    },
+    {
+        "code": "seq 5 | perl -ne chomp; print \"$_ \"; END{print \"\\n\"}",
+        "text": "print space separ number from _NUMBER to _NUMBER",
+        "id": 641
+    },
+    {
+        "code": "find Path -type d -empty -exec rmdir {} \\;",
+        "text": "delet all empti directori in current folder",
+        "id": 642
+    },
+    {
+        "code": "$( readlink -f $( dirname Regex ) )",
+        "text": "print real path of folder contain _REGEX file",
+        "id": 643
+    },
+    {
+        "code": "find Path -name Regex -print | cpio -p -d -m Regex",
+        "text": "copi all _FILE file in _DIRECTORY directori tree to _DIRECTORY preserv directori hierarchi",
+        "id": 644
+    },
+    {
+        "code": "rsync -a --relative File File",
+        "text": "archiv _FILE to host _REGEX use relat path name",
+        "id": 645
+    },
+    {
+        "code": "find / -name *.md -type f -exec markdown -o {}.html {} ;",
+        "text": "find all _FILE file in entir file system and convert them to _FILE file",
+        "id": 646
+    },
+    {
+        "code": "find .|grep FooBar|yargs -l 203 cp --after ~/foo/bar",
+        "text": "find all file and directori under current directori with _REGEX in path and copi them to _FILE",
+        "id": 647
+    },
+    {
+        "code": "touch -r File File",
+        "text": "set timestamp of b to same one as a",
+        "id": 648
+    },
+    {
+        "code": "pstree Regex",
+        "text": "show onli process tree root at process of user",
+        "id": 649
+    },
+    {
+        "code": "grep -v pattern file > temp && mv temp file",
+        "text": "delet all line in _REGEX that contain _REGEX use _REGEX as temporari work file",
+        "id": 650
+    },
+    {
+        "code": "find Path -name Regex | xargs -I {} grep Regex {}",
+        "text": "search all python file in current directori tree for string _REGEX",
+        "id": 651
+    },
+    {
+        "code": "find Path -size +Size -size -Size -print",
+        "text": "list all file that are between _NUMBER and _SIZE in size",
+        "id": 652
+    },
+    {
+        "code": "fg",
+        "text": "get a current job back to foreground",
+        "id": 653
+    },
+    {
+        "code": "set -e",
+        "text": "abort shell or script on first fail command",
+        "id": 654
+    },
+    {
+        "code": "find Path -maxdepth Quantity -type d -print | xargs -I {} echo Regex {}",
+        "text": "find directori in current directori and print them append with a string liter _REGEX",
+        "id": 655
+    },
+    {
+        "code": "uname -r",
+        "text": "set variabl valu to current kernel releas name",
+        "id": 656
+    },
+    {
+        "code": "ping -w Timespan Regex",
+        "text": "send ping request to hostnam specifi by variabl _FILE for _TIMESPAN",
+        "id": 657
+    },
+    {
+        "code": "find Path -name Regex",
+        "text": "display all _FILE file in current folder",
+        "id": 658
+    },
+    {
+        "code": "touch -d Regex File",
+        "text": "set timestamp of all _FILE file in current directori to date specifi",
+        "id": 659
+    },
+    {
+        "code": "du -a File | sort -n -r | head",
+        "text": "print top _NUMBER largest file and directori",
+        "id": 660
+    },
+    {
+        "code": "find Path -iname Regex",
+        "text": "search for file and directori with a case insensit _FILE extens in entir file system",
+        "id": 661
+    },
+    {
+        "code": "xxx |& tee /dev/null",
+        "text": "redirect stderr to stdout and write to consol and _FILE",
+        "id": 662
+    },
+    {
+        "code": "v=$(whoami | perl -e print uc <>)",
+        "text": "save user name in all capit of current user to variabl _REGEX",
+        "id": 663
+    },
+    {
+        "code": "scp -r File File File",
+        "text": "recurs copi directori _REGEX and _REGEX to directori _FILE on host _REGEX connect as ssh user match current user on local host via default tcp port for ssh",
+        "id": 664
+    },
+    {
+        "code": "find Path -type f -empty -print0 | xargs -0 -I {} rm {}",
+        "text": "remov all empti regular file under current directori and below",
+        "id": 665
+    },
+    {
+        "code": "find Path -name Regex -ls",
+        "text": "display list of all hidden file in home folder",
+        "id": 666
+    },
+    {
+        "code": "find Path -name Regex -exec echo {} Regex \\;",
+        "text": "find all file in current directori which end with orig",
+        "id": 667
+    },
+    {
+        "code": "find Path -maxdepth Quantity -type d | awk -F Regex Program",
+        "text": "list all directori in current directori work even if weird name or name start with a dash",
+        "id": 668
+    },
+    {
+        "code": "find Path -prune",
+        "text": "prune all file in current directori onli current directori is output",
+        "id": 669
+    },
+    {
+        "code": "find Path -type d -name Regex",
+        "text": "search for directori start with _REGEX in entir file system",
+        "id": 670
+    },
+    {
+        "code": "ifconfig | grep -o -P Regex",
+        "text": "get ip address of all activ network interfac and save to _REGEX variabl",
+        "id": 671
+    },
+    {
+        "code": "echo -e Regex | nl",
+        "text": "generat obsolet _NUMBER charact spanish alphabet and number each charact",
+        "id": 672
+    },
+    {
+        "code": "find Path -type f -exec chmod Permission {} +",
+        "text": "find all file under _FILE and set permiss to _NUMBER",
+        "id": 673
+    },
+    {
+        "code": "diff <(fold -w1 <<< $s) <(fold -w1 <<< $r) | awk /[<>]/{printf $2}",
+        "text": "print differ between _NUMBER string _REGEX and _REGEX",
+        "id": 674
+    },
+    {
+        "code": "$( dirname Regex )",
+        "text": "print directori where execut script is locat",
+        "id": 675
+    },
+    {
+        "code": "find Path -name Regex | xargs -I {} rm {}",
+        "text": "remov all file with name like _FILE from current directori tree",
+        "id": 676
+    },
+    {
+        "code": "find Path | xargs -i -I {} rm -f {} {}",
+        "text": "forc delet all file in current folder",
+        "id": 677
+    },
+    {
+        "code": "dig Regex | grep Regex | grep -v Regex | awk Program",
+        "text": "grep domain _REGEX ip name from long dig list",
+        "id": 678
+    },
+    {
+        "code": "read -a arr <<< 1 4 6 9 11 17 22",
+        "text": "save _REGEX as a bash array _REGEX",
+        "id": 679
+    },
+    {
+        "code": "find Path -exec grep -i Regex {} \\;",
+        "text": "search file in current directori tree for line contain string _REGEX",
+        "id": 680
+    },
+    {
+        "code": "curl -x http://proxy_server:proxy_port --proxy-user username:password -L http://url",
+        "text": "download content from _FILE use a proxi server",
+        "id": 681
+    },
+    {
+        "code": "df -P File | awk Program",
+        "text": "print mount point of file system contain _REGEX",
+        "id": 682
+    },
+    {
+        "code": "yes Regex | rm -i -r File File File",
+        "text": "answer _REGEX to ani prompt in interact recurs remov of _REGEX _REGEX and _REGEX",
+        "id": 683
+    },
+    {
+        "code": "which Regex",
+        "text": "save full path of command _FILE to variabl _REGEX",
+        "id": 684
+    },
+    {
+        "code": "fold -w1 file | pr -4t | sed s/\\s*-\\s*//g | tr -d \\n | sed $a\\",
+        "text": "print each column in _REGEX with _REGEX charact remov",
+        "id": 685
+    },
+    {
+        "code": "top -l 1 -s 0 -stats mem -pid $PID",
+        "text": "show intern memori size use by process whose pid is specifi by variabl pid",
+        "id": 686
+    },
+    {
+        "code": "find Path -name Regex -and -type d -prune -or -print",
+        "text": "print list of file in current directori tree skip svn file",
+        "id": 687
+    },
+    {
+        "code": "cat File | xargs",
+        "text": "print join string from _REGEX use space symbol as separ",
+        "id": 688
+    },
+    {
+        "code": "ldd /bin/* /usr/bin/* ... | sed -e /^[^\\t]/ d; s/^\\t\\(.* => \\)\\?\\([^ ]*\\) (.*/\\2/g | sort | uniq -c",
+        "text": "rank usag of librari for a set of tool _FILE",
+        "id": 689
+    },
+    {
+        "code": "watch -d top -n1 | grep mysql",
+        "text": "execut _REGEX everi _TIMESPAN and highlight differ between run",
+        "id": 690
+    },
+    {
+        "code": "find Path -type f -size +Size -print | xargs -I {} ls -l -d {} | more",
+        "text": "list all file under current directori that are greater than _REGEX byte in size",
+        "id": 691
+    },
+    {
+        "code": "who | grep $(tty | sed 's:/dev/::')",
+        "text": "list all user _FILE into current tti",
+        "id": 692
+    },
+    {
+        "code": "find /ghi /jkl -type f -name abc.def 2> /dev/null -exec ls {} ; -exec cat {} ;",
+        "text": "list and see content of all _FILE file under directori _FILE and _FILE",
+        "id": 693
+    },
+    {
+        "code": "find Path -type d -name Regex -prune -or -type f -print",
+        "text": "find all file in current directori tree ignor _FILE directori",
+        "id": 694
+    },
+    {
+        "code": "find Path -name Regex",
+        "text": "locat _FILE in _FILE directori tree",
+        "id": 695
+    },
+    {
+        "code": "od -A n -N File -t u2 File",
+        "text": "read _SIZE from _FILE and print them as an unsign integ",
+        "id": 696
+    },
+    {
+        "code": "echo -n Regex | md5sum",
+        "text": "calcul _REGEX sum of empti string",
+        "id": 697
+    },
+    {
+        "code": "find Path -type f | xargs -I {} grep Regex {}",
+        "text": "search regular file of current directori tree for string _REGEX",
+        "id": 698
+    },
+    {
+        "code": "find Path -name Regex -prune -or -name Regex -type f -print",
+        "text": "search _FILE directori recurs for regular file name _REGEX ignor _REGEX directori",
+        "id": 699
+    },
+    {
+        "code": "find Path -exec cat {} \\;",
+        "text": "print content of all file found regard seach option _REGEX",
+        "id": 700
+    },
+    {
+        "code": "find Path -type d -perm -Permission",
+        "text": "find all directori in current one recurs which write bit set for _REGEX",
+        "id": 701
+    },
+    {
+        "code": "find Path -name Regex -or -name Regex",
+        "text": "find all _FILE cpp file in current folder",
+        "id": 702
+    },
+    {
+        "code": "rmdir $( dirname Regex )",
+        "text": "cut off last part from path _REGEX and delet result folder if empti",
+        "id": 703
+    },
+    {
+        "code": "read -r -s -p Regex",
+        "text": "silent read a line from standard input into variabl _REGEX without backslash escap and use prompt _REGEX",
+        "id": 704
+    },
+    {
+        "code": "find Path -print",
+        "text": "find all file and directori under current directori",
+        "id": 705
+    },
+    {
+        "code": "find Path -perm Permission -exec chmod Permission {} \\;",
+        "text": "remov all permiss for other to all file in current folder which read write execut access to user group and other",
+        "id": 706
+    },
+    {
+        "code": "echo Regex | nl -b a -s Regex",
+        "text": "add a number prefix follow by _REGEX to each line in _REGEX",
+        "id": 707
+    },
+    {
+        "code": "chmod +Permission File",
+        "text": "add execut permiss to _FILE",
+        "id": 708
+    },
+    {
+        "code": "time -o time.log command",
+        "text": "use gnu tool _REGEX to estim time consum by command _REGEX and redirect output to file",
+        "id": 709
+    },
+    {
+        "code": "find Path | grep Regex | xargs -I {} cp {} File",
+        "text": "copi all file with _REGEX in path under current directori to _FILE directori",
+        "id": 710
+    },
+    {
+        "code": "find Path -type d -name Regex -exec dirname {} +",
+        "text": "find _FILE directori in directori tree _FILE and print pathnam of parent",
+        "id": 711
+    },
+    {
+        "code": "find Path -name Regex -print0 | xargs -0 -I {} mv {} File",
+        "text": "move all file in current directori tree that match _REGEX to _REGEX",
+        "id": 712
+    },
+    {
+        "code": "ping Regex -c Quantity | grep -E -o Regex | cut -f Number -d Regex",
+        "text": "set variabl ping to _NUMBER if it 's possibl to ping host address to _NUMBER otherwis",
+        "id": 713
+    },
+    {
+        "code": "find Path -name Regex -mtime +Timespan",
+        "text": "find all file and directori under current directori tree that start with _REGEX and end with _REGEX in name and were modifi more than _TIMESPAN ago",
+        "id": 714
+    },
+    {
+        "code": "find Path -name Regex -exec ls -l -r -t {} + | awk Program",
+        "text": "list all _FILE file and directori under _DIRECTORY directori",
+        "id": 715
+    },
+    {
+        "code": "find Path -iname Regex \\( -type d -or -type f \\) -mtime -Timespan",
+        "text": "find all file and directori under current directori tree that modifi in _TIMESPAN and contain _REGEX in name",
+        "id": 716
+    },
+    {
+        "code": "find Path -name Regex -delete",
+        "text": "remov all _FILE file in and below current directori",
+        "id": 717
+    },
+    {
+        "code": "yes Regex | bash",
+        "text": "display infinit scroll of random ascii art",
+        "id": 718
+    },
+    {
+        "code": "tail -n +Quantity File",
+        "text": "print content of _REGEX start from line _NUMBER",
+        "id": 719
+    },
+    {
+        "code": "find . -name *.txt -printf %f\\n > /tmp/a",
+        "text": "display all text file in current folder and save output to a file",
+        "id": 720
+    },
+    {
+        "code": "find Path -path Regex",
+        "text": "find all file in current directori tree whose pathnam match pattern _FILE",
+        "id": 721
+    },
+    {
+        "code": "tr Regex Regex",
+        "text": "replac all _REGEX with _REGEX from standard input",
+        "id": 722
+    },
+    {
+        "code": "fold -w30 longline | pr -20ts|",
+        "text": "insert _REGEX everi _NUMBER charact in file _REGEX",
+        "id": 723
+    },
+    {
+        "code": "cd $( ls -d File | grep Regex )",
+        "text": "go into first directori whose name contain _NUMBER",
+        "id": 724
+    },
+    {
+        "code": "find Path -path Regex -prune -or -name Regex -print",
+        "text": "search for file and directori name _FILE under current directori tree without travers into _FILE",
+        "id": 725
+    },
+    {
+        "code": "find Path -type 'd' | grep -v Regex | xargs -I {} rmdir {}",
+        "text": "find recurs all folder in current folder which path not contain _REGEX string and remov onli one without file and anoth folder within",
+        "id": 726
+    },
+    {
+        "code": "echo Regex | cat",
+        "text": "print _REGEX _REGEX",
+        "id": 727
+    },
+    {
+        "code": "dig Regex Regex",
+        "text": "save short dns lookup output of _REGEX to _REGEX variabl",
+        "id": 728
+    },
+    {
+        "code": "ps -a -u Regex | awk Program | xargs -I {} pstree {}",
+        "text": "print process tree for each process own by user _REGEX",
+        "id": 729
+    },
+    {
+        "code": "find Path -amin +Quantity -amin -Quantity",
+        "text": "find all _FILE under _FILE directori tree that been access in last _NUMBER to _TIMESPAN",
+        "id": 730
+    },
+    {
+        "code": "find Path -perm Permission",
+        "text": "find all file in home directori with open permiss",
+        "id": 731
+    },
+    {
+        "code": "find Path -maxdepth Quantity -type d",
+        "text": "find all level _NUMBER subdirectori of current directori",
+        "id": 732
+    },
+    {
+        "code": "gzip -c mysqldbbackup.sql | uuencode mysqldbbackup.sql.gz | mail -s MySQL DB backup@email.com",
+        "text": "compress _FILE with gzip and email it with subject _REGEX to _FILE",
+        "id": 733
+    },
+    {
+        "code": "date +%a | tr Regex Regex",
+        "text": "save small letter short day name of week to variabl _REGEX",
+        "id": 734
+    },
+    {
+        "code": "find / -name myfile -type f -print 2> /dev/null",
+        "text": "search system for regular file _REGEX ignor permiss deni error",
+        "id": 735
+    },
+    {
+        "code": "ls -hal /root/ > /root/test.out",
+        "text": "print long list of content in a root folder includ hidden file with human-read size and store output to _FILE file",
+        "id": 736
+    },
+    {
+        "code": "$( date -u -d Regex +\"%s\" )",
+        "text": "repres utc date given in time string _FILE as number of second sinc epoch and save it in _REGEX variabl",
+        "id": 737
+    },
+    {
+        "code": "curl -s http://page.that.serves.json.com/json/ | json_xs",
+        "text": "download content from _DIRECTORY and format it as _FILE",
+        "id": 738
+    },
+    {
+        "code": "find Path -type d | cpio -p -d -v -m Regex",
+        "text": "copi directori hierarchi of current directori to _REGEX",
+        "id": 739
+    },
+    {
+        "code": "find . -iname *.jar | xargs -n1 zipinfo",
+        "text": "list detail inform about all _FILE file in current directori tree",
+        "id": 740
+    },
+    {
+        "code": "mktemp --dry-run Regex",
+        "text": "creat _REGEX random file name and save it in _REGEX variabl",
+        "id": 741
+    },
+    {
+        "code": "find /target/path -type f -exec your_command_here {} ;",
+        "text": "execut script _REGEX for each file from directori tree _FILE pass filenam as an argument to script",
+        "id": 742
+    },
+    {
+        "code": "ls -l File",
+        "text": "list file descriptor of a current process",
+        "id": 743
+    },
+    {
+        "code": "ifconfig Regex | sed -n Program",
+        "text": "get ip address of _REGEX network interfac",
+        "id": 744
+    },
+    {
+        "code": "ssh -l Regex -p Regex Regex",
+        "text": "ssh into _REGEX on port _NUMBER as user _REGEX",
+        "id": 745
+    },
+    {
+        "code": "ps aux",
+        "text": "show process for all user _FILE and those not attach to a termin",
+        "id": 746
+    },
+    {
+        "code": "find . -name .git -prune -o -type f -exec perl -i -pe s/\\Q$1\\E/\\L$2\\E/i {} +",
+        "text": "find all file under current directori without descend into _FILE directori and replac match of regex _REGEX with _REGEX in those file where _REGEX and _REGEX will be expand in current shell",
+        "id": 747
+    },
+    {
+        "code": "find Path Path -name Regex -type f -exec chmod Permission {} \\;",
+        "text": "chang permiss of _FILE file under directori htdoc and cgi-bin to _NUMBER",
+        "id": 748
+    },
+    {
+        "code": "which -a Regex",
+        "text": "print all match command in _REGEX for command _REGEX",
+        "id": 749
+    },
+    {
+        "code": "sort File | uniq | cut -f Number -d Regex | uniq -c | rev",
+        "text": "find all instanc of first column with uniqu rest of line and output a count for each first column that found in uniqu line",
+        "id": 750
+    },
+    {
+        "code": "find Path -name Regex -type f -exec wc -l File \\;",
+        "text": "count number of line in everi regular _FILE file in current directori tree",
+        "id": 751
+    },
+    {
+        "code": "bzip2 -k File",
+        "text": "compress file _FILE keep origin file in place",
+        "id": 752
+    },
+    {
+        "code": "find Path -iname Regex",
+        "text": "display all _FILE in current folder",
+        "id": 753
+    },
+    {
+        "code": "find Path -type f -perm -Permission",
+        "text": "find all file under _FILE with _NUMBER permiss",
+        "id": 754
+    },
+    {
+        "code": "setarch `uname -m` -R ./yourProgram",
+        "text": "run _FILE without address space random report actual machin type",
+        "id": 755
+    },
+    {
+        "code": "find . -type f -maxdepth 1 ! -name .* -exec printf %.0s.\\n {} + | wc -l",
+        "text": "find all regular file in current folder exclud sub directori and hidden folder and display count",
+        "id": 756
+    },
+    {
+        "code": "find Path -name Regex -type d -exec rm -r {} \\;",
+        "text": "remov all directori call _REGEX from current directori tree",
+        "id": 757
+    },
+    {
+        "code": "for d in /home/*/; do find $d -type d -name bin | grep -q . || echo $d; done",
+        "text": "find all top level directori under _FILE that doesn 't contain a file or directori name _FILE",
+        "id": 758
+    },
+    {
+        "code": "shred -v -n File -z -u File",
+        "text": "overwrit file _FILE with zero and remov show progress while execut",
+        "id": 759
+    },
+    {
+        "code": "find Path -maxdepth Quantity -empty -not -name Regex",
+        "text": "list onli non-hidden empti file onli in current directori",
+        "id": 760
+    },
+    {
+        "code": "ssh -t Regex command",
+        "text": "ssh into _REGEX with forc pseudo-termin alloc execut _REGEX and save output to variabl _REGEX",
+        "id": 761
+    },
+    {
+        "code": "find Path -name Regex -type f -exec cp --parents {} File \\;",
+        "text": "find _FILE file in _FILE directori recurs and copi them to directori _FILE",
+        "id": 762
+    },
+    {
+        "code": "find Path -type f -perm -Permission -printf '%p has world write -permissions\\n'",
+        "text": "find file with _NUMBER permiss in entir file system and print them with string _REGEX append after everi path",
+        "id": 763
+    },
+    {
+        "code": "find Path -type f \\( -iname Regex -or -iname Regex \\)",
+        "text": "use find command to search for _FILE and _FILE file",
+        "id": 764
+    },
+    {
+        "code": "mount | sed -n -e Program",
+        "text": "print path of all network mount",
+        "id": 765
+    },
+    {
+        "code": "yes | cat -n | head - Quantity | awk Program",
+        "text": "print everi _REGEX line from _NUMBER line of _REGEX with line number",
+        "id": 766
+    },
+    {
+        "code": "find Path -type f -name Regex -execdir rename Regex {} \\;",
+        "text": "find all regular _FILE file under and below _FILE and renam them prefix name with _REGEX",
+        "id": 767
+    },
+    {
+        "code": "find Path -name Regex -print0 | xargs -0 -I {} grep -n -H Regex {}",
+        "text": "search _FILE file found in current directori tree for string _REGEX",
+        "id": 768
+    },
+    {
+        "code": "stat --printf=%y %n\\n $(ls -tr $(find * -type f))",
+        "text": "recurs list all file in a current folder and print full path along with modif time",
+        "id": 769
+    },
+    {
+        "code": "source <( echo Regex )",
+        "text": "set variabl _REGEX to _NUMBER",
+        "id": 770
+    },
+    {
+        "code": "find Path -type f -printf '%T@ %p\\n' | sort -n -r | head - Quantity | cut -f Number -d Regex | sed -e Program | xargs -I {} ls -U -l {}",
+        "text": "print _NUMBER latest modifi file within current directori",
+        "id": 771
+    },
+    {
+        "code": "find Path -name Regex -type f",
+        "text": "find all file under current directori match pattern _FILE in name",
+        "id": 772
+    },
+    {
+        "code": "find . -type f -exec printf %.0sbla\\n {} +",
+        "text": "find all regular file in current directori and display file name with new line as delimit",
+        "id": 773
+    },
+    {
+        "code": "find Path -type f | xargs -I {} md5sum {} | sort | uniq -D w32",
+        "text": "list all file with path that ident content",
+        "id": 774
+    },
+    {
+        "code": "split --number Quantity File Regex",
+        "text": "split _REGEX into _NUMBER file with about equal number of line each and use prefix _REGEX",
+        "id": 775
+    },
+    {
+        "code": "find Path -type f -printf '%20s %p\\n' | sort -n | cut -b Number | tr Regex Regex | xargs -0 -I {} ls -l -a -S -r {}",
+        "text": "search current directori recurs for largest file",
+        "id": 776
+    },
+    {
+        "code": "find Path -nouser -exec chown Regex {} \\;",
+        "text": "chang all file with no user under _FILE to owner _REGEX and group _REGEX",
+        "id": 777
+    },
+    {
+        "code": "find Path -type f -exec chmod Permission {} +",
+        "text": "set permiss to _NUMBER for all regular file in current directori tree",
+        "id": 778
+    },
+    {
+        "code": "rsync File File",
+        "text": "copi all file in _FILE to _FILE on host _FILE authent as user _REGEX",
+        "id": 779
+    },
+    {
+        "code": "find Path Path -name Regex -print",
+        "text": "find all file and directori name _FILE under _FILE and _FILE directori tree",
+        "id": 780
+    },
+    {
+        "code": "find Path -iname Regex -type f -exec sed Program -i Regex {} \\; -exec rm File \\;",
+        "text": "find _FILE _REGEX file with bom and correct them",
+        "id": 781
+    },
+    {
+        "code": "find Path -mindepth Quantity -name Regex",
+        "text": "search for file specifi minimum depth of search",
+        "id": 782
+    },
+    {
+        "code": "find ~/container -mindepth 3 -type f | while read file; do mv $file $(dirname $file)/..; done",
+        "text": "find all regular file start from level _NUMBER of directori tree _FILE and move them one level up",
+        "id": 783
+    },
+    {
+        "code": "cat `find . -type f` > out.txt",
+        "text": "display content of all regular file in current folder and save output to _FILE",
+        "id": 784
+    },
+    {
+        "code": "ping host | perl -nle print scalar(localtime), \" \", $_",
+        "text": "add a date time stamp to everi line of output in _REGEX",
+        "id": 785
+    },
+    {
+        "code": "mkdir Directory",
+        "text": "make directori _FILE",
+        "id": 786
+    },
+    {
+        "code": "echo Regex | awk Program",
+        "text": "trim lead and trail whitespac from variabl _REGEX",
+        "id": 787
+    },
+    {
+        "code": "ls -1 | perl -l40pe0",
+        "text": "list all file in a current folder separ name with space",
+        "id": 788
+    },
+    {
+        "code": "file File",
+        "text": "display human-read file type descript of _FILE",
+        "id": 789
+    },
+    {
+        "code": "sed Program File | split -d -l Quantity File Regex",
+        "text": "add newlin befor all _REGEX and consequ occurr of _REGEX in file _REGEX and write each line from output to file with prefix _REGEX and numer suffix",
+        "id": 790
+    },
+    {
+        "code": "find Path -type l -name Regex -ls",
+        "text": "list _REGEX link in _FILE directori with inod inform and file to which it point to",
+        "id": 791
+    },
+    {
+        "code": "find -P Path -type f | rev | cut -d Regex -f Number | rev | cut -d Regex -f Number | cut -d Regex -f Number | sort | uniq -c",
+        "text": "display a count of regular file in each directori at current level",
+        "id": 792
+    },
+    {
+        "code": "find -L Path -type l",
+        "text": "find all broken symlink under current directori",
+        "id": 793
+    },
+    {
+        "code": "uname -m | grep Regex",
+        "text": "check if current system is run in _REGEX address",
+        "id": 794
+    },
+    {
+        "code": "find Path -name Regex",
+        "text": "search directori tree _REGEX for _FILE file",
+        "id": 795
+    },
+    {
+        "code": "find Path -name Regex -exec grep -E Regex {} \\;",
+        "text": "search for _REGEX in all _FILE file under current directori",
+        "id": 796
+    },
+    {
+        "code": "find Path \\( -name Regex -or -name Regex -or -name Regex \\) -print | xargs -I {} chmod Permission {}",
+        "text": "find all _REGEX _REGEX and _REGEX file under current directori and chang permiss to _NUMBER",
+        "id": 797
+    },
+    {
+        "code": "find Path -name Regex -exec grep -w Regex {} \\; -print | grep Regex",
+        "text": "find all file in current folder end with _FILE and search for a word in all these file",
+        "id": 798
+    },
+    {
+        "code": "ln -s `canonical.bash foo` bar",
+        "text": "creat a symbol link name _REGEX to file that name is a result of command _FILE _REGEX",
+        "id": 799
+    },
+    {
+        "code": "find Path -type d -maxdepth Quantity",
+        "text": "search directori match pattern _FILE for level _NUMBER subdirectori",
+        "id": 800
+    },
+    {
+        "code": "find Path -mtime +Timespan -type f -size +Size -ls",
+        "text": "find file with size more than _SIZE and which are more than _TIMESPAN old under _FILE directori",
+        "id": 801
+    },
+    {
+        "code": "find Path -type f -print0 | xargs -0 -I {} grep -E Regex {} | grep -E -v Regex",
+        "text": "search current directori for file whose name start with _REGEX ignor svn git and _FILE file",
+        "id": 802
+    },
+    {
+        "code": "find ~ -type f ( -iname *.mp3 -o -iname *.ogg ) > mynewplaylist.m3u",
+        "text": "make a playlist out of all _FILE and _FILE file in home directori",
+        "id": 803
+    },
+    {
+        "code": "sed -i $( whoami ) File",
+        "text": "run sed command _FILE on _FILE where _REGEX is replac with current user name",
+        "id": 804
+    },
+    {
+        "code": "find Path -type d | grep -E -v Regex | less",
+        "text": "find directori in _FILE and show onli those that doesn 't match regex _FILE",
+        "id": 805
+    },
+    {
+        "code": "find Path -atime -Timespan -name Regex",
+        "text": "display all _FILE file in folder _FILE which been access in _TIMESPAN",
+        "id": 806
+    },
+    {
+        "code": "ssh Regex -l Regex",
+        "text": "ssh into _REGEX with login name _REGEX",
+        "id": 807
+    },
+    {
+        "code": "find Path -xdev -inum Quantity | xargs -I {} rm {}",
+        "text": "delet all hard link to physic file with inod number _NUMBER",
+        "id": 808
+    },
+    {
+        "code": "echo $( basename $( dirname $( dirname Regex ) ) )",
+        "text": "strip _NUMBER last section from path _REGEX and print basenam of rest part",
+        "id": 809
+    },
+    {
+        "code": "find Path -mtime +Timespan -mtime -Timespan",
+        "text": "find all file in folder _FILE which been modifi between _NUMBER to _TIMESPAN ago",
+        "id": 810
+    },
+    {
+        "code": "pushd Directory",
+        "text": "push current folder to directori stack",
+        "id": 811
+    },
+    {
+        "code": "mount | tail - Quantity | sed -e Program",
+        "text": "print mount point of last mount drive",
+        "id": 812
+    },
+    {
+        "code": "find Path -iname Regex",
+        "text": "find all file and directori under current directori match case insensit pattern _REGEX",
+        "id": 813
+    },
+    {
+        "code": "find Path -name Regex -user Regex",
+        "text": "display all _FILE file in current folder which belong to user nobodi",
+        "id": 814
+    },
+    {
+        "code": "cowsay hello | rev",
+        "text": "display a garbl ascii-art of a cow say _REGEX backward",
+        "id": 815
+    },
+    {
+        "code": "tmux set-option -g history-limit 10000",
+        "text": "global set maximum number of line to held in window histori as _NUMBER",
+        "id": 816
+    },
+    {
+        "code": "echo $( seq Number ) | xargs -P Quantity -I {} -d Regex ping -W Quantity -c Quantity Regex | grep -E Regex",
+        "text": "ping everi address from _FILE to _FILE with a timeout of _TIMESPAN and filter out no respons",
+        "id": 817
+    },
+    {
+        "code": "fold -w Quantity -s File",
+        "text": "wrap each line in _REGEX to a maximum of _NUMBER charact break at space",
+        "id": 818
+    },
+    {
+        "code": "find Path -perm Permission",
+        "text": "find all file and directori with _NUMBER permiss under current directori tree",
+        "id": 819
+    },
+    {
+        "code": "find Path -maxdepth Quantity -not -iname Regex",
+        "text": "find all file that are not name _FILE in current directori onli and without regard to case",
+        "id": 820
+    },
+    {
+        "code": "find . ( -size 100 -o -size -100 ) -name *.html   -exec ls -l {} ; 2> /dev/null",
+        "text": "find all _FILE file in current directori which size greater than _SIZE and display detail and discard all error",
+        "id": 821
+    },
+    {
+        "code": "find Path -name Regex -delete",
+        "text": "find all _FILE file under _FILE and delet them",
+        "id": 822
+    },
+    {
+        "code": "find Path -ctime -Timespan -name Regex -print0 | xargs -r -0 -I {} mv -t Directory {}",
+        "text": "find _REGEX file and directori under _FILE directori whose status was chang less than _TIMESPAN ago and move them to _FILE",
+        "id": 823
+    },
+    {
+        "code": "chgrp Regex File",
+        "text": "chang group ownership of _FILE to _REGEX",
+        "id": 824
+    },
+    {
+        "code": "find Path Path -name Regex",
+        "text": "search all file and directori either of directori _FILE and _FILE which contain _REGEX anywher in file or directori name",
+        "id": 825
+    },
+    {
+        "code": "basename Regex | cut -d Regex -f -Number",
+        "text": "take section of variabl _REGEX between last slash and follow dot if ani and store that section in variabl _REGEX",
+        "id": 826
+    },
+    {
+        "code": "find Path -size Size",
+        "text": "find all _SIZE file",
+        "id": 827
+    },
+    {
+        "code": "find Path -type f -perm -Permission",
+        "text": "find all file under _FILE with read-writ access for other",
+        "id": 828
+    },
+    {
+        "code": "grep $( cat File ) File",
+        "text": "print all string from file _FILE match pattern in file _FILE",
+        "id": 829
+    },
+    {
+        "code": "find . -iname $srch* -exec grep Processed Files {} ; -print| sed -r N;s/(.*)\\n(.*)/\\2 \\1/ > temp2",
+        "text": "search for _REGEX in all _REGEX file under current directori run sed script _DIRECTORY on output and redirect final output to _REGEX file",
+        "id": 830
+    },
+    {
+        "code": "chown Regex File",
+        "text": "chang owner and group of _FILE to _REGEX",
+        "id": 831
+    },
+    {
+        "code": "find Path -type d -name Regex",
+        "text": "find all hidden directori start from current directori",
+        "id": 832
+    },
+    {
+        "code": "find $DiskName -type f -mtime -3 -size +5000 -exec ls -ld {} ; 2>/dev/null | sort -n -k 5.1,5 >> $TMPFILE",
+        "text": "sort all regular file in _REGEX directori which been modifi in _TIMESPAN and which are bigger than _SIZE base on size and save output to _REGEX",
+        "id": 833
+    },
+    {
+        "code": "find Path -name Regex -exec ls -s {} \\;",
+        "text": "list all file in _FILE directori tree whose name are _REGEX and size",
+        "id": 834
+    },
+    {
+        "code": "timex find /tmp -print|backup -ivqf/dev/null",
+        "text": "creat a backup of all file in folder _FILE and display taken for oper",
+        "id": 835
+    },
+    {
+        "code": "mount | grep Regex",
+        "text": "check if a drive is mount to nfs",
+        "id": 836
+    },
+    {
+        "code": "find Path -name Regex -exec sed -i -r Program {} \\;",
+        "text": "chang everi refer to colour red to green in all _FILE file",
+        "id": 837
+    },
+    {
+        "code": "yes | more",
+        "text": "display an infinit number of line consist of _REGEX until user press q key",
+        "id": 838
+    },
+    {
+        "code": "find Path -type d -printf '%d:%p\\n' | sort -n | tail - Quantity",
+        "text": "return depth of current directori tree",
+        "id": 839
+    },
+    {
+        "code": "shopt extglob",
+        "text": "show state of shell option _REGEX",
+        "id": 840
+    },
+    {
+        "code": "find Path -name Regex",
+        "text": "find all read file in a folder",
+        "id": 841
+    },
+    {
+        "code": "cp -R File File",
+        "text": "make a copi of entir content of subfold call _REGEX if testfold exist copi will be place within it",
+        "id": 842
+    },
+    {
+        "code": "ps -p $$ | tail -1 | awk {print $NF}",
+        "text": "print current shell",
+        "id": 843
+    },
+    {
+        "code": "find Path ! -perm Permission",
+        "text": "find all file under directori tree _FILE whose permiss are not _NUMBER",
+        "id": 844
+    },
+    {
+        "code": "pushd $( whoami )",
+        "text": "expand _REGEX as current user name and add result path to directori stack",
+        "id": 845
+    },
+    {
+        "code": "read -p Regex Regex",
+        "text": "read a line from standard input with prompt _REGEX and save respons in variabl _REGEX",
+        "id": 846
+    },
+    {
+        "code": "readlink --canonicalize-existing File",
+        "text": "save absolut path of script filenam in variabl _REGEX",
+        "id": 847
+    },
+    {
+        "code": "find Path -name Regex -prune -or -print",
+        "text": "print all file and directori in _REGEX directori tree skip sccs directori",
+        "id": 848
+    },
+    {
+        "code": "find Path -name Regex",
+        "text": "find all file with pattern _FILE",
+        "id": 849
+    },
+    {
+        "code": "paste File",
+        "text": "print each line in parallel in file _FILE and _FILE",
+        "id": 850
+    },
+    {
+        "code": "find Path -type f -name Regex",
+        "text": "display all regular file in current folder with name dummi",
+        "id": 851
+    },
+    {
+        "code": "find Path -type f -print0 | xargs -0 -I {} sed -i -e Program {}",
+        "text": "replac occurr of _REGEX with _REGEX onc per each line of file from current directori tree",
+        "id": 852
+    },
+    {
+        "code": "find Path -perm Permission | head",
+        "text": "find all read onli file in entir file system and show a few line of output from begin",
+        "id": 853
+    },
+    {
+        "code": "head -n -Quantity File",
+        "text": "remov last _NUMBER line from a file",
+        "id": 854
+    },
+    {
+        "code": "bzip2 -k -v File",
+        "text": "verbos compress all file on third and fourth depth level keep origin file in place",
+        "id": 855
+    },
+    {
+        "code": "find Path -name Regex | sed Program | xargs -I {} cp File {}",
+        "text": "copi all file like _REGEX under current directori to _FILE directori",
+        "id": 856
+    },
+    {
+        "code": "ls -d File | cut -f Number -d Regex",
+        "text": "list all of subdirectori in current directori with no trail slash",
+        "id": 857
+    },
+    {
+        "code": "find Path -name Regex -type f -exec sed -i Program -- {} \\;",
+        "text": "find all text file in current folder start with _REGEX and prepend first line",
+        "id": 858
+    },
+    {
+        "code": "pwd -P",
+        "text": "save physic current work directori to variabl _REGEX",
+        "id": 859
+    },
+    {
+        "code": "echo Regex | od -t x1",
+        "text": "print a hex dump byte to byte of output of _REGEX",
+        "id": 860
+    },
+    {
+        "code": "find Path -newer File",
+        "text": "find all file newer than _FILE under and below current directori",
+        "id": 861
+    },
+    {
+        "code": "chmod -R Permission File",
+        "text": "recurs set all permiss under _FILE to _NUMBER",
+        "id": 862
+    },
+    {
+        "code": "df -h",
+        "text": "report file system disk space usag in human readabl format",
+        "id": 863
+    },
+    {
+        "code": "find Path -name Regex",
+        "text": "find all _FILE file and directori under home directori",
+        "id": 864
+    },
+    {
+        "code": "comm -2 -3 File File",
+        "text": "print uniqu line of _FILE compar to _FILE",
+        "id": 865
+    },
+    {
+        "code": "cut -d Regex -f Number File | xargs -I {} dig Regex {}",
+        "text": "take first text field from file _FILE as a domain name and get short a record for one",
+        "id": 866
+    },
+    {
+        "code": "mount -v | grep Regex | awk Program | xargs -I {} ls -l -s -R {}",
+        "text": "recurs list all file on smbfs mount",
+        "id": 867
+    },
+    {
+        "code": "alias prettify_json=php -E $o = json_decode($argn); print json_encode($o, JSON_PRETTY_PRINT);",
+        "text": "set alia _REGEX for command _REGEX",
+        "id": 868
+    },
+    {
+        "code": "sort -S Size File",
+        "text": "sort _REGEX use a buffer with a size _REGEX of main memori",
+        "id": 869
+    },
+    {
+        "code": "find Path -type d -iname Regex",
+        "text": "find all directori contain _REGEX in name under _FILE directori tree",
+        "id": 870
+    },
+    {
+        "code": "sed -n Program File",
+        "text": "print all line in file that not match _REGEX",
+        "id": 871
+    },
+    {
+        "code": "command -1 <(gzip -dc file1.gz) -2 <(gzip -dc file2.gz)",
+        "text": "unzip file _FILE and _FILE as argument to _REGEX",
+        "id": 872
+    },
+    {
+        "code": "find Path -type d -print0 | tr Regex Regex",
+        "text": "save a comma separ list of all directori under current directori tree to variabl _REGEX",
+        "id": 873
+    },
+    {
+        "code": "find . -name *$lower1* -exec bash -c mv \"$1\" \"${1/$2/$3}\" -- {} $lower1 $lower2 ;",
+        "text": "move all _REGEX file and directori under current directori to path form by replac match of _REGEX with _REGEX in path",
+        "id": 874
+    },
+    {
+        "code": "find Path -type f ! -perm -Permission",
+        "text": "find all regular file in current directori tree that are not readabl by anyon",
+        "id": 875
+    },
+    {
+        "code": "find . -name *-GHBAG-* -exec bash -c mv $0 ${0/GHBAG/stream-agg} {} ;",
+        "text": "chang word _REGEX to _REGEX in all file name in current folder which word _REGEX in name",
+        "id": 876
+    },
+    {
+        "code": "column -t -s Regex File",
+        "text": "format file _FILE with no column delimit",
+        "id": 877
+    },
+    {
+        "code": "read -n Quantity -r -p Regex Regex",
+        "text": "read a singl charact from standard input into variabl _REGEX without backslash escap and use prompt _FILE",
+        "id": 878
+    },
+    {
+        "code": "chown Regex File",
+        "text": "chang owner of _DIRECTORY to _REGEX",
+        "id": 879
+    },
+    {
+        "code": "IFS= read -t 0.01 -d  -n1 keypress",
+        "text": "unset if and read a singl charact from standard input with timeout of _TIMESPAN and save respons in variabl _REGEX",
+        "id": 880
+    },
+    {
+        "code": "find -type f -name *.au | awk {printf \"%s %s\\n\",$0,$0\".wav\" } | xargs sox",
+        "text": "convert _FILE file to _FILE file use _REGEX",
+        "id": 881
+    },
+    {
+        "code": "tac File | sed Program | tac",
+        "text": "replac second to last line of file",
+        "id": 882
+    },
+    {
+        "code": "echo Regex | xargs -I {} find {} -mindepth Quantity -maxdepth Quantity -type d",
+        "text": "find all directori in level _NUMBER down _REGEX directori",
+        "id": 883
+    },
+    {
+        "code": "read -p Regex Regex",
+        "text": "read a line from standard input into variabl _REGEX with prompt _REGEX",
+        "id": 884
+    },
+    {
+        "code": "find Path -name Regex -fprint File",
+        "text": "search for file _REGEX in current folder and save output to same file",
+        "id": 885
+    },
+    {
+        "code": "find ~ -name Foto* > results.txt",
+        "text": "save list of file in home directori tree whose name begin with _REGEX to _FILE",
+        "id": 886
+    },
+    {
+        "code": "cat message.txt | mail -s Backup -a mysqldbbackup.sql backup@email.com",
+        "text": "send email with subject _REGEX and attach _FILE and messag in _FILE to _FILE",
+        "id": 887
+    },
+    {
+        "code": "find Path -type f \\( -iname Regex -not -perm -Permission \\)",
+        "text": "search for text file in current folder which not write access to other",
+        "id": 888
+    },
+    {
+        "code": "awk -F Regex Program <( zcat Regex ) <( zcat Regex )",
+        "text": "decompress _FILE and _FILE and print line in _FILE that match _REGEX tab separ field in _FILE",
+        "id": 889
+    },
+    {
+        "code": "find Path -name Regex | xargs -I {} rm {}",
+        "text": "remov all text file from current folder",
+        "id": 890
+    },
+    {
+        "code": "find Path -type f -perm Permission | wc -l",
+        "text": "count number of regular file with _NUMBER permiss under current directori tree",
+        "id": 891
+    },
+    {
+        "code": "find Path -mindepth Quantity -maxdepth Quantity -type d | grep Regex | tr Regex Regex | xargs -0 -I {} ln -s -t Directory {}",
+        "text": "find directori whose pathnam contain _REGEX at level _NUMBER of current directori tree and creat symlink to them in _FILE",
+        "id": 892
+    },
+    {
+        "code": "find $sourcePath -type f -mtime +10 -name *.log | xargs zip -jmT $zipFile -@",
+        "text": "move all _FILE file under _REGEX that were modifi more than _TIMESPAN ago to a zip archiv _REGEX with onli file name",
+        "id": 893
+    },
+    {
+        "code": "cat File | cut -d Regex -f Number",
+        "text": "print fourth column of space-separ data from text file _FILE",
+        "id": 894
+    },
+    {
+        "code": "find Path -maxdepth Quantity -type f",
+        "text": "find all file in _REGEX directori without go into sub-directori",
+        "id": 895
+    },
+    {
+        "code": "find Path -follow -lname Regex",
+        "text": "find broken symlink",
+        "id": 896
+    },
+    {
+        "code": "find Path | grep -E Regex | xargs -I {} rm -r -f {}",
+        "text": "recurs remov all file like _REGEX in a current folder",
+        "id": 897
+    },
+    {
+        "code": "find /path/to/folders/ -name *.emlx -print0 > filelist",
+        "text": "print a null delimit list of all _FILE file and directori under _DIRECTORY to filelist",
+        "id": 898
+    },
+    {
+        "code": "find Path -type f -printf '%p %s\\n' | awk Program",
+        "text": "get total size of all file under current directori",
+        "id": 899
+    },
+    {
+        "code": "cd `which <file> | xargs dirname`",
+        "text": "chang to directori of execut _REGEX",
+        "id": 900
+    },
+    {
+        "code": "chmod Permission -R File",
+        "text": "recurs set all permiss under _FILE to _NUMBER",
+        "id": 901
+    },
+    {
+        "code": "tac | sed -n Program | tac",
+        "text": "print a line _NUMBER line from line contain pattern",
+        "id": 902
+    },
+    {
+        "code": "kill $(ps -o pid= -s $(ps -o sess --no-heading --pid $(pgrep rsync )))",
+        "text": "send sigterm signal to entir session of process contain process whose command match _REGEX",
+        "id": 903
+    },
+    {
+        "code": "mount | column -t",
+        "text": "format output of _REGEX as a tabl",
+        "id": 904
+    },
+    {
+        "code": "find Path -name Regex | xargs -P Quantity -I {} rename Regex {}",
+        "text": "recurs search for all file with name end with _FILE renam them to end with _FILE use at most _NUMBER concurr process",
+        "id": 905
+    },
+    {
+        "code": "find Path -type d -name Regex -execdir tar -c -v -f File File \\;",
+        "text": "find all directori name _NUMBER in current directori tree and creat a tar archiv of _REGEX subdirectori",
+        "id": 906
+    },
+    {
+        "code": "find Path -type d -exec chmod Permission {} \\;",
+        "text": "chang permiss of all directori in current folder",
+        "id": 907
+    },
+    {
+        "code": "find Path -name Regex -type d",
+        "text": "look for directori _REGEX",
+        "id": 908
+    },
+    {
+        "code": "find Path -name Regex -maxdepth Quantity -exec rm -f {} \\;",
+        "text": "delet file contain whitespac without recurs",
+        "id": 909
+    },
+    {
+        "code": "find Path -name Regex \\( -exec echo {} \\; -or -exec true \\; \\) -exec grep Regex {} \\;",
+        "text": "construct with addit _REGEX to be use if both command need to run regardless of success or failur",
+        "id": 910
+    },
+    {
+        "code": "mkdir Directory",
+        "text": "make directori _FILE",
+        "id": 911
+    },
+    {
+        "code": "find Path -name Regex -print0 | xargs -0 -n Quantity -I {} dirname {} | sort | uniq",
+        "text": "find all _FILE file and directori in entir file system and print sort and uniqu parent directori path",
+        "id": 912
+    },
+    {
+        "code": "find Path -type d ! -name Regex",
+        "text": "display all file in current folder exclud directori aa",
+        "id": 913
+    },
+    {
+        "code": "cd $( readlink File )",
+        "text": "chang directori to real path of current work directori of process _REGEX",
+        "id": 914
+    },
+    {
+        "code": "find Path -atime -Timespan",
+        "text": "search for file that were access less than _TIMESPAN ago",
+        "id": 915
+    },
+    {
+        "code": "find Path -name Regex -printf \"%f\\n\"",
+        "text": "display all text file in current folder",
+        "id": 916
+    },
+    {
+        "code": "tail -n 1 $file | tee >(wc -c | xargs -I {} truncate $file -s -{})",
+        "text": "truncat file _REGEX remov last line from it and print file on stdout",
+        "id": 917
+    },
+    {
+        "code": "find Path -mtime -Timespan",
+        "text": "find all file and directori under _FILE directori tree which been modifi within _TIMESPAN",
+        "id": 918
+    },
+    {
+        "code": "md5sum File",
+        "text": "print _REGEX messag digest of _FILE",
+        "id": 919
+    },
+    {
+        "code": "bar file1 | wc -l",
+        "text": "count line in file _REGEX and show progress bar while",
+        "id": 920
+    },
+    {
+        "code": "find /stuff -type d -printf %P\\0 | xargs -0 script.py",
+        "text": "search for all directori in a folder and limit search to current folder and give them as input to python script",
+        "id": 921
+    },
+    {
+        "code": "yes | tr \\n x | head -c $BYTES | pv | grep n",
+        "text": "use _REGEX amount of ram show current and total rate of consumpt",
+        "id": 922
+    },
+    {
+        "code": "info Regex Regex Regex Regex Regex",
+        "text": "open menu item _REGEX _REGEX _REGEX _REGEX _REGEX _REGEX _REGEX in _REGEX manual",
+        "id": 923
+    },
+    {
+        "code": "find Path -name Regex -print",
+        "text": "search entir file system for file _FILE",
+        "id": 924
+    },
+    {
+        "code": "find Path Path Path -name Regex -type f | xargs -I {} chmod +Permission {}",
+        "text": "set execut bit for all user on all _FILE script from directori tree lib etc debian",
+        "id": 925
+    },
+    {
+        "code": "find . -exec myscript {} +",
+        "text": "find all file and directori in current directori and execut myscript with minim invoc for those file and directori",
+        "id": 926
+    },
+    {
+        "code": "jobs -s -l | awk Program",
+        "text": "print all pid of stop process",
+        "id": 927
+    },
+    {
+        "code": "find Path -newermt $( date +%Y-%m-%d -d Regex ) -type f -print",
+        "text": "print file _FILE in _TIMESPAN",
+        "id": 928
+    },
+    {
+        "code": "cat File | xargs -I {} -d Regex -n Quantity grep -r {}",
+        "text": "recurs find string in all file under current directori that match with comma-separ pattern list in file _REGEX",
+        "id": 929
+    },
+    {
+        "code": "find /etc -type f | xargs --max-lines=1 -r --max-procs=20 ./do1.sh",
+        "text": "execut script _FILE on each regular file from _FILE directori tree",
+        "id": 930
+    },
+    {
+        "code": "find Path -type f Path | grep -v Regex",
+        "text": "find writabl regular file omit those that contain _FILE in name",
+        "id": 931
+    },
+    {
+        "code": "find Path -mindepth Quantity -type f",
+        "text": "find all file under minimum _NUMBER level down current directori",
+        "id": 932
+    },
+    {
+        "code": "find Path -name Regex -print -or -name Regex -print",
+        "text": "display all header file and _FILE file in current folder",
+        "id": 933
+    },
+    {
+        "code": "history | grep Regex",
+        "text": "search for _REGEX in histori",
+        "id": 934
+    },
+    {
+        "code": "find Path -exec chmod Permission {} \\;",
+        "text": "set read write and execut permiss for all for file and directori in foldernam directori tree",
+        "id": 935
+    },
+    {
+        "code": "find Path -name Regex -type f",
+        "text": "search _FILE directori recurs for regular file name _REGEX",
+        "id": 936
+    },
+    {
+        "code": "env | uniq | sort -r | grep Regex",
+        "text": "show all variabl whose name or valu contain _REGEX sort in revers alphabet order",
+        "id": 937
+    },
+    {
+        "code": "(find . -type f -ctime $FTIME && find . -type f -atime $FTIME && find . -type f -mtime $FTIME) | sort | uniq",
+        "text": "list file under current directori which were modifi access or whose status were chang _REGEX ago and sort them and remov duplic entri",
+        "id": 938
+    },
+    {
+        "code": "brew info grc",
+        "text": "display inform about src formula",
+        "id": 939
+    },
+    {
+        "code": "sort File | rev | uniq -f Quantity | rev",
+        "text": "sort _FILE ignor last _NUMBER charact of each line",
+        "id": 940
+    },
+    {
+        "code": "pushd $( dirname $( which Regex ) )",
+        "text": "push directori contain first exist command found in all argument to directori stack",
+        "id": 941
+    },
+    {
+        "code": "find Path -perm -Permission",
+        "text": "find all file on system that are world writeabl",
+        "id": 942
+    },
+    {
+        "code": "find Path $( uname -r ) -regex Regex",
+        "text": "find all loadabl modul for current kernel whose name includ _REGEX",
+        "id": 943
+    },
+    {
+        "code": "join <( sort File ) <( sort File ) | sort -k Number",
+        "text": "join line in file _REGEX with line in file _REGEX if line share a common first word and sort result numer",
+        "id": 944
+    },
+    {
+        "code": "find Path -name Regex",
+        "text": "find all file call _FILE that resid under and below _DIRECTORY",
+        "id": 945
+    },
+    {
+        "code": "cd Directory",
+        "text": "go to _FILE directori",
+        "id": 946
+    },
+    {
+        "code": "less $( find Path -maxdepth Quantity -type f -daystart -mtime -Timespan )",
+        "text": "show file in maximum _NUMBER level down current directori that were modifi less than _TIMESPAN ago from _DATETIME",
+        "id": 947
+    },
+    {
+        "code": "wc $( find Path -name Regex )",
+        "text": "print newlin word and byte count for all _FILE _FILE _FILE _FILE and _FILE file under current directori tree and also show total count",
+        "id": 948
+    },
+    {
+        "code": "find . -type f -name *.ext $(printf ! -name %s  $(cat list.txt))",
+        "text": "display file end with _FILE in current folder exclud those that are present in list _FILE",
+        "id": 949
+    },
+    {
+        "code": "dig Regex Regex | awk Program",
+        "text": "print all ns server of domain _FILE",
+        "id": 950
+    },
+    {
+        "code": "find Path -type f -print0 | xargs -0 -I {} chmod Permission {}",
+        "text": "find all file under _FILE and chang permiss to _NUMBER",
+        "id": 951
+    },
+    {
+        "code": "su - username command",
+        "text": "run command _REGEX as user usernam with a full login simul",
+        "id": 952
+    },
+    {
+        "code": "find Path -type d -name Regex -exec rm -r -f {} \\;",
+        "text": "find all directori with name _REGEX in current folder and forc delet them",
+        "id": 953
+    },
+    {
+        "code": "find /. -name toBeSearched.file 2>/dev/null",
+        "text": "find a file in current folder and discard error",
+        "id": 954
+    },
+    {
+        "code": "dig Regex -f File",
+        "text": "read lookup request from text file _FILE and use them to fetch _FILE record",
+        "id": 955
+    },
+    {
+        "code": "find Path -name Regex -print0 | xargs -0 -n Quantity -I {} mv {} File",
+        "text": "move all _FILE file from current directori tree to _DIRECTORY",
+        "id": 956
+    },
+    {
+        "code": "find Path -type f -print | sed Program",
+        "text": "find all file under current directori and replac match of regex _FILE with _REGEX in everi line of output",
+        "id": 957
+    },
+    {
+        "code": "find / -name grub.conf >& /dev/null",
+        "text": "find _FILE file in entir file system discard error in csh or tcsh shell",
+        "id": 958
+    },
+    {
+        "code": "find Path | cpio -p -m -u -d Regex",
+        "text": "copi all file uncondit and directori in directori tree _REGEX to _REGEX preserv directori hierarchi and modif time",
+        "id": 959
+    },
+    {
+        "code": "find Path -type f -name Regex",
+        "text": "find all _REGEX _REGEX regular file under current directori",
+        "id": 960
+    },
+    {
+        "code": "find Path -type f -name Regex | awk Program | bash",
+        "text": "convert _FILE file to _FILE file use _REGEX",
+        "id": 961
+    },
+    {
+        "code": "find Path -mtime +Timespan",
+        "text": "find everi file under directori _FILE that was modifi more than _TIMESPAN ago",
+        "id": 962
+    },
+    {
+        "code": "find -maxdepth 1 -type d | sort | while read -r dir; do n=$(find $dir -type f | wc -l); if [ $n -gt 0 ]; then printf %4d : %s\\n $n $dir; fi; done",
+        "text": "find list of directori with non-zero file count",
+        "id": 963
+    },
+    {
+        "code": "who | awk Program | sed -e Program",
+        "text": "print login inform of all user except first _NUMBER and replac all instanc of _REGEX with _REGEX",
+        "id": 964
+    },
+    {
+        "code": "find Path -name Regex -type f -exec chmod Permission {} \\;",
+        "text": "chang permiss to _NUMBER for _FILE file under _FILE",
+        "id": 965
+    },
+    {
+        "code": "find . -name *.txt | while IFS= read -r FILE; do echo Copying $FILE..; cp $FILE /destination; done",
+        "text": "copi all _FILE file from current directori tree to _FILE",
+        "id": 966
+    },
+    {
+        "code": "find Path -type f -empty",
+        "text": "display all empti file in folder _FILE",
+        "id": 967
+    },
+    {
+        "code": "find . -user <userid>",
+        "text": "get list of file own by _REGEX",
+        "id": 968
+    },
+    {
+        "code": "find Path -name Regex -delete",
+        "text": "remov all _FILE file from current directori tree",
+        "id": 969
+    },
+    {
+        "code": "find . -type f -wholename *.mbox -print0 | parallel -0 mv {} {.}",
+        "text": "find regular file under current directori whose name end in _FILE pipe output to gnu parallel command that will renam each file to not a file extens",
+        "id": 970
+    },
+    {
+        "code": "find Path \\( -name Regex -or -name Regex -or -name Regex -or -name Regex -or -name Regex \\) -print0 | xargs -0 -I {} wc {}",
+        "text": "count line of _FILE or _REGEX or obj-c or _FILE code under current directori",
+        "id": 971
+    },
+    {
+        "code": "find `gen_root_dirs.sh` -type f -size 0 -ls",
+        "text": "list all file which size _SIZE in some directori",
+        "id": 972
+    },
+    {
+        "code": "find Path ! -name Regex",
+        "text": "find all file and directori that not contain _REGEX in name under current directori tree",
+        "id": 973
+    },
+    {
+        "code": "alias -s py=$EDITOR",
+        "text": "set alia _FILE for command _REGEX",
+        "id": 974
+    },
+    {
+        "code": "find Path -name Regex -print | xargs -I {} sed -i Program {}",
+        "text": "replac _REGEX with _REGEX in all _FILE file in current directori tree",
+        "id": 975
+    },
+    {
+        "code": "find Path -fstype ext2 -name Regex -print",
+        "text": "find file and directori name _REGEX in _REGEX partit in entir filesystem",
+        "id": 976
+    },
+    {
+        "code": "find Path -user Regex -iname Regex",
+        "text": "search specifi user for given _REGEX",
+        "id": 977
+    },
+    {
+        "code": "bind -p | grep -a Regex",
+        "text": "filter output of bind _REGEX by regex",
+        "id": 978
+    },
+    {
+        "code": "echo $( pwd ) | crontab",
+        "text": "set a crontab to creat or updat timestamp of _REGEX in current directori everi minut",
+        "id": 979
+    },
+    {
+        "code": "mktemp -t Regex",
+        "text": "creat temporari file by templat provid in option _REGEX",
+        "id": 980
+    },
+    {
+        "code": "find Path -type f -size +Size | xargs -I {} du -s -h {}",
+        "text": "show disk use of all regular file in current folder which are bigger than _SIZE",
+        "id": 981
+    },
+    {
+        "code": "find Path -maxdepth Quantity -name Regex -print0 | xargs -0 -I {} zcat {} | awk -F Regex Program",
+        "text": "find file that end in _FILE and execut _REGEX on unzip content",
+        "id": 982
+    },
+    {
+        "code": "cal 02 2012|perl -F(.{1,3}) -anEBEGIN{$,=\"\\t&\";$\\=\"\\t\\\\\\\\\\n\"}$.==1||eof||do{$i//=@F;print@F[map{$_*2-1}(1..$i/2)]}",
+        "text": "convert unix _REGEX output to latex tabl code",
+        "id": 983
+    },
+    {
+        "code": "find Path \\( -name Regex -or -name Regex \\) -exec rm {} \\;",
+        "text": "remov all file name _REGEX and _REGEX",
+        "id": 984
+    },
+    {
+        "code": "ln -s File Regex",
+        "text": "creat a symbol link in _DIRECTORY to _FILE",
+        "id": 985
+    },
+    {
+        "code": "hostname | tr Regex Regex | tr -d Regex | awk Program",
+        "text": "save number of record in system hostnam that contain number in variabl _REGEX",
+        "id": 986
+    },
+    {
+        "code": "find Path -path Regex -prune -or -type f -name Regex",
+        "text": "display all _FILE file in current folder exclud search in path _FILE",
+        "id": 987
+    },
+    {
+        "code": "find Path -mtime +Timespan -exec rm {} \\;",
+        "text": "delet all file under _FILE directori tree that were modifi more than _TIMESPAN ago",
+        "id": 988
+    },
+    {
+        "code": "find /some/dir/ -type f > somefile",
+        "text": "find all regular file in folder _FILE and save output to file _REGEX",
+        "id": 989
+    },
+    {
+        "code": "echo $( pwd )",
+        "text": "print current work directori and base name of _REGEX",
+        "id": 990
+    },
+    {
+        "code": "find Path -type f | xargs -I {} grep Regex {}",
+        "text": "find text in whole directori tree",
+        "id": 991
+    },
+    {
+        "code": "dig -x Regex | awk Program",
+        "text": "get domain name with _REGEX from dig revers lookup",
+        "id": 992
+    },
+    {
+        "code": "find -x data -name filepattern-*2009* -print0 > filesOfInterest.txt",
+        "text": "print a list of all _REGEX file and directori under data directori to _FILE file",
+        "id": 993
+    },
+    {
+        "code": "find Path -mtime Timespan",
+        "text": "find all file under _FILE directori tree which been modifi exact _TIMESPAN ago",
+        "id": 994
+    },
+    {
+        "code": "echo $[4/0] || exit $?",
+        "text": "if first command fail exit from script with exit code of fail command",
+        "id": 995
+    },
+    {
+        "code": "find Path -type f -name Regex",
+        "text": "find all _FILE file in current directori tree",
+        "id": 996
+    },
+    {
+        "code": "ls -1 -b | tr Regex Regex",
+        "text": "list all file in a current folder separ name with semicolon",
+        "id": 997
+    },
+    {
+        "code": "column -x <<< $(printf '%s\\n' $module)",
+        "text": "print variabl _REGEX in format row",
+        "id": 998
+    },
+    {
+        "code": "find ./ -name *~ | xargs> rm",
+        "text": "find all _REGEX file under current directori and delet them",
+        "id": 999
+    },
+    {
+        "code": "yum search mysql | grep client",
+        "text": "search avail packag with _REGEX and _REGEX in name",
+        "id": 1000
+    },
+    {
+        "code": "ping Regex -I Regex -c Quantity",
+        "text": "send one ping request to host whose name or ip address is specifi by variabl _REGEX use network interfac _REGEX",
+        "id": 1001
+    },
+    {
+        "code": "mv File File",
+        "text": "renam _REGEX to _REGEX",
+        "id": 1002
+    },
+    {
+        "code": "diff --suppress-common-lines --speed-large-files -y File1 File2 | wc -l",
+        "text": "find number of differ row between _REGEX and _REGEX",
+        "id": 1003
+    },
+    {
+        "code": "find Path -name Regex",
+        "text": "search for all non-hidden file",
+        "id": 1004
+    },
+    {
+        "code": "diff -u Quantity File | grep -E Regex",
+        "text": "compar file _REGEX and _REGEX with _NUMBER line of unifi context and print line begin with _REGEX",
+        "id": 1005
+    },
+    {
+        "code": "find Path -type f -iname Regex -exec ls -l -r -t {} \\; | awk -F Regex Program",
+        "text": "find onli permiss field _REGEX file name from long list with find command",
+        "id": 1006
+    },
+    {
+        "code": "find Path -name Regex -prune -or -print",
+        "text": "display all file in current directori exclud those that are in _REGEX directori",
+        "id": 1007
+    },
+    {
+        "code": "su - username",
+        "text": "login as user usernam",
+        "id": 1008
+    },
+    {
+        "code": "cat File | od -c",
+        "text": "display _REGEX as printabl charact or backslash escap",
+        "id": 1009
+    },
+    {
+        "code": "tr -d \\n\\r < yourfile.txt",
+        "text": "delet _REGEX from _FILE",
+        "id": 1010
+    },
+    {
+        "code": "find Path -perm Permission",
+        "text": "find all file and directori in entir file system for which owner _FILE permiss or group at least execut permiss or other at least execut permiss",
+        "id": 1011
+    },
+    {
+        "code": "mkdir Directory",
+        "text": "make directori name in variabl _REGEX with _FILE strip from end",
+        "id": 1012
+    },
+    {
+        "code": "echo Regex | rev | cut -d Regex -f Number | rev",
+        "text": "output onli filetyp suffix of _FILE in case _FILE",
+        "id": 1013
+    },
+    {
+        "code": "find Path -type d -exec ls -a -l -g -d {} \\;",
+        "text": "display a long list of all directori in current folder",
+        "id": 1014
+    },
+    {
+        "code": "find Path -ok tar -r -v -f File {} \\;",
+        "text": "tar all file in current folder and ask for user confirm befor creat tar ball",
+        "id": 1015
+    },
+    {
+        "code": "find Path -type f -daystart -mtime Timespan",
+        "text": "find all file that been modifi _DATETIME",
+        "id": 1016
+    },
+    {
+        "code": "chmod -R -f Permission File",
+        "text": "recurs add user write permiss to all file under _FILE",
+        "id": 1017
+    },
+    {
+        "code": "grep -q tar archive <<<$filetype",
+        "text": "quiet search pattern in a given string exit with _NUMBER status if ani match is found otherwis exit with non-zero",
+        "id": 1018
+    },
+    {
+        "code": "find Path -name Regex",
+        "text": "search system for file whose name begin with letter _REGEX _REGEX or _FILE",
+        "id": 1019
+    },
+    {
+        "code": "find Path -mtime +Timespan -type d -exec rmdir {} \\;",
+        "text": "delet folder like _FILE or deeper older than _TIMESPAN if _REGEX contain file or other folder",
+        "id": 1020
+    },
+    {
+        "code": "find Path -type f -perm Permission -exec ls -l {} \\;",
+        "text": "list regular file in current directori with read write and execut permiss for all user and also show permiss",
+        "id": 1021
+    },
+    {
+        "code": "find Path -group Regex",
+        "text": "find all file that belong to group develop",
+        "id": 1022
+    },
+    {
+        "code": "tail -n +Quantity File | split -l Quantity File Regex",
+        "text": "split _FILE exclud first line into file of at most _NUMBER line each and with a prefix _REGEX",
+        "id": 1023
+    },
+    {
+        "code": "find Path -name Regex | xargs -I {} grep -E Regex {}",
+        "text": "search for _REGEX in all _FILE file under current directori",
+        "id": 1024
+    },
+    {
+        "code": "watch -d ls -l",
+        "text": "execut _REGEX everi _TIMESPAN and highlight differ in run",
+        "id": 1025
+    },
+    {
+        "code": "tar tzvf archive.tar.gz | sed s/ \\+/ /g | cut -f3 -d  | sed 2,$s/^/+ / | paste -sd  | bc",
+        "text": "sum total content size of extract file in _FILE",
+        "id": 1026
+    },
+    {
+        "code": "find Path \\( -type d -name Regex -prune \\) -or \\( -type f -name Regex -print \\)",
+        "text": "display all file in current folder exclud those that are present in sub directori aa and display those file that start with word _REGEX",
+        "id": 1027
+    },
+    {
+        "code": "find Path -name Regex -execdir diff -u {} File \\;",
+        "text": "compar each _FILE header file in or below current directori with file _FILE",
+        "id": 1028
+    },
+    {
+        "code": "find Path -type d -atime +Timespan",
+        "text": "display all directori in current folder for file which not been access in _TIMESPAN",
+        "id": 1029
+    },
+    {
+        "code": "mkdir dir2; find dir1 ( -type l -o -type f ) -not -wholename */exclude/* -exec cp -P --parents {} dir2/ ;",
+        "text": "copi entir directori structur from _REGEX as a subdirectori of _REGEX omit empti directori special file and ani directori name _REGEX",
+        "id": 1030
+    },
+    {
+        "code": "cd -L Directory",
+        "text": "chang directori to parent directori and not resolv ani symlink in result path",
+        "id": 1031
+    },
+    {
+        "code": "find /path/to/dir -name *.pdf -exec convert -thumbnail x80 {}[0] {}-thumb.png ;",
+        "text": "creat thumbnail from first page of each _FILE file under _FILE",
+        "id": 1032
+    },
+    {
+        "code": "(find $DIR/tmp/daily/ -name *.tar.gz | sort -n | head -2",
+        "text": "find all _FILE file in a folder and sort them accord to name and display first _NUMBER file",
+        "id": 1033
+    },
+    {
+        "code": "find Path -size +Size",
+        "text": "find file and directori that are bigger than _SIZE in size user _FILE directori tree",
+        "id": 1034
+    },
+    {
+        "code": "find Path -name Regex",
+        "text": "search _FILE directori tree for directori and file call _FILE",
+        "id": 1035
+    },
+    {
+        "code": "find Path -type f -name Regex | sed Program | sed Program | sh",
+        "text": "move all _REGEX file under _FILE to _REGEX file under same directori",
+        "id": 1036
+    },
+    {
+        "code": "nl -n rz -w Quantity -s Regex File | sed -r Program",
+        "text": "remov _NUMBER add a _REGEX line number and rearrang date for each line in _REGEX",
+        "id": 1037
+    },
+    {
+        "code": "find Path -type f -name Regex -or -name Regex -or -name Regex -or -name Regex -or -name Regex -or -name Regex",
+        "text": "search home directori tree for video file",
+        "id": 1038
+    },
+    {
+        "code": "less -p Regex File",
+        "text": "page through content of file _REGEX posit view at first occurr of regular express _REGEX",
+        "id": 1039
+    },
+    {
+        "code": "find Path -type f -regex Regex",
+        "text": "search home directori tree for video file",
+        "id": 1040
+    },
+    {
+        "code": "info Regex --index-search Regex",
+        "text": "open gcc info manual and goe to a node point by index entri _REGEX",
+        "id": 1041
+    },
+    {
+        "code": "find Path -print | xargs -I {} chown Regex {}",
+        "text": "chang owner of all file in folder _FILE to nextint",
+        "id": 1042
+    },
+    {
+        "code": "find Path -type f \\( -name Regex -or -name Regex \\) -exec wc -l {} +",
+        "text": "show number of line for each _FILE and _FILE file in current directori tree",
+        "id": 1043
+    },
+    {
+        "code": "kill $( jobs -p )",
+        "text": "kill all job",
+        "id": 1044
+    },
+    {
+        "code": "find . -maxdepth 1 | sort > a",
+        "text": "find all file and directori _NUMBER level down current directori and redirect sort output to file a",
+        "id": 1045
+    },
+    {
+        "code": "yum install -y nodejs",
+        "text": "instal packag _REGEX answer _REGEX on all question",
+        "id": 1046
+    },
+    {
+        "code": "find Path -type d -printf \"newdir/%P\\0\" | xargs -0 -I {} mkdir -p {}",
+        "text": "copi directori structur from directori _REGEX to _REGEX",
+        "id": 1047
+    },
+    {
+        "code": "scp -r File",
+        "text": "recurs copi directori or file _FILE on host _REGEX to current directori on local host connect as ssh user match usernam on local host",
+        "id": 1048
+    },
+    {
+        "code": "zcat biglogfile.gz | split -l500000 --filter=gzip > $FILE.gz",
+        "text": "split _FILE into chunk of _NUMBER line gzip compress file",
+        "id": 1049
+    },
+    {
+        "code": "find path/to/folder -type f -print0 | sort -z | xargs -0 cat | sha1sum",
+        "text": "calcul _REGEX sum for content of regular file in _FILE directori tree",
+        "id": 1050
+    },
+    {
+        "code": "find Path -name Regex",
+        "text": "find file with a question mark in name",
+        "id": 1051
+    },
+    {
+        "code": "sudo find . ( -name *.log -o -name *.trc ) -mtime -1 | sudo xargs ls -ltr --color | less -R",
+        "text": "recurs find all file like _FILE and _FILE in a current folder modifi in a _TIMESPAN sort list by modif time and pipe output to pager tool _REGEX",
+        "id": 1052
+    },
+    {
+        "code": "find Path -name Regex -execdir rename Regex {} \\;",
+        "text": "search for file _FILE in current folder and renam it to _FILE",
+        "id": 1053
+    },
+    {
+        "code": "find Path -newer File",
+        "text": "search for all file in folder _FILE which are modifi after _FILE",
+        "id": 1054
+    },
+    {
+        "code": "grep -n -i Regex File | wc -l",
+        "text": "count line with all-cas word _REGEX in file _FILE",
+        "id": 1055
+    },
+    {
+        "code": "pstree | cat",
+        "text": "print process tree adjust output width with a screen size",
+        "id": 1056
+    },
+    {
+        "code": "find Path -name Regex | tail - Quantity | xargs -I {} rm {}",
+        "text": "find file in and below current directori whose name begin with _REGEX and remov one of them",
+        "id": 1057
+    },
+    {
+        "code": "top -l 1 | grep $app_name",
+        "text": "collect process inform and display onli line contain pattern specifi by variabl _REGEX",
+        "id": 1058
+    },
+    {
+        "code": "find . 2>&1 | grep -v Permission denied > some_file",
+        "text": "find all file under current directori redirect error messag to output and filter ani line contain text _REGEX write remain output to _REGEX",
+        "id": 1059
+    }
+]

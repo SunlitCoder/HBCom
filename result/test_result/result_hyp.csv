@@ -1,0 +1,1064 @@
+print file size for all file and directory under current directory ..
+search current directory tree for file except file name ..
+find regex substitute only when line match with pattern use sed ..
+locate all regular file whose name contain regex in directory tree file ..
+find all file under file and set permission to number ..
+get list of ip address of all network interface ..
+archive file to file via ssh on port regex and compress data du re transmission ..
+find all file in entire file system that be modify exact time span before which end with regex ..
+search for file and directory name file under file directory tree without travers into directory that contain string regex in path ..
+remove trail white space from all file under dir directory and keep backup of origin ..
+search for all file file in current directory and display a sort and unique parent directory path ..
+get ip address of all active network interface ..
+move each of directory in file to another directory whose name be constitute by append file to each directory name and create a directory name ..
+count non empty line in all file file in a current folder ..
+display all file in folder file which belong to user regex ..
+write output of command regex to standard output and to file ..
+find all regex file and directory under current directory where regex be a variable ..
+display a long list of all regular file in current folder which be access in time span ..
+search for all directory in current folder and assign output to a variable ..
+split file into file with number line each and use a prefix regex and a suffix length of number ..
+delete all regular file with file extend that be modify in more than time span ago in maximum number level down directory file ..
+find all regex file and directory under current directory where regex be a variable ..
+list all file from regex directory tree that be modify less than time span ago ..
+download content from directory use a regex <unk> <unk> file ..
+print second section of space separate data <unk> from input ..
+find all regex file and directory under current directory where regex be a variable ..
+archive directory regex to directory regex compress data du re copy ..
+print process tree show only string with regex and <unk> output after regex character ..
+list all regular file from current directory tree that be modify less than time span ago ..
+list all file file and directory under file file and file directory ..
+change permission of file file and file to number ..
+find all file file under current directory and print them append a null character at end of each file path ..
+find all regex file and directory under current directory where regex be a variable ..
+list break symbol link under current directory ..
+display file status for all regular file in current directory tree ..
+display all file in current folder exclude those end with file in sort order ..
+display list name of all file under current directory  ..
+list all file and directory under current directory match posix grep type regex file in name exclude file that contain regex or regex in path ..
+find all file from current directory tree that be modify less than time span ago ..
+find file in current directory tree and match regex ..
+count number of unique line in sort file file and file ..
+find regular file name file under file directory ..
+find all regex file and directory under current directory where regex be a variable ..
+find all directory whose name be root in directory directory ..
+delete all text file under current directory ..
+exclude directory from find command ..
+find regular file in current directory tree that execute bite set for user and group but not for other ..
+print all file in current directory tree as a comma separate list ..
+find all regex file and directory under current directory where regex be a variable ..
+recur find all folder in a current folder that contain file like file ..
+search current directory tree for regular file omit directory regex ..
+print regex on each string in file regex ..
+copy file link to by file to file ..
+show directory size in kb and sort to give large at end ..
+find file and directory under current directory that match regex file in path ..
+display count of regular file for which owner read and execute permission under file directory tree ..
+display a long list of all file or file file in entire file system ..
+print a list of all duplicate case in sen it file path in current directory tree ..
+find all regular file under regex directory tree exclude file and copy them to directory file ..
+recur change user and group of all file in file to regex ..
+create symbol link in current directory to all file locate in regex directory and file n be extend file ..
+find all regex file and directory under current directory where regex be a variable ..
+send sig term signal to all process whose command match regex ..
+count number of file file in all folder root in current folder ..
+search all non hide file in current directory and all non hide subdirectory for file file ..
+count total number of line in all file file in current directory tree ..
+perform case in sen it search for file file and be last access more than time span ago ..
+prefix all file and directory in current directory with regex ..
+display a dump of standard input as <unk> point valueof double size ..
+search for regex in a large file and print match line ..
+print a sort list of extend of regular file from current directory tree ..
+find all file file which path neither file nor file ..
+display all directory in entire file system exclude those that be only in name ..
+recur find all file file old than time span in a current folder and remove them ..
+save regex sum hash of regex to variable regex ..
+search every directory except subdirectory regex for a regular file regex ..
+save absolute path of current script to variable regex ..
+decompress file to standard output and save all line match regex to file with a number line limit ..
+search for file and directory which be writable by both owner and group ..
+show a list of file not modify in over time span or not access in over time span ..
+find all file and directory that not belong to any user under file directory tree ..
+send one ping request to host with local address in file ring with last number specify by variable regex wait time span for a <unk> and output only line contain regex to standard ..
+remove file that be size in size under current directory ..
+save user name of current user to variable regex ..
+search for regex case in sen it in all file under current directory tree and show match line with file n be ..
+print sort list of unique user file in follow by a total count ..
+send one ping request to host whose name or ip address be specify by variable regex ..
+numer sort file file by second word of each line and output from great valueto least value..
+rename file extend to file for all file and directory under file directory tree ..
+delete all file in file system which not belong to any user ..
+save full path of command regex to variable regex ..
+look up for file in server file and save <unk> output in regex variable ..
+make number directory name file follow by number number regex or number ..
+move all file and directory in current directory to directory ..
+print only second from end field from slash separate string in file regex ..
+search for regex in all file file under current directory and show match line with line number ..
+save only digit in regex to variable regex ..
+search all file in current directory tree whose name end in number for string number ..
+print <unk> text regex to terminal replace regex with newline symbol and append that text to file as root user ..
+exclude directory from find command ..
+find all file and directory in entire file system for which owner at least file permission or group at least read permission or other at least read permission ..
+display sum of disk use by all file file in file folder ..
+find all file and directory that be own by user regex under current directory tree ..
+find recur late modify file in current directory ..
+find all file under current directory that be modify in time span and also include file that be modify in less than time span ago ..
+find all number permission directory and use chmod command to set permission to number ..
+sort line of file file and change it in place ..
+check homebrew system for <unk> <unk> <unk> <unk> ..
+print content of regex file to console and append to regex file ..
+find all file and directory in current directory tree which be modify between date time and date time ..
+remove file that be less than size in size under regex ..
+remove file that be less than size in size under current directory ..
+force create a hard link name file to file ..
+print a line of number regex character ..
+count number of line in every regular file file in current directory tree ..
+move all file that contain regex to regex ..
+find all regular file in current folder extend in entire file system ..
+read first number character from standard input in an interact shell into variable regex ..
+add execute permission to file ..
+find all file file in current directory tree and modify more than time span ago and search those file for string regex ..
+find all file file that belong to user regex and be modify in time span ..
+join line in file regex with line in file n be ..
+display all file in current folder which be big than size ..
+find all file and directory under file path and print timestamp in ymdhms format along with size and object of symlink ..
+recur copy all file and directory in directory to directory exclude all file ..
+ssh into local host on port number ..
+print user name of current user ..
+search for regex in all file file under current directory and show match line with line number ..
+print regex white space separate field in file as a comma separate list ..
+get a list of all file and directory in entire file system ..
+print only alphanumer valuefrom file ..
+find all file file under current directory and run player with these file ..
+generate  a random sort list of number from number to number ..
+write regex to standard output and as input to command regex ..
+find all file file and directory under current directory where regex be a variable ..
+recur find all file file in a current folder and remove them ..
+format and print time string regex accord to default time format ..
+assign a name when start a screen session ..
+format time string regex accord to format string regex and save output to variable regex ..
+calculate <unk> of number ..
+print a record for domain regex from file name serve ..
+find all regular file in current directory tree whose name be not end with file and copy them to directory file ..
+find all regex file and directory under current directory and redirect output to file ..
+save standard input to variable regex ..
+display a long list of all file in current folder which be big than size ..
+recur print all file in a current folder and search regex in file content ignore case differ and precede find string with it number in file ..
+remove all file and directory in file directory tree whose name be regex ..
+locate all file in current directory and below that regex in name <unk> of case ..
+delete all file in home folder which not be access in time span after user confirm ..
+print user name of current user ..
+search file file from current directory tree for todo line ..
+find first file or directory name regex in maximum number level down file directory ..
+show subdirectory of current directory ..
+print last non empty  line of a file ..
+assign a name when start a screen session ..
+unset regex variable from within tmux session ..
+print second section of line regex where section be separate by one or more white space ..
+sort regex delimit line in file by first and third field preserve only unique line ..
+recur remove all file like file in a current folder ..
+print first number line of tree 's help me sag by redirect it from standard error to standard output ..
+change permission of all regular file to number in current folder and not search in subdirectory ..
+replace all instance of regex with regex in file ..
+get second line from text contain in variable regex ..
+copy entire directory tree under regex to regex not create a contain regex directory in regex ..
+find all file and directory under file directory tree that be modify date time ..
+copy all regular file from current directory tree to file ..
+search current directory tree for regular file whose name end in file or file ..
+compress all file file in all subdirectory file ..
+find file name regex in or below directory file and delete them ..
+enable shell option regex and regex ..
+find all file file and directory under current directory ..
+save absolute path of script file n be in variable regex ..
+join comma separate inform in number file ..
+search directory regex for file with inode number number ..
+locate all file in current directory and below that regex in name <unk> of case ..
+locate all file in current directory and below that regex in name <unk> of case ..
+execute regex every time span ..
+search current user 's home directory and it subdirectory for any file that end in file and be modify after file n be last modify ..
+find all directory with name file in current folder which be at least number level deep and which be not present in path directory ..
+make directory as need in regex for every directory find under directory ..
+bind word regex to key code regex ..
+rename file to file ..
+find all file file and directory under current directory ..
+print full real path of file follow by regex ..
+find hard link to same file file in directory tree regex ..
+file regex a number on each line display sum of these number ..
+find all file file and directory under current directory ..
+get ip address of regex network interface ..
+print top number command with use count ..
+print content of regex file revert <unk> ..
+create intermediate directory foo and bar as require and directory file ..
+search for regex in all file under current directory tree and show match line with file n be ..
+unzip every file file in current directory ..
+replace regex with number in column number and number of file file and format as a table ..
+print each file in user 's full name ..
+remove duplicate file n be in current directory tree that match pattern file ..
+create a ssh key and store it in file file ..
+list all ip address assign to current hostname pause for user interact after each page ..
+rename file to file ..
+count number of unique file extend in current directory tree ..
+find all file in current directory that be less than size size ..
+display a long list of all file in entire file system which be big than size ..
+mount regex file system file on file ..
+print file and append to file file ..
+list all file detail with file n be match file from directory listen on port number and write to file ..
+find all file under and below file that be change or create less than time span ago ..
+find all regular file that re id in current directory tree and be last modify more than time span ago ..
+find all file and directory which be modify from start of day in file take from glob pattern file ..
+search for all directory in a folder and give them as input to python script ..
+display a long list of all file or file file in entire file system ..
+find all file and directory in current directory tree which be modify between date time and date time ..
+copy file regex to each of directory regex regex regex ..
+get disk space use by all file file and directory under current directory ..
+find all file and directory under current directory tree that be own by regex ..
+archive all directory in file to file with file extend ..
+change ownership of all file in file system from ed ward to <unk> c ..
+find all file and directory which be modify within time span in file take from glob pattern file ..
+locate all file file in current directory and it subdirectory that not be access in more than time span ..
+find string with dot separate sequenc of number and print part of that sequenc before second and third dot ..
+repress current time as second sinc epoch and save it to variable date time ..
+print ave rag time of number ping request to file ..
+remove last number <unk> delimit field and follow character in file keep only regex ..
+list all file and folder with it content in a current folder exclude name end with regex ..
+extract any line in regex which not appear as first word of any line in regex ..
+display a long list of first number file under current directory ..
+find all file and directory under current directory that match regex file in name ..
+go to directory file file use backslash to escape special character ..
+find all directory under file and set permission to number ..
+execute file with regex argument where current directory be first argument ..
+mathemat sum all line in file ..
+display a long list of all file or file file in entire file system ..
+display what <unk> mount point be mount with ..
+find file end in regex ..
+print name and size of regular file re id in regex directory tree ..
+find all file file which not be modify in time span and move them to another folder ..
+display all variable with name start with regex in a window 's command line ..
+search for regex expand by variable regex in all regular file under regex directory tree ..
+interact page through color cod output of regex ..
+rename all file file under current directory by append parent directory name at begin of name ..
+search in current directory downward all file whose size be great than size ..
+search for a word in all shell script in current folder and display match file ..
+move all file not match pattern file file from current directory to directory directory ..
+locate all file regular file under current directory tree ..
+find recur all file not have extend file in directory that contain regex and print match string with string number and file name ..
+save system hostname in variable regex ..
+delete all file find in current directory tree whose name begin with regex ..
+calculate and show regex sum for every file under current directory tree ..
+update timestamp of all directory under current directory ..
+use regex to monitor new instance of program name ..
+find all file file and directory under file directory tree that be modify within time span ..
+report file system contain path to current work directory disk usage ..
+unzip every file file in current directory tree ..
+remove all empty  file in directory and below ..
+find all regex file and directory under current folder..
+find all file file in current folder and which be present in pattern list file file ..
+find all file and directory under current directory that be access less than time span ago ..
+print host name follow by regex and content of file ..
+print list of all subdirectory of current directory ..
+delete all regular file in temp folder which not be modify in time span regex at end give <unk> input to file command ..
+remove all file file in current directory tree whose name match regular express file ..
+search all file in current directory tree whose name end in number for string number ..
+save directory of full path to current script in variable regex ..
+display all line in regex contain regex pause for user input after each page ..
+create an empty  file with a <unk> return character in it name ..
+archive file and all file under directory to directory on host regex as user regex without copy file that already exist ..
+count number of line in each file file in current directory tree ..
+force delete all file file in current directory which be less than size and not search in subdirectory ..
+compress all file under current directory with gzip ..
+redirect time output to standard output and search for command regex ..
+find all file under current directory that be modify in time span and also include file that be modify in less than time span ago ..
+archive directory to file suppress non error me sag and compress data du re transmission ..
+print line in sort content of regex that be not in sort content of regex ..
+print second section of space separate data <unk> from input ..
+list all file file and directory under directory directory ..
+execute regex every second ..
+list all file in current directory whose name contain regex ..
+create a new directory directory on host regex ..
+find file file in current directory tree that contain regex and print only unique name ..
+find all file file and directory under current directory and redirect output to file ..
+look for regular file in directory tree regex regex regex regex under directory ..
+find first file or directory name regex under current directory and quit ..
+remount file with a maximum size of number ..
+display all line contain <unk> in current kernel 's compile tim config file ..
+find all regex file and directory under current directory where regex be a variable ..
+search for case in sen it regex expand by regex in all file name regex under current directory ..
+install package regex ..
+find recur all regular file in current directory tree end in file or file ..
+find all file with name regex in file system which be big than size ..
+replace all occur of regex with regex in file and file with file extend under current directory tree ..
+find all file with name regex in file system which be big than size ..
+display all file in current folder pause for user input after each page ..
+count number of line in each file in a git repository ..
+find all file and directory with space in name under current directory ..
+save date time 's date into variable regex ..
+display all file in current folder which not be change in time span ..
+list all file from current directory tree that be modify less than time span ago ..
+convert all file file to file file in maximum number level down current directory ..
+search for word regex or regex in all file in folder <unk> ..
+find file and directory under current directory that match file in path ..
+locate all file file under current directory tree ..
+create a name screen session ..
+search for all directory in current folder which start with regex and move them to another folder ..
+save canon file n be of script in variable regex ..
+calculate <unk> of number ..
+get a pid of a process with name regex ..
+search for all directory in a folder and display all file ..
+find all file directory under file directory ..
+find all regular file under and below file that match regex case in sen it regex file ..
+rename all file file to file file under current directory by append parent directory name at begin of name ..
+delete all file find in current directory tree whose name begin with regex ..
+decompress and archive file ..
+save first line of regex into variable regex in ksh ..
+alloc a pseudo terminal and execute regex follow by regex on host file ..
+change owner to regex and group to regex of file ..
+display in a list of all file that be big than size in current folder ..
+run an awk program on every file file find in current directory tree ..
+check if regex be mount point of file system ..
+recur remove all file like file in a current folder ..
+remove trail space from all file under current directory ignore directory with file in path and keep backup of origin ..
+print process tree of current command process ..
+locate all file file under current directory tree separate file name with zero ..
+in current shell interpret file which be in directory point by variable dir ..
+create a tar archive with all file file under current directory ..
+change group ownership of regex to regex ..
+continue send regex to all prompt of command file ..
+delete all text file in home folder after user confirm ..
+print file inform of execute file of command regex ..
+find all file file and directory under current directory ..
+bind mount file on file ..
+recur change owner and group of all file in directory to regex ..
+locate all file regular file under current directory tree ..
+list all file and directory under current directory use comma as delimit for differ field in output ..
+search current directory for file whose name start with regex ignore svn and file file ..
+recur copy all file match file in regex to directory compress data du re transmission ..
+create intermediate directory foo and bar as require and directory file ..
+read first number character from standard input in an interact shell into variable regex ..
+search for all directory in a folder and delete them ..
+find file with number permission under file and print them with string regex print as first line of output ..
+set alia regex for command regex ..
+print line in sort content of file that be not in sort content of file ..
+copy all regular file from current directory tree to file ..
+find all file and directory in current directory tree which be modify between date time and date time ..
+find all file and directory with space in name under directory directory and rename them by replace all space with regex ..
+find all regular file in current folder which be modify in time span and display a long list of them ..
+find file that not a list in file or file in file system ..
+print ip address for current host name ..
+rename file extend to file for all file and directory under file directory tree ..
+find all file file and directory under file and print size and path ..
+take first text field from file file as a domain name and get short a record for one ..
+find file under file that be not execute ..
+search for word regex in all file in current folder and display a long list of these file ..
+remove all file and directory under file directory tree that match with one of name pattern file file file file or file ..
+repress current time as second sinc epoch and save it to variable date time ..
+copy file and file to file preserve directory hierarchy ..
+print path n be of a file that be connect to standard output of command regex ..
+find all link in current folder and not search in subdirectory ..
+split file into file of at most number line each with prefix regex ..
+print size of all top level folder in a current folder with human read format and descend order ..
+find break symlink in current directory tree ..
+delete all file file and directory under current directory ..
+split regex into file with at most number line each ..
+find all file and directory name file in number and number level down current directory ..
+remove all regular file from current directory tree whose name not end with regex or regex ..
+archive directory structure under backup directory into file ..
+print second line of output of regex ..
+list environ variable whose name or valuecontain current shell ..
+save content of file to variable regex ..
+sleep for time span ..
+find all directory whose name be root in directory directory ..
+calculate total number of byte of all file file in current directory tree ..
+find all file file whose name contain regex ..
+recur copy regex to regex compress data du re transmission ..
+find all file and directory with case in sen it pattern regex in name under current directory tree follow by regex in entire file system and list format ..
+print file without last n byte ..
+print list of directory that be present in file directory tree ..
+forward port number bind on local host to port number in regex via regex ..
+check if process id number exist and current user permission to send it signal ..
+compress all directory find in directory tree regex that be modify more than time span ago ..
+list current directory recur ignore regex subdirectory ..
+list all file name file in current work directory tree ..
+display all file in folder file which belong to user regex ..
+cut all remote path from http url receive from standard input keep only protocol identify if i host name and trail slash of form directory ..
+unzip and untar file ..
+print posit number of day number in fourth line of calendar output ..
+find all regular file under file directory tree and run file for each of them with file path as argument ..
+search directory tree file for directory whose name be regex and delete them ..
+make number directory name file follow by number number regex or number ..
+list file in current directory and below except for git file ..
+calculate and show regex sum for every file under current directory tree ..
+dump regex as size wide hexadecimal number ..
+find all file under regex that match regex file in content where regex regex will be expand ..
+save absolute path of file execute to variable regex ..
+print name of directory from path expand by glob pattern file ..
+find all file and directory under current directory that match regex file in path ..
+locate all file file under current directory tree ..
+convert regex separate list regex to new line separate list ..
+list all file from current directory tree that be modify less than time span ago ..
+find all file file and directory under current directory ..
+push current folder to directory stack ..
+find all regular file under file directory tree exclude file with file extend ..
+recur change group ownership of every file in file to regex ..
+read a line from standard input into variable regex ignore backslash escape and use prompt file ..
+recur remove all file like file in a current folder ..
+get ip address of regex network interface ..
+split file into file with number line each start with regex and use numer suffix ..
+search for all file file in file system and move them to folder file ..
+display a long list of all regular file with number permission under current directory tree ..
+find file in current directory tree whose name be of form file where xx be a number from number to number ..
+send sig term signal to all process whose command match regex ..
+mathemat sum all line in file .. ring from number to file ..
+replace all occur of regex with regex in all regular file with file extend under file directory tree and modify them in place ..
+count all line of all file with name end with file in current directory recur ..
+copy all directory call regex from current directory tree to directory regex ..
+remove all file under current directory ..
+find all regex file and directory under current directory where regex be a variable ..
+find all file in current directory of size great than size and less than size ..
+copy file and file to file keep relate path name ..
+assign permission number to file in current directory tree ..
+remove all file but number new one from current folder ..
+remove regular file whose name match perl regular express file from current directory tree ..
+archive all regex file and directory under directory into regex ..
+find all file and file file in current directory tree and search them for regex ..
+find all file file under current directory and print change name by append number level of parent directory name at begin and modify actual name to dd <unk> format ..
+search current directory tree for regular file whose name match regular express file ..
+find all regex file and directory under current directory where regex be a variable ..
+sort regex by first and second regex delimit entry and symlink ..
+unset random one from first number array member ..
+find all file under current directory match either of pattern file file file file file in name ..
+find all directory under regex directory and set read write execute permission for owner and group and no permission for other for those directory ..
+find all file and directory that contain regex in name under current directory no recur ..
+find all file in current folder which be modify in last one minut ..
+count line in file file n be ignore empty  line and line with space only ..
+display current system 's kernel name kernel release and version and machin architectur ..
+count line in each of file file in a current folder and subfold and print total count as well ..
+extract file file ..
+remove all file file ..
+recur change user and group of all file in file to regex ..
+search directory tree file for directory whose name be regex and delete them ..
+locate file whose status be change less than time span ago ..
+read a single character from standard input with prompt regex ..
+find all regex file and directory under current directory where regex be a variable ..
+generate uuid for file from current directory tree ..
+find all file that be set user id to root ..
+print first line of each file under current directory ..
+find all regex file and directory under current directory where regex be a variable ..
+find all file file in maximum number level down current directory process it with sed and send output to a mysql command ..
+delete file under regex that match regex in name and be modify more than time span ago ..
+sort line in regex and regex to standard output preserve only unique line ..
+print posit number of day number in fourth line of calendar output for se pt em b number ..
+find all file and directory under current directory that be access more than number but less than time span ago ..
+display all regular file in entire file system which belong to user regex and discard all error ..
+display all regular file in current folder which belong to user regex and which belong to user regex and be own by user regex ..
+print a colon separate list of all directory from file directory tree except hide one and those below them ..
+print hexadecimal byte and printable character of regex ..
+display long list of content in a root folder include hide file with human read size and store output to file file ..
+find all regex directory in current directory tree ..
+change permission of all regular file in current folder ..
+find all file under and below file that be change or create less than time span ago and show a few line of output from begin ..
+find all directory in current folder exclude search and make a new directory regex in another directory ..
+make number directory name file follow by number number regex or number ..
+find all zip file in current folder and calculate total size of them and save output to a file file ..
+find all regex file and directory under current directory where regex be a variable ..
+find all file file in current folder and display count ..
+add read and execute permission to every directory under current directory ..
+save all directory under current directory as a comma separate list in variable regex ..
+list all leaf directory under current directory ..
+find all file and directory which be modify within time span in file take from glob pattern file ..
+recur find all file file and print string with regex ignore text distinct ..
+find all file whose name end with regex in file directory tree follow symlink and delete them ..
+print a sort list of regular file from directory tree file ..
+print calendar of februari number ..
+find all file file and directory under current directory and execute process for each of them ..
+replace regex with newline in regex and display name character ..
+send every number character of file on a single line ..
+recur find all file file in a current folder and remove them ..
+execute regex every time span ..
+find all file file in current directory tree and remove them ..
+print current date follow by regex ..
+change owner to regex and group to regex of file ..
+find all directory in differ folder exclude search in subdirectory and create these folder in current directory ..
+find all file and directory under file directory in a remote host and upload file and directory to directory ..
+remove all regular file from current directory tree whose name not end with regex or regex ..
+recur remove all file like file in a current folder but regex file ..
+continue send regex plus newline to program file ..
+replace all instance of regex with regex in file file and make a backup with suffix file ..
+print number space in a row ..
+set alia regex for command regex ..
+find all file file and change permission to number ..
+find all file and directory in entire file system that regex bite set for either owner group or other ..
+remove trail white space in file file from current directory tree ..
+find all instance of a file in current folder and save output to a file ..
+remove all directory from current directory tree whose name contain regex ..
+create intermediate directory as require and directory file ..
+list all file file and directory under file file and file directory ..
+delete recur without prompt any file or directory under current directory that case in sen it match file n be file ..
+search for all file file in folder file which be modify in time span and display last line of these file ..
+find all file name file within current folder and print path where each one be locate ..
+find all file file in folder directory ..
+search for file and directory that be readable for every body at least one write bite set but be not execute for anybody ..
+enable shell option regex ..
+copy all symbol link from file to file ..
+print minimum transmission time of number ping request to file from loss ..
+set environ variable regex to system host name follow by regex ..
+find all file and directory under current directory and print only file n be ..
+rename all file file under current directory by append parent directory name at begin of name ..
+find all file and directory in entire file system that regex bite set for either owner group or other ..
+bind word regex to key code regex ..
+search regex directory and all of it subdirectory for regular file and remove execute permission for all while ad write permission for user ..
+find file file in current directory tree that be not under file directory ..
+merg line whose first comma separate field in file regex also appear as a first comma separate in file regex both file be sort ..
+change directory to output of command regex ..
+report count of character in valueof regex variable as follow regex ..
+compress regex encode and save to variable regex ..
+recur copy file on host file to local directory file connect as ssh user n be regex ..
+enable shell option regex ..
+search history for regex ..
+remove all regex file that be last change more than time span ago from current directory tree ..
+find all directory under file directory tree that be modify within time span ..
+find late modify file file in current directory ..
+display a long list of all file in current folder which permission set ..
+remove last number character from number keep only number ..
+find all file and size under current directory tree ..
+enable shell option regex ..
+count number of file name file under file directory tree that match regex in content ..
+save directory of full path to current script in variable regex ..
+find all file under current directory and print only file n be ..
+recur change ownership of directory to current user ..
+copy entire directory hierarchy from one to file ..
+revers space separate word in regex ..
+display differ between directory regex and regex treat absent file as empty  ..
+print all line of regex except last number ..
+replace all occur of file with file in all file under file and below ..
+print line number regex in file regex ..
+find all file file under current directory and run file with all of file path as argument ..
+change permission to number for all regular file under and below directory ..
+archive file to file via ssh on port number ..
+print long list of regex file ..
+find all file modify on regex of date time start from current directory ..
+print a list of regular file from directory tree directory sort with file ..
+split file exclude first line into file with at most number line each and a numer suffix of length number ..
+display all regular file in current folder which permission number ..
+recur change ownership of file to current user ..
+find large origin file file in current directory tree ..
+find all regex file and directory under current directory where regex be a variable ..
+get a list of file and directory in current directory tree ..
+split file into file with at most number line each and use a prefix regex and numer suffix of length number ..
+search current directory tree for file whose name begin with regex and end with regex follow by any character ignore path name contain regex ..
+find all file in current directory that be less than size size ..
+create a ssh key and store it in file file ..
+read a line from standard input into variable regex ignore backslash escape and use prompt file ..
+display list of all file file in home folder ..
+print name of all file from directory tree file whose name end in regex ..
+count number of file file in a directory folder ..
+display all text file in folder file and save output to file ..
+print current directory tree with date of last modify for each file or directory ..
+copy all file with file extend under file directory tree to file directory ..
+copy all regular file from current directory tree that be modify less than time span ago to directory file ..
+find all regex file and directory under current directory where regex be a variable ..
+find all regex file and directory under current directory where regex be a variable ..
+search current directory tree for regular file who be name not end in number and number ..
+save full path of command regex to variable regex ..
+copy entire directory tree under regex to regex not create a contain regex directory in regex ..
+find all file file and directory under current directory ..
+archive file on host regex to current directory ..
+search all file from current directory tree for regex ignore case ..
+search file directory tree for file that not be modify within time span ..
+print file and append to file file ..
+remove all file file ..
+format time string regex accord to default time format and save it to variable regex ..
+recur search for all file with name end with file rename them to end with file ..
+remove all file file in current directory tree whose name begin with regex ..
+archive all regex directory under current directory into file ..
+display calendar for a previous current and time span ..
+find file under regex that match regex in name without descend into directory that match regex and regex search for regex in those file ..
+find all file and directory under file path and print timestamp in ymdhms format along with path and object of symlink ..
+forward all connect to client local host number via ssh tunnel to regex and connect to host file on port number ..
+print first number character follow by next number character on a new line for each line in regex and split result into file of at most number line each with a file n be prefix ..
+list regular file end in file ..
+find all file <unk> entire file hierarchy with option <unk> of regex file regex ..
+create new cron tab set for user regex include regex and only job from current cron tab of regex user that regex contain regex ..
+show mv command that rename file file in current directory tree prependename with regex ..
+search current directory recur for text file contain at least one character ..
+execute regex every time span and display without title ..
+find all directory whose name begin with regex level number and count number of character in them ..
+create a backup of all file in current folder exclude those that be present in file ..
+mathemat sum each line in regex ..
+search manual page which descript contain regex and print name and descript of only one that contain any ca file pattern ..
+store absolute path of execute script ..
+find all file and directory under current directory and print path ..
+display number small file by size in a folder ..
+display a long list of all file that begin with name regex in entire file system ..
+show list of all file in current folder which be modify within time span ..
+search all file in current directory tree whose name end in number for string number ..
+redirect time output to file ..
+find all file start from current directory which be large than size ..
+make dns lookup for hostname file ..
+recur change user and group of all file in file to regex ..
+travers file system just once list permission file and directory into file and large file into file ..
+print file n be take by glob pattern regex with null character as delimit ..
+set environ variable regex to current user 's home directory ..
+set variable regex to name of current directory ..
+insert regex every number character in file regex ..
+print each line that be find only once in regex and regex combine ..
+search directory regex for file with inode number number ..
+remove all file from current folder but number new one ..
+show status of a shell option regex ..
+print first number line of regex ..
+count all file in a current folder and subfold ..
+recur remove all file like file in a current folder ..
+delete all empty  directory and directory that contain only empty  directory under current directory ..
+save base name of current work directory to variable regex ..
+bind mount file on file ..
+list all file and file file in current directory tree that contain regex ..
+format time string regex accord to default time format and save it to variable regex ..
+find all regular file under file directory tree that be less than size in size ..
+run regex in every subdirectory of current directory ..
+read a line from standard input and save respons in variable regex ..
+move all file from regex directory tree to regex directory ..
+write standard output and error of regex to standard output and file ..
+search current directory tree for regular file whose name start with either regex or regex ..
+find file and file file in current directory tree and print line number and line contain regex ..
+print length and content of long line in regex ..
+list all leaf directory under current directory ..
+find all file and directory that belong to user regex under directory directory and show a few line of output from begin ..
+find all file file and directory under current directory where regex be a variable ..
+find all execute symlink or regex file under maximum number level down regex directory ..
+print only line from file that not present in file and begin with regex ..
+find all file file in current directory tree and edit them with regex ..
+display variable regex without lead and trail white space ..
+find all file file and directory under current directory where regex be a variable ..
+find all file in regex directory tree ..
+delete all file file and directory under current directory ..
+search for word regex in all file in current contain word regex in name regex be use to handle  file with newline name or those which only space in name ..
+find all file file and directory under current directory and execute process for each of them ..
+print list of directory that be present in file directory tree ..
+print ip address for current host name ..
+numer sort file regex by second regex separate valueof each line order from least valueto <unk> he be t value..
+recur print path to all text file in folder ..
+force create a symbol link name regex to regex without dereference regex ..
+go to directory file file use backslash to escape special character ..
+create symbol link in current directory to all file locate in current directory that file n be not start with regex ..
+display a long list of all regular file in entire file system ..
+find all file under current directory that be modify in time span and also include file that be modify in less than time span ago ..
+find all file file and file file and directory under file exclude file file and directory under file path ..
+find all regex file and directory exclude regex file and directory under home directory ..
+find file under current directory whose file type descript contain regex display only path to each file ..
+search for all symbol link in current folder and display all file link ..
+look for regular file in directory tree regex regex regex regex under directory ..
+find all file in entire file system which be great than size and less than size in size ..
+search for string regex in file file under file directory ..
+copy and <unk> overwrite all file in file to file ..
+create a name screen session ..
+create temporary directory with name format like file in directory folder and save path to it in regex variable ..
+search directory tree file for directory whose name be regex and delete them in an optimal way ..
+unzip file to standard output and save all line match regex to file in regex variable ..
+search for file and directory with case in sen it pattern file in file directory and create an archive of last block of file send to xarg ..
+find all file file under current directory and run an ffmpeg command with path and name for each file ..
+find all file file in current folder and replace everything expect extend of file and display unique file extend ..
+display a long list of all file or file file in entire file system ..
+find all directory under regex directory and set read write execute permission for owner and group and no permission for other for those directory ..
+receive input and print it to terminal ..
+upgrade regex package with enable repository regex ..
+read a single character from standard input into variable regex with prompt regex and number regex ..
+find all directory under regex directory tree exclude path contain directory regex ..
+write every number line in regex on a single line separate by a comma ..
+list all regular file in current directory tree ..
+change group to regex and permission to number for all file in current folder ..
+find all directory under file and set permission to number ..
+change symbol link regex into a file ..
+find all file under current directory that be large than size in size ..
+write regex to standard output and file as input to regex ..
+search file file from directory tree directory for text regex ignore case ..
+search for pattern match file in current directory tree and subfold exclude regex ..
+print file size for all file under current directory ..
+display list of all hide directory in directory directory ..
+force create a symbol link name file to file ..
+send content of file to regex on input ..
+find all file in current directory and execute multiple command for each file ..
+find all directory under minimum number level down regex directory and set read write execute permission for owner and group and no permission for other for those directory ..
+search for string regex in all file file under current directory tree ..
+display list of all normal file exclude hide file more than time span ..
+find all file and directory in file directory tree which not be modify in time span ..
+modify and rewirite regex replace first instance of regex on each line with regex ..
+find all file and directory under minimum number level down regex directory and set permission for group for these file and directory ..
+locate all file regular file under current directory tree ..
+replace all occur of regex with regex in file name regex from current directory tree ..
+prepend revers history number to output of history command with argument regex ..
+search current directory tree for file whose name not end in file and file ..
+find all file and directory name file under regex directory tree and print parent directory name ..
+search directory tree file file and file for file name file ..
+find all directory whose name be root in directory directory ..
+find all directory name regex under current directory and show only directory name of them ..
+prefix all file and directory in current directory with regex ..
+search current directory tree for execute regular file ..
+display long list of all perl file in current folder ..
+find all file name regex in current directory tree not descend into regex directory ..
+find all regex file and directory under current directory where regex be a variable ..
+report file system contain path to current work directory disk usage human read ..
+find all file in current folder which be access exact time span ago ..
+display all file in folder file which belong to user regex ..
+print each file in user 's full name ..
+print a single line of number from number to number ..
+search current directory tree for file and file file ignore case ..
+print name of user with current <unk> ..
+sort base on size and display top number large regular file in current folder ..
+find all file under current directory that be modify in time span and also include file that be modify in less than time span ago ..
+remove regex character from all file file under file directory and save result to new file with regex append in name ..
+search for regex in every file in current directory and number output ..
+count line in each of file file in a current folder and subfold and print total count as well ..
+search all file file from current directory tree for regex ..
+display a long list of all file or file file in entire file system ..
+set alia regex for command regex ..
+list all file file below current directory whose full path n be name not include regex file regex or regex sort by number of line let user page interact through output ..
+search file directory tree for file that not be modify within time span ..
+display a long list of all empty  file in entire file system ..
+create a compress archive exclude hide file and save it in regex variable ..
+locate all file in current directory and below that regex in name <unk> of case ..
+find all file end with regex and display first number line from these file ..
+look for regular file in directory tree regex regex regex regex under directory ..
+follow symbol link regex and print path to it target ..
+print every number line in regex on a single line separate by a space ..
+assign alia regex to a find command that remove any file file large than size ..
+replace regex with newline in regex and display name character ..
+split file into file with at most number line each ..
+assign permission number to directory in current directory tree ..
+print command with pid number ..
+find all file archive in current directory tree exclude file file file and file ..
+find all file and directory under directory that be modify less than time span ago exclude file file and directory ..
+get list of ip address of all network interface ..
+display a long list of all image with name regex in current folder ..
+copy directory hierarchy from regex to regex ..
+find regular file that be readable or writable by owner ..
+get second line from text contain in variable regex ..
+display all file in current folder which be big than size ..
+find all file file and directory under current directory ..
+recur bind file to file ..
+copy all file and directory under current directory into file preserve relate path ..
+replace all occur of ed x with <unk> <unk> line all file file under file directory ..
+recur unzip file to stdout in file and search for regex ..
+print all unique file path under regex compare to regex ..
+find all file that belong to group root ..
+delete all regular file with file extend that be modify in more than time span ago in maximum number level down directory file ..
+page through content of <unk> ad a regex at end of each line ..
+find all symlink under current directory ..
+<unk> timestamp of regex by <unk> time span from it ..
+start new detach tmux session and run command regex within ..
+list current directory recur ignore regex subdirectory ..
+rename regex to regex and backup to file if regex exist ..
+recur bind file to file ..
+print total disk usage in byte of all file list in file ..
+search current directory exact permission permission ..
+set alia regex for command regex ..
+find all directory under regex directory and set read write execute permission for owner and group and no permission for other for those directory ..
+find all directory under regex directory and set read write execute permission for owner and group and no permission for other for those directory ..
+find old normal file in current directory ..
+unset environ variable repress as regex by regex ..
+find all regex file and directory in entire file system ..
+count line in file regex and show progress bar while ..
+search file file from current directory tree for regex ..
+print process tree with command line argument and process id number ..
+locate all file regular file under current directory tree ..
+find all file file under current directory whose file type descript contain regex display only path to each file ..
+repeat file number time on a single line ..
+find all file call file in current directory tree and remove line start with regex in them save backup copy as file ..
+send sig term signal to first process whose command match regex ..
+search current directory whose status change more than time span ago ..
+copy file and file to file keep relate path name ..
+create symbol link in current directory for all file locate in directory file with a name contain file ..
+execute file in background on server regex ..
+find all regex file recur in file that be more than time span old and compress them ..
+find all subdirectory of current directory except hide one ..
+look for file in current directory tree to which group user full access ..
+remove all file file in file directory tree ..
+search for regex in all file with file extend under current directory tree and also print file n be ..
+count number of regular file with case in sen it name pattern regex under regex directory tree ..
+alloc a pseudo terminal and execute regex follow by regex on host file ..
+start new window name regex in detach tmux session regex open file regex within ..
+append file file from current directory tree to tar archive file ..
+display all file in current folder which be modify after a file ..
+find all regular file under regex directory tree exclude file with file extend and append output to file ..
+recur remove all file file and answer regex to any prompt ..
+run some bash stat with file n be as argument for file recur in file that match regex ..
+find all regular file in current folder that be modify in time span ..
+find all file under file and change permission to number ..
+calculate regex sum of regex ..
+search for regex in all regex file under current directory ..
+repeat file number time on a single line ..
+search file directory tree for symbol link ..
+recur copy all file and directory in directory to directory exclude file ..
+set alia regex for command regex ..
+find all text file that modify in time span and display content ..
+find all file file from directory redirect error to file ..
+make number directory name file follow by number number regex or number ..
+print late modify file in a directory ..
+change directory to regex and permission for each file in current directory tree ..
+search current user 's home directory and it subdirectory for any file that end in file and be modify after file n be last modify ..
+save absolute path of current script to variable regex ..
+copy all file and directory under current directory to file directory ..
+print length and content of long line in file n be ..
+find all file file and directory under current directory ..
+find all file under and below current work directory with word california in file and count number of line in output ..
+print a count of character in regex ..
+recur print all file in a current folder and search regex in file content ignore case differ and precede find string with it number in file ..
+find all file file under file directory and convert them to file ..
+calculate regex sum for content of regular file in file directory tree ..
+ssh into host regex as user regex ..
+add a line number to every line in regex ..
+attempt to connect as root via ssh to host whose ip address or hostname be specify by environ variable <unk> will normal fail becaus ssh server normal don 't accept ..
+save print calendar of februari number in posit variable ..
+print list of disk and mount point of disk match file into regex as a background work ..
+unzip file list unique first comma separate field prefix by number of occur sort from least frequent to most frequent ..
+list all file from current directory tree that be modify less than time span ago ..
+save ip address of host name in variable regex ..
+install package group regex answer regex on all question ..
+continue write regex separate by null terminal over entire file disk ..
+find file with number permission under file and print them with null character as delimit ..
+start from current directory skip directory file and print it skip all file and directory under it and print name of other file find ..
+search regex directory and all of it subdirectory for regular file and remove execute permission for all while ad write permission for user ..
+delete file in file and below that not be modify in over time span ..
+list character in regex show backslash escape for non display ..
+find all directory under minimum number level down regex directory ..
+delete all file in current folder which be modify in time span ..
+find all regex file and directory under current directory where regex be a variable ..
+get string with mac address of network interface regex ..
+find all file file under file and move them to regex ..
+find all regular file in current folder which be at least number level deep and search in alphabet order of directory name ..
+print line number of each match regex in regex ..
+search current directory recur for regular file last access less than time span ago ..
+search entire file hierarchy for file end in file and delete them ..
+set trace prompt to print file ..
+find recur all file in directory that contain regex and print match string with string number and file name ..
+search for word regex in all regular file in directory file ..
+get a list of file and directory in current directory tree ..
+prefix all file and directory under current directory with regex in path ..
+print a sort list of extend of regular file from current directory tree ..
+search for file whose name be regex and whose permission be number ..
+recur print path to all text file in folder ..
+find all file file under current directory and rename them by replace all occur of regex with regex in path ..
+search for file and directory with case in sen it pattern file in file directory and create an archive of all file find ..
+find all file in file system which belong to user regex and with name regex ..
+rename file extend file to file for all file and directory under current directory tree ..
+rename all file file in a regex directory to file file ..
+delete all file in current folder which end with file or file and which not be access in time span ..
+save user name of current user to variable regex ..
+download content from file and use a proxy server ..
+change owner of all file in file system which belong to user with permission number ..
+interact page through a list of all process run on system arrow key <unk> around and q key quit ..
+print each file in user 's full name ..
+print whether sort content of regex and regex differ ..
+create a backup of all file in current folder which be modify in time span ..
+locate all file regular file under current directory tree ..
+sort standard input in alphabet order ..
+remove all file file ..
+delete all break symbol link under file directory tree ..
+take folder name of file regex change backslash to forward one and save result in regex variable ..
+send sig term to all process use tcp port number on system ..
+locate all file file under current directory tree ..
+recur change user and group of all file in file to regex ..
+find all file with name regex in file system which be big than size ..
+delete all file and directory take by glob pattern regex except one with name regex ..
+find all regular file with file extend in entire file system and move them to directory file ..
+delete all text file in home folder after user confirm ..
+display a long list of all file in current folder ..
+find all file in current directory tree whose name be regex change to directory be in and execute them ..
+find symbol link in regex and file to file whose path n be end in regex ..
+search for all regular file file in file system and move them to folder file ..
+display count of total number of empty  file in current folder ..
+find all file and directory name file that belong to user regex in entire file system ..
+create script file that rest or origin permission of regular file in current directory tree ..
+locate all file regular file under current directory tree ..
+search current user 's home directory and it subdirectory for any file that end in file and be modify after file n be last modify ..
+find all file under file and print them by replace every occur of regex with regex in path ..
+get state of regex shell option ..
+remove all empty  folder under file path that be not new than file and old than file by modify time ..
+replace a word in all regular file in current folder ..
+use regex to monitor process file print inform number time ..
+recur look for file end in either file or file ..
+identify if i cm file across all <unk> website ..
+set variable file to name of oper system ie regex ..
+send sig term to all process use tcp port number on system ..
+run script file as user jetty ..
+find all file in maximum number level down current directory and remove entry from output ..
+run regex on each file from current directory tree ..
+find all file and directory under current directory and print them with newline as delimit ..
+list each directory in current directory prefix with it disk usage in human readable format and sort from small to large ..
+find all regular file under regex directory tree and save result to regex variable ..
+find file that be writable by user group or both ..
+find all file and directory which be modify within time span in file take from glob pattern file ..
+auto mat spell check file file use regex command and file to file ..
+find all regular file whose name contain regex in directory tree file ..
+take path list from file file cut <unk> first number path <unk> and last one ..
+search for file file in current directory tree and show match line with file ..
+print file without last n byte ..
+print file inform of command regex ..
+find file regex in file system and discard all error ..
+list all directory in current directory tree ..
+ssh into host regex as user regex ..
+count number of line in each file file in current directory tree ..
+find all file under file and below writable by regex and regex ..
+search current directory and all of it subdirectory for any file file be <unk> to prevent shell from expand regex before it 's pas to find ..
+display all directory in folder file except file directory ..
+search for regex in all file file under current directory and show match line with line number ..
+search in current directory downward all file which not be modify sinc time span ..
+print help me sag of command regex ..
+read first number character from standard input in an interact shell into variable regex ..
+send number ping request to address file and print only last number line of summari output ..
+use regex to monitor one process ..
+print a line of number regex character ..
+get only late version of file from file extend under current directory tree ..
+find all file name regex in current folder and below and run them through ls regex command one by one ..
+find all directory under current directory and set read regex execute permission for group and other for these file ..
+find all directory name regex in current directory tree and print parent ..
+enable history in a script ..
+execute file ignore output in background on target machin regex ..
+print all user name and terminal of user who be file in ..
+remove all regular file from current directory tree except file file file file file ..
+list all file and directory under file with file inform which be great than size and be modify or access more than time span ago ..
+set alia regex for command regex ..
+remove trail white space from all file under current directory ignore file file file file and file directory ..
+show a list of file not modify in over time span or not access in over time span ..
+create symbol link in current directory to all file locate in directory file and file n be extend file ..
+find all file in entire file system with extend file or file as well as any file large than size in size ..
+save hexadecimal byte number in binary file file to variable regex ..
+find all configure file in file folder along with last access regex modify time ..
+recur find and compress all file in directory file ..
+merg file file and file by output any line whose second field in first match first field in second ..
+change permission to number for all file and directory under current directory tree that number permission ..
+read a line of standard input with prompt regex in an interact shell and save respons to variable regex ..
+find all directory under regex directory and set read write execute permission for owner and group and no permission for other for those directory ..
+search for all regular file in current folder which be access in time span and save output to file ..
+print last number command in history with first number character remove ..
+count number of line in each file file in a git repository ..
+find all file under file directory and display ip address pattern in them ..
+sort regex delimit line in file by first and third field preserve only unique line ..
+revers order of line in file use <unk> regex command ..
+print content of regex as print a hex dump of regex ..
+copy standard input to file print info me sag on each oper ..
+search current directory and all of it subdirectory for any file file be <unk> to prevent shell from expand regex before it 's pas to find ..
+calculate regex sum of content of regex ..
+save full path of command regex to variable regex ..
+search for file and directory which be writable by either owner or group ..
+execute awk command file on compress file regex ..
+show a list of file not modify in over time span or not access in over time span ..
+search current directory and all of it subdirectory for any file file be <unk> to prevent shell from expand regex before it 's pas to find ..
+print name of all file from directory tree file whose name end in regex ..
+change owner to regex and group to regex of file ..
+find link to any file that happen to be name file ..
+find all regex file and directory under current directory where regex be a variable ..
+search for all file file in current folder and copy them to another folder ..
+find all file and directory under current directory and search for regex in those file ..
+auto mat file into file on port number as user regex use password regex ..
+create a tar archive file ..
+save full path of command regex to variable regex ..
+count number of file name file under file directory tree that match regex in content ..
+find all file file under and below current directory that contain regex ..
+search current directory tree for directory whose name not end in file and file ..
+find all regex file and directory under current directory where regex be a variable ..
+count total number of line in all file under current work directory ..
+move all regular file under current directory to file ..
+find all file and directory under current directory and count number of line for output ..
+read a line from standard input into variable regex ..
+find all directory in maximum number level down file directory and show subdirectory non recur ..
+page through content of regex but <unk> from line that don 't fit within file width be cut ..
+display all file end with file or begin with regex or end with file in directory and exclude all regular file ..
+display all file in current folder in sort order ..
+search for word regex in all file in folder file ..
+replace all instance of regex with regex in file ..
+set permission to number for every subdirectory of current directory ..
+find file file under file and run file with file path as it argument ..
+search for regex case in sen it in all file under current directory tree and show match line with file n be ..
+back up all file file and directory in new file and directory with a file extend in name under file directory ..
+locate all file in current directory and below that regex in name <unk> of case ..
+search current directory tree for regular file name file ..
+list pid of all process that process number as parent ..
+print each line in regex and regex separate by a space ..
+calculate total size of all file from current directory tree ..
+merg each line of standard input into a single comma separate line ..
+replace regex with regex in all file in current directory tree ..
+archive entire file system into file ..
+copy all file and directory in directory to file preserve directory hierarchy and modify time ..
+display all directory in current folder exclude those that be present in aa directory tree ..
+print line in file regex that not match any word specify in file regex ..
+force remove all regular file that be modify within time span ..
+find all file file and directory under current directory and rename them by replace all occur of regex with regex in path ..
+display all variable with name start with regex in a window 's command line ..
+list all file and directory under current directory match posix grep type regex file in name ..
+find all file file and directory under current directory where regex be a variable ..
+display all regular file in current folder which readable permission ..
+rename file extend to file for all file and directory under file directory tree ..
+find all number permission directory and use chmod command to set permission to number ..
+convert regex separate list regex to new line separate list ..
+find all file file and directory under current directory where regex be a variable ..
+print directory name of current work directory ..
+save first number octet of host name's ip address to variable regex ..
+print process tree of current command process ..
+display differ between file and file exclude file file ..
+find all directory with name regex in current folder and sort them and display unique list ..
+exclude directory from find command ..
+send sig term signal to all process whose command match regex ..
+change permission of file to number ..
+add execute permission to file ..
+get mac address of regex network interface ..
+create temporary file and save path to it in regex variable ..
+print line number regex in file regex ..
+insert regex every number character in file regex ..
+find all empty  file in current directory and copy them to directory file ..
+write output of regex to standard output and file ..
+compress all file file in all subdirectory with gzip ..
+count total number of line in all file under current directory tree ignore file file directory and subdirectory ..
+look for regular file in directory tree regex regex regex regex under directory ..
+find all file and directory under current directory follow by regex calculate total size and redirect result to regex file ..
+change permission of all regular file whose name end with file in directory tree file ..
+print a count of each unique line in regex ..
+search current directory recur for regular file modify less than time span ago ..
+create a gzip of all file file in current folder ..
+replace regex with number in column number and number of file file and format as a table ..
+list name of directory in current directory without go into subdirectory ..
+print all file that <unk> size and be modify at least time span ago ..
+search for all file in folder file which be modify in time span and copy them to another folder ..
+recur change user and group of all file in file to regex ..
+check if directory tree whose name be give as variable regex contain no regular file ..
+list all file and directory in current directory include hide file ..
+find all file of user with permission ..
+remove all file file ..
+find all regular file whose name contain regex in directory tree file ..
+archive list of regex level subdirectory in current directory to file ..
+enable shell option regex ..
+rename all file in current directory whose name start with regex <unk> a number from any sequenc of number zero in name ..
+attach to regex tmux session ..
+count all file in a current folder and in subfold one level low and sort folder list by number of file within ..
+locate all file in current directory and below that not regex in name ..
+find all directory under regex directory and set read write execute permission for owner and group and no permission for other for those directory ..
+find all file and directory under current directory and run i python convert for each of them with file or directory path as a argument by change into parent directory ..
+source script file in folder where current run script be locate ..
+list file with a name end with file or file and begin with regex ..
+make number directory name file follow by number number regex or number ..
+long list detail of all shell script in current directory ..
+create an empty  file with name match file ..
+find all number permission directory and use chmod command to set permission to number ..
+add read permission for regex for all file and directory name file under current directory tree ..
+find all file and directory under current directory that be modify exact time span ago ..
+search for case in sen it regex expand by regex in all file name regex under current directory ..
+search current directory tree for regular file modify within past time span whose name end with file ..
+list file in current directory and below except for git file ..
+find regex file under file and delete them en ur white space safety ..
+find all regex file and directory under maximum number level down current directory that be less than size in size ..
+open all file file in current directory tree in vim editor ..
+print a sort list of directory from current directory tree ..
+execute all command in file on server regex ..
+remove trail white space from all file file under dir directory and keep backup of origin ..
+search for regex at begin of each line in file and print last colon separate entry with comma replace with newline ..
+find all regex file and directory under current directory where regex be a variable ..
+find ip address of system network interface that belong to regex <unk> ..
+make number directory name file follow by number number regex or number ..
+print a record for domain regex from file name serve ..
+find all regular file in current folder which specif word in name and force delete all these file and save file to file file ..
+find all regex file and directory under current directory and enter into parent directory of first one find ..
+find file in current directory and subdirectory that be access within time span ..
+find all file and directory under current directory with a depth first search ..
+find all file and directory under current directory and display inode number and name ..
+remove last number <unk> delimit field and follow character in file keep only regex ..
+display content of file one page at a time pause for user interact between each ..
+bind word regex to key code regex ..
+list file file re id in current directory tree ..
