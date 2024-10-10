@@ -1,6 +1,6 @@
 import pandas as pd
 
-from eval.translate_metric import get_nltk33_sent_bleu as get_sent_bleu
+from eval.translate_metric import get_nltk33_sent_bleu as bleu
 
 hyp_path= 'clean_result/clean_result_hyp.csv'
 ref_path= 'clean_result/clean_result_ref.csv'
@@ -17,4 +17,4 @@ for text in hyp_df.values:
 for text in ref_df.values:
     ref_list.append(text[0].split())
 
-print(get_sent_bleu.__name__, ':', get_sent_bleu(hyp_list, ref_list))
+print(bleu.__name__, ':', bleu(hyp_list, ref_list))
