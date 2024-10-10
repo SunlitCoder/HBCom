@@ -21,4 +21,4 @@
 
    1. Go to the `result` folder.
    2. Run `python nlg-eval.py` to evaluate the generated results using NLG-Eval metrics.
-   3. Execute `python s-bleu.py` to evaluate the generated results using S-BLEU.
+   3. Execute `python bleu.py` to evaluate the generated results using BLEU.
